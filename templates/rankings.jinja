@@ -1,0 +1,47 @@
+{% extends "page_base.jinja" %}
+
+{% block title %}Rankings{% endblock %}
+
+{% block content %}
+
+<main>
+  <h1>Rankings</h1>
+
+  {# Sort order links #}
+  {{% if sort == "beginner" %}}
+    {{% if order == "desc" %}}}
+      <a href="/rankings?sort=beginner&order=asc" class="active">Beginner Friendliness v</a>
+    {{% endif %}}
+    {{% if order == "asc" %}}}
+      <a href="/rankings?sort=beginner&order=desc" class="active">Beginner Friendliness ^</a>
+    {{% endif %}}
+
+    <a href="/rankings?sort=difficulty&order=desc">Difficulty</a>
+  {{% endif %}}
+
+  {{% if sort == "difficulty" %}}
+    <a href="/rankings?sort=beginner&order=desc">Beginner Friendliness</a>
+
+    {{% if order == "desc" %}}}
+      <a href="/rankings?sort=difficulty&order=asc" class="active">Difficulty v</a>
+    {{% endif %}}
+    {{% if order == "asc" %}}}
+      <a href="/rankings?sort=difficulty&order=desc" class="active">Difficulty ^</a>
+    {{% endif %}}
+  {{% endif %}}
+
+  {# Mountain rankings #}
+  <ol>
+    {{% for mountain in mountains %}}
+      <li>
+        <a href="{{mountain.map_link}}">{{ mountain.name }}</a> - 
+        <span>
+          {{% if sort == "beginner" %}}{{mountain.beginner_friendliness}}{{% endif %}}
+          {{% if sort == "difficulty" %}}{{mountain.difficulty}}{{% endif %}}
+        </span>
+      </li>
+    {{% endfor %}}
+  </ol>
+</main>
+
+{% endblock %}

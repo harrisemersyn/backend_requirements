@@ -1,0 +1,34 @@
+{% extends "page_base.jinja" %}
+
+{% block title %}Mountains{% endblock %}
+
+{% block content %}
+
+{# Filter settings/pagination are stored in URL query string, then processed and rendered client side #}
+{# The mountain list is created (from the filters) server-side and template rendered #}
+
+{# Filters are omitted from this test template for simplicity #}
+
+<main>
+  <h1>Mountains</h1>
+
+  <ol>
+    {{% for mountain in mountains %}}}
+      <li>
+        <h3>{{ mountain.name }}</h3>
+        <p>Difficulty: {{ mountain.difficulty }}</p>
+        <p>{{ mountain.state }} - {{ mountain.trail_count }} Trails - {{ mountain.vertical }}' Vertical</p>
+        <a href="{{ mountain.map_link }}">View map</a>
+      </li>
+    {{% endfor %}}}
+  </ol>
+
+  {{% if not pages.prev == None %}}
+    <a href="{{pages.prev}}">Previous Page</a>
+  {{% endif %}}}
+  {{% if not pages.next == None %}}
+    <a href="{{pages.next}}">Next Page</a>
+  {{% endif %}}}
+</main>
+
+{% endblock %}
