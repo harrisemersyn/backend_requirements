@@ -1,28 +1,28 @@
 {% extends "base.jinja"%}
 
-{{% block head %}}
+{% block head %}
   <style>
   a.active {
     background-color: yellow;
   }
   </style>
-{{% endblock %}}
+{% endblock %}
 
-{{% block body %}}
+{% block body %}
   <nav>
     <a href="/">Home</a>
     <ul>
       {% for link in nav_links %}
         <li>
-          <a {{% if active_page == link.page %}} class="active" {{% endif %}}} href="{{link.to}}">
-            {{link.title}}
+          <a {% if active_page == link.page %} class="active" {% endif %}} href="{link.to}">
+            {link.title}
           </a>
         </li>
       {% endfor %}
     </ul>
   </nav>
 
-  {{%block content%}}
+  {%block content%}
 
-  {{% endblock %}}
-{{% endblock %}}
+  {% endblock %}
+{% endblock %}

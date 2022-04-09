@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS mountains;
+DROP TABLE IF EXISTS Mountains;
 
 CREATE TABLE "Mountains" (
 	"mountainid"	INTEGER NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE "Mountains" (
 	"difficulty"	REAL NOT NULL,
 	"beginnerfriendliness"	REAL NOT NULL,
 	PRIMARY KEY("mountainid" AUTOINCREMENT)
-)
+);
 
 
 DROP TABLE IF EXISTS Trails;
@@ -29,7 +29,7 @@ CREATE TABLE "Trails" (
 	"length"	REAL NOT NULL,
 	PRIMARY KEY("trailid" AUTOINCREMENT),
 	FOREIGN KEY("mountainid") REFERENCES "Mountains"("mountainid") ON DELETE CASCADE
-)
+);
 
 
 DROP TABLE IF EXISTS Lifts;
@@ -40,7 +40,7 @@ CREATE TABLE "Lifts" (
 	"name"	TEXT NOT NULL,
 	PRIMARY KEY("liftid" AUTOINCREMENT),
 	FOREIGN KEY("mountainid") REFERENCES "Mountains"("mountainid") ON DELETE CASCADE
-)
+);
 
 
 DROP TABLE IF EXISTS TrailPoints;
@@ -55,7 +55,7 @@ CREATE TABLE "TrailPoints" (
 	"slope"	REAL NOT NULL,
 	PRIMARY KEY("index","trailid"),
 	FOREIGN KEY("trailid") REFERENCES "Trails"("trailid") ON DELETE CASCADE
-)
+);
 
 
 DROP TABLE IF EXISTS LiftPoints;
@@ -68,6 +68,6 @@ CREATE TABLE "LiftPoints" (
 	"elevation"	REAL NOT NULL,
 	PRIMARY KEY("index","liftid"),
 	FOREIGN KEY("liftid") REFERENCES "Lifts"("liftid") ON DELETE CASCADE
-)
+);
 
 
