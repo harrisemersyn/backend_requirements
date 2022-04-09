@@ -13,22 +13,22 @@
   <h1>Mountains</h1>
 
   <ol>
-    {{% for mountain in mountains %}}}
+    {% for mountain in mountains %}
       <li>
         <h3>{{ mountain.name }}</h3>
         <p>Difficulty: {{ mountain.difficulty }}</p>
         <p>{{ mountain.state }} - {{ mountain.trail_count }} Trails - {{ mountain.vertical }}' Vertical</p>
         <a href="{{ mountain.map_link }}">View map</a>
       </li>
-    {{% endfor %}}}
+    {% endfor %}
   </ol>
 
-  {{% if not pages.prev == None %}}
+  {% if not pages.prev == None %}
     <a href="{{pages.prev}}">Previous Page</a>
-  {{% endif %}}}
-  {{% if not pages.next == None %}}
+  {% endif %}
+  {% if not pages.next == None %}
     <a href="{{pages.next}}">Next Page</a>
-  {{% endif %}}}
+  {% endif %}
 </main>
 
 {% endblock %}
