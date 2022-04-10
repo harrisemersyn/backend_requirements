@@ -1,3 +1,4 @@
+from re import ASCII
 from flask import Flask, render_template , json, redirect, url_for, request, flash, session, request
 from flask_wtf import FlaskForm
 from datetime import datetime
@@ -40,8 +41,18 @@ def search():
 def rankings():
     sort = request.args.get('sort')
     order = request.args.get('order')
+    #converts query string info into variables readable by SQL
     conn = getdbconnection()
-    mountains = conn.execute('SELECT * FROM Mountains').fetchall()
+    if sort == "beginner":
+        if order == "asc":
+            mountains = conn.execute('SELECT * FROM Mountains ORDER BY beginner_friendliness ASC').fetchall()
+        else: 
+            mountains = conn.execute('SELECT * FROM Mountains ORDER BY beginner_friendliness DESC').fetchall()
+    else:
+        if order == "asc":
+            mountains = conn.execute('SELECT * FROM Mountains ORDER BY difficulty ASC').fetchall()
+        else:
+            mountains = conn.execute('SELECT * FROM Mountains ORDER BY difficulty DESC').fetchall()
     conn.close()
     return render_template("rankings.jinja", nav_links = "", active_page = "rankings", mountains = mountains, sort = sort, order = order)
 

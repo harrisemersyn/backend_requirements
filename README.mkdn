@@ -6,6 +6,6 @@ About - Complete
 
 Search: needs next/prev page, mountain map links, and proper SQL queries
 
-Rankings: sort asc/desc functionality
+Rankings: Complete
 
-Map: Complete (under specifics for statistics are given)
+Map: Complete (until specifics for statistics are given)
