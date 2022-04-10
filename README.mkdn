@@ -1,4 +1,11 @@
 Pages
 ----------
 Index - Complete
+
 About - Complete
+
+Search: needs next/prev page, mountain map links, and proper SQL queries
+
+Rankings: sort asc/desc functionality
+
+Map: Complete (under specifics for statistics are given)

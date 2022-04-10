@@ -40,9 +40,16 @@ def search():
 def rankings():
     sort = request.args.get('sort')
     order = request.args.get('order')
-    return render_template("rankings.jinja", nav_links = "", active_page = "rankings", mountains = "", sort = sort, order = order)
+    conn = getdbconnection()
+    mountains = conn.execute('SELECT * FROM Mountains').fetchall()
+    conn.close()
+    return render_template("rankings.jinja", nav_links = "", active_page = "rankings", mountains = mountains, sort = sort, order = order)
 
-@app.route("/map/<string:mountain_name>")
-def map(mountain_name):
-    #check to see if active page is what's wanted
-    return render_template("map.jinja", nav_links = "", active_page = "map" + mountain_name, mountain = mountain_name, trails = "", lifts = "")
+@app.route("/map/<int:mountainid>/<string:name>")
+def map(mountainid, name):
+    conn = getdbconnection()
+    mountain = conn.execute('SELECT * FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+    trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
+    lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
+    conn.close()
+    return render_template("map.jinja", nav_links = "", active_page = "map", mountain = mountain, trails = trails, lifts = lifts)

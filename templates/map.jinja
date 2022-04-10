@@ -1,9 +1,9 @@
 {% extends "base.jinja" %}
 
 
-{{% block title %}} {{mountain.name}} - Interactive Map{{% endblock %}}
+{% block title %} {{mountain.name}} - Interactive Map{% endblock %}
 
-{{% block body %}}
+{% block body %}
 
 {# This page is too complicated to write a full test template for, just #}
 {# follow the requirements doc and pray #}
@@ -12,7 +12,9 @@
 
 <h2>Trails</h2>
 <ul>
-  {{% for trail in mountain.trails %}}
+  {% for trail in mountain.trails %}
     <li>{{trail.name}}</li>
-  {{% endfor %}}
+  {% endfor %}
 </ul>
+
+{% endblock %}

@@ -8,39 +8,39 @@
   <h1>Rankings</h1>
 
   {# Sort order links #}
-  {{% if sort == "beginner" %}}
-    {{% if order == "desc" %}}}
+  {% if sort == "beginner" %}
+    {% if order == "desc" %}
       <a href="/rankings?sort=beginner&order=asc" class="active">Beginner Friendliness v</a>
-    {{% endif %}}
-    {{% if order == "asc" %}}}
+    {% endif %}
+    {% if order == "asc" %}
       <a href="/rankings?sort=beginner&order=desc" class="active">Beginner Friendliness ^</a>
-    {{% endif %}}
+    {% endif %}
 
     <a href="/rankings?sort=difficulty&order=desc">Difficulty</a>
-  {{% endif %}}
+  {% endif %}
 
-  {{% if sort == "difficulty" %}}
+  {% if sort == "difficulty" %}
     <a href="/rankings?sort=beginner&order=desc">Beginner Friendliness</a>
 
-    {{% if order == "desc" %}}}
+    {% if order == "desc" %}
       <a href="/rankings?sort=difficulty&order=asc" class="active">Difficulty v</a>
-    {{% endif %}}
-    {{% if order == "asc" %}}}
+    {% endif %}
+    {% if order == "asc" %}
       <a href="/rankings?sort=difficulty&order=desc" class="active">Difficulty ^</a>
-    {{% endif %}}
-  {{% endif %}}
+    {% endif %}
+  {% endif %}
 
   {# Mountain rankings #}
   <ol>
-    {{% for mountain in mountains %}}
+    {% for mountain in mountains %}
       <li>
         <a href="{{mountain.map_link}}">{{ mountain.name }}</a> - 
         <span>
-          {{% if sort == "beginner" %}}{{mountain.beginner_friendliness}}{{% endif %}}
-          {{% if sort == "difficulty" %}}{{mountain.difficulty}}{{% endif %}}
+          {% if sort == "beginner" %}{{mountain.beginner_friendliness}}{% endif %}
+          {% if sort == "difficulty" %}{{mountain.difficulty}}{% endif %}
         </span>
       </li>
-    {{% endfor %}}
+    {% endfor %}
   </ol>
 </main>
 
