@@ -1,4 +1,4 @@
-from re import ASCII
+from re import I
 from flask import Flask, render_template , json, redirect, url_for, request, flash, session, request
 from flask_wtf import FlaskForm
 from datetime import datetime
@@ -23,13 +23,41 @@ def about():
 @app.route("/search")
 def search():
     #parsing query string for database search
+    #TODO will need to change this section and parse the query string due to format
     q = request.args.get('q')
+    if q:
+        q = "%" + q  + "%"
+    else:
+        q = "%%"
     page = request.args.get('page')
+    if not page:
+        page = 1
     limit = request.args.get('limit')
-    filters = request.args.get('filters')
+    if not limit:
+        limit = 20
+    diffmin = request.args.get('diffmin')
+    if not diffmin:
+        diffmin = 0
+    diffmax = request.args.get('diffmax')
+    if not diffmax:
+        diffmax = 100
+    location = request.args.get('location')
+    if location:
+        location = "%" + location + "%"
+    else:
+        location = "%%"
+    trailsmin = request.args.get('trailsmin')
+    if not trailsmin:
+        trailsmin = 0
+    trailsmax = request.args.get('trailsmax')
+    if not trailsmax:
+        trailsmax = 1000
+
+    bottomlimit = limit*(page-1)
+    
     conn = getdbconnection()
-    #TODO needs to use limit and filters
-    mountains = conn.execute('SELECT * FROM Mountains').fetchall()
+    
+    mountains = conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ? LIMIT ? OFFSET ?', (q, location, trailsmin, trailsmax, diffmin, diffmax, limit, bottomlimit)).fetchall()
     conn.close()
     #TODO gets the previous page and the next page (if it exists)
 
@@ -41,7 +69,7 @@ def search():
 def rankings():
     sort = request.args.get('sort')
     order = request.args.get('order')
-    #converts query string info into variables readable by SQL
+    #converts query string info into SQL
     conn = getdbconnection()
     if sort == "beginner":
         if order == "asc":
