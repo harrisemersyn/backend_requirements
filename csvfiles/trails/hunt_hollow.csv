@@ -1,0 +1,23 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Ragged Edge,847823284,False,28.7,0,28.7,169.1,514.7
+Cascade,847823285,False,31.3,0,31.3,179.4,512.3
+Route 66,1026519028,False,10.0,0,10.0,31.0,379.2
+Friar Tuck,1026519029,False,7.8,0,7.8,20.5,178.8
+Iaco's Way,1026519031,False,9.3,0,9.3,21.6,150.7
+Glade,1026519032,False,27.8,0,27.8,132.2,369.8
+Meadows,1026519033,False,17.4,0,17.4,63.0,249.9
+Upper Main Street,1026519034,False,23.6,0,23.6,138.5,453.9
+Lower Main Street,1026519035,False,16.5,0,16.5,82.0,376.3
+Route 66A,1026519036,False,10.5,0,10.5,22.1,189.8
+The Gauntlet,1026519037,False,28.2,1,28.2,155.4,429.1
+Lovejoy,1026519038,False,13.8,0,13.8,37.2,218.9
+Fox Run,1026519039,False,17.8,0,17.8,22.0,81.4
+Big Dipper,1026519040,False,24.3,0,24.3,85.1,237.2
+Sky Coaster,1026519041,False,19.2,0,19.2,109.5,892.5
+Chute,1026519042,False,15.6,0,15.6,31.5,212.8
+Wayne's Way,1026519043,False,22.6,0,22.6,85.9,370.8
+Bumps,1026519044,False,25.0,0,25.0,77.4,208.3
+Joyride,1026519045,False,15.6,0,15.6,50.2,333.3
+Lower Dipper,1026519046,False,18.8,0,18.8,118.7,588.8
+Seven Turns,1026519047,False,15.7,0,15.7,60.1,278.6
+Whoop-De-Doo Alley,1026519048,False,13.0,0,13.0,12.3,111.4

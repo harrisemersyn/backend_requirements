@@ -1,0 +1,23 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Whip,143792510,False,17.4,0,17.4,100.6,500.2
+Pied Piper,143792513,False,15.7,0,15.7,92.9,573.1
+Upper Applejack,143792514,False,17.3,0,17.3,158.9,792.5
+Crosstown,143792516,False,9.8,0,9.8,81.6,875.2
+Lucifer's Leap,143792518,False,21.7,0,21.7,143.2,592.9
+Downspout,143793257,False,20.8,0,20.8,207.4,956.0
+Freewheeler,143793258,False,17.8,0,17.8,217.7,1083.8
+West Way,143793259,False,17.6,0,17.6,92.9,397.3
+Chute,143793261,False,15.2,0,15.2,47.8,207.7
+Fiddler,143793262,False,11.6,0,11.6,64.4,449.0
+Lower Applejack,143793263,False,16.0,0,16.0,118.0,554.9
+Dipsy,143793264,False,17.8,0,17.8,127.9,693.2
+Uptown,143793267,False,13.1,0,13.1,50.4,486.3
+Twist,143793268,False,11.2,0,11.2,73.3,428.4
+Nut Hatch,143793269,False,15.6,0,15.6,166.6,825.6
+Main Street,143793270,False,17.2,0,17.2,191.8,917.1
+Lower Applejack_0,143900777,False,3.3,0,3.3,2.0,35.9
+Cruiser,143900782,False,13.0,0,13.0,125.1,630.8
+Hob Nob,143900786,False,16.5,0,16.5,134.9,664.9
+Paddy's,255835855,False,9.8,0,9.8,14.1,176.3
+Cruiser Progression Park,434758069,True,13.2,0,13.2,53.6,277.5
+Race Course,434796044,False,15.8,0,15.8,72.7,299.1

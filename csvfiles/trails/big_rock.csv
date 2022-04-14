@@ -1,0 +1,34 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Elbow,252559723,False,23.7,0,23.7,127.1,496.0
+Snake,254914464,False,19.3,0,19.3,92.3,409.8
+Dream On,254914582,False,10.3,0,10.3,8.4,48.5
+Space Cowboy,254915367,False,11.2,0,11.2,16.5,156.3
+Twist y shout,254915595,False,18.3,0,18.3,33.9,134.9
+Family Access,254915972,False,11.7,0,11.7,31.4,239.4
+Bang-a-Gong,254916455,False,15.7,0,15.7,24.1,97.6
+Truckin,254916519,False,9.1,0,9.1,19.2,191.5
+Get Back,254916582,False,8.7,0,8.7,9.8,114.6
+Plunge,254916723,False,22.9,0,22.9,93.4,278.3
+Waterfall,254916835,False,23.2,0,23.2,83.3,259.4
+School Out,254917005,False,12.3,0,12.3,16.7,97.2
+Family Trail,254944687,False,18.1,0,18.1,129.7,559.4
+Milky Way,254945184,False,17.8,0,17.8,78.5,394.9
+Dipper,254945222,False,15.6,0,15.6,53.7,271.3
+Upper Comet,254945291,False,17.6,0,17.6,95.3,343.7
+Lower Comet,254945338,False,21.5,0,21.5,169.7,635.8
+Upper Uncle Bud's,254945489,False,22.9,0,22.9,205.7,701.5
+Lower Uncle Bud's,254945490,False,17.6,0,17.6,73.0,335.2
+Slow Ride,254945547,False,6.1,0,6.1,10.0,213.1
+Galaxy,254945645,False,19.7,0,19.7,90.4,391.4
+Chair Trail,254945710,False,32.2,0,32.2,224.6,737.8
+Hey Jude,254945822,False,26.4,0,26.4,48.4,117.3
+Hooch,254945983,False,25.2,0,25.2,205.2,742.8
+Upper Outer Orbit,254946376,False,20.4,0,20.4,71.3,352.5
+Free Bird,254946942,False,14.0,0,14.0,20.3,111.2
+Shooting Star,254947382,False,13.0,0,13.0,13.7,62.4
+Lower Outer Orbit,254948341,False,16.0,0,16.0,49.5,330.7
+Meagan's Way,255038318,False,13.1,0,13.1,25.0,159.5
+Wendle's Way,255038418,False,10.4,0,10.4,21.9,195.0
+Bunny Trail,255038862,False,11.1,0,11.1,45.7,265.6
+Marie's Mark,255038863,False,11.5,0,11.5,21.2,149.5
+Magic Carpet Ride,255039372,False,3.0,0,3.0,2.2,53.4

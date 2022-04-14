@@ -1,0 +1,107 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Tramway,253259594,False,20.5,0,20.5,184.5,663.0
+Upper Cannon,253259788,False,20.3,0,20.3,191.7,729.9
+Kinsman Glade,253261277,True,39.9,1,39.9,448.8,949.8
+David's Detour,253261914,False,18.6,0,18.6,38.4,171.5
+Bypass,253262451,False,25.6,0,25.6,150.0,589.6
+Middle Cannon,253262798,False,18.7,0,18.7,136.5,567.7
+Big Link,253263717,False,24.0,0,24.0,61.8,183.6
+Easy Link,253263718,False,20.2,0,20.2,45.8,163.6
+Lost Boys Glade,253263719,True,28.0,1,28.0,116.6,263.8
+Profile,253263765,False,27.4,0,27.4,268.2,701.1
+Missing Link,253264171,False,23.9,0,23.9,42.4,135.3
+Middle Ravine,253264357,False,16.7,0,16.7,111.7,515.9
+Spookie,253264481,False,18.3,0,18.3,45.5,312.4
+Gremlin,253264527,False,22.7,0,22.7,110.9,314.1
+Rock Garden,253265139,False,22.6,0,22.6,94.8,277.2
+Lower Cannon,253265747,False,16.3,0,16.3,80.5,338.9
+Extension,253267975,False,23.4,0,23.4,86.8,293.1
+Avalanche,253638572,False,30.2,0,30.2,201.8,504.3
+Banshee Cut-thru,253638859,False,16.7,0,16.7,43.7,255.0
+Banshee,253639223,False,23.4,0,23.4,95.0,312.1
+Banshee Lift Line,253639247,False,25.7,0,25.7,96.0,327.2
+Banshee Glade,253639307,False,20.8,1,20.8,87.0,309.3
+Jasper's Hideaway,253639308,False,21.4,0,21.4,87.5,325.6
+Ride Around,253639850,False,24.8,0,24.8,25.1,92.9
+DJ's Tramline,253640025,False,35.3,0,35.3,482.6,1088.0
+Paulie's Folly,253640265,False,29.8,0,29.8,197.9,485.1
+Echo Woods Glade,253640534,True,34.1,1,34.1,154.0,314.5
+Zoomer,253640628,False,31.4,0,31.4,203.5,534.1
+Zoomer Lift Line,253640695,False,28.5,0,28.5,136.8,298.6
+Zoomalanche,253642989,False,13.3,0,13.3,19.3,222.1
+Rocket,253643254,False,25.6,0,25.6,170.1,421.6
+Tram Cutback,253644203,False,13.6,0,13.6,69.2,833.3
+Gary's,253645839,False,24.1,0,24.1,118.9,347.6
+Time Zone,253650039,False,18.6,0,18.6,105.9,469.5
+Lakeside,253650090,False,15.1,0,15.1,21.5,129.9
+Snowmakers' Glade,253650161,True,24.4,1,24.4,85.2,242.3
+Toss-Up Freestyle Terrain,253650601,False,15.4,0,15.4,98.8,456.1
+Lower Cannon_0,253650686,False,13.8,0,13.8,66.6,335.8
+Parkway,253651237,False,15.4,0,15.4,120.4,541.7
+Gremlin_1,253651239,False,15.5,0,15.5,116.7,579.5
+Chute,253651559,False,16.6,0,16.6,53.2,272.9
+Taft Slalom,253817081,False,24.8,0,24.8,142.2,556.9
+Skylight,253817082,False,26.1,0,26.1,175.0,484.8
+Upper Ravine,253817083,False,20.2,0,20.2,277.2,1296.4
+Global Warming Glade,253820878,True,29.8,1,29.8,101.0,278.3
+Go Green Glade,253821042,True,27.6,1,27.6,188.2,425.0
+Upper Hardscrabble,253821311,False,21.0,0,21.0,102.7,537.2
+Middle Hardscrabble,253823676,False,31.0,0,31.0,199.6,690.5
+Mushroom Glade,253823953,True,28.8,1,28.8,80.2,162.5
+MH Cut Thru,253824430,False,17.9,0,17.9,51.2,270.0
+Red Ball,253824584,False,14.7,0,14.7,54.2,321.1
+Red Ball_2,253824759,False,11.8,0,11.8,38.8,297.0
+Short Fuse,253825376,False,26.6,0,26.6,44.7,113.0
+Lower Hardscrabble,253826369,False,24.7,0,24.7,165.1,585.3
+Blueball,253826810,False,18.5,0,18.5,44.7,173.3
+Turnpike,253827298,False,11.9,0,11.9,57.2,364.3
+Turnpike_3,253827640,False,25.6,0,25.6,99.5,271.7
+Lower Ravine,253827808,False,21.7,0,21.7,189.9,862.8
+Turnpike Glade,253827912,True,21.7,1,21.7,84.8,343.1
+Raven Ridge,253829024,False,6.9,0,6.9,16.4,281.6
+Huckerbrook,253830179,False,7.8,0,7.8,28.6,239.6
+Fox Tail,253831481,False,17.1,0,17.1,50.5,361.0
+Bear Paw,253831484,False,14.9,0,14.9,53.4,378.7
+Robin's Nest Glade,253832341,True,14.2,1,14.2,56.9,359.9
+Fleitman Trail,253832621,False,6.3,0,6.3,14.0,351.8
+Coyote Crossing,253832724,False,11.6,0,11.6,24.5,266.1
+Deer Run,253832785,False,19.5,0,19.5,84.5,465.9
+Brookside,253833004,False,9.6,0,9.6,40.2,366.9
+Moose Alley,253833271,False,19.6,0,19.6,84.5,418.7
+Turkey Trot,253833639,False,15.7,0,15.7,86.0,510.0
+Rabbit Path,253833821,False,17.0,0,17.0,55.3,313.3
+Peregrine Parkway Glade,253834439,True,20.3,1,20.3,72.2,351.8
+Vista Way,263994044,False,24.1,0,24.1,146.3,629.7
+ _4,451070638,False,14.8,0,14.8,20.9,84.7
+ _5,451070640,False,11.1,0,11.1,17.1,110.1
+Easy Link_6,451070641,False,13.5,0,13.5,10.1,42.1
+Upper Hardscrabble_7,451070642,False,6.9,0,6.9,9.3,126.3
+ _8,451084973,False,15.9,0,15.9,15.5,73.9
+Mickey's Margin,451084975,False,18.1,0,18.1,63.3,235.2
+Lake View Glade,451084976,False,25.6,1,25.6,128.1,308.5
+Baron's Run,463133944,False,30.6,0,30.6,378.7,1427.5
+Mittersill Lift Line,463133946,False,26.0,0,26.0,378.7,1137.3
+Cannonball,463133947,False,31.1,0,31.1,143.7,446.0
+Skyline,463133948,False,22.9,0,22.9,112.0,444.0
+Ridge Run,463133949,False,14.6,0,14.6,45.9,358.9
+Track Track,463133950,False,13.1,0,13.1,19.6,187.8
+Track Track_9,463133951,False,16.2,0,16.2,26.2,93.0
+Idiot's Delight,463133952,False,24.9,0,24.9,143.3,415.4
+Candyland,463133953,False,27.8,0,27.8,155.6,432.8
+North Slope,463133954,False,21.3,0,21.3,101.1,411.2
+Taft Training Slope,463133955,False,26.9,0,26.9,235.9,717.7
+The Saddle,463133959,False,20.0,0,20.0,145.6,1066.6
+Skateway,479615349,False,8.4,0,8.4,15.1,220.9
+Golden Birches Glade,479619804,True,29.0,1,29.0,223.4,597.1
+Fleitman Trail_10,479738362,False,19.6,0,19.6,29.3,309.0
+The Creek,546466211,False,29.1,1,29.1,92.2,206.6
+Whiskey Towne,546466780,False,29.3,0,29.3,89.8,223.2
+Bobcat Glade,546467600,False,18.0,1,18.0,19.6,123.5
+Christiana Slope,546469741,False,14.6,0,14.6,59.4,273.8
+Stinky Street,546470252,False,10.2,0,10.2,8.2,77.7
+Goat Path,546470663,False,9.7,0,9.7,12.5,167.5
+North Slope_11,776607935,False,18.7,0,18.7,106.4,490.6
+ _12,776607938,False,11.3,0,11.3,8.5,43.2
+Dragon's Drop,776607939,False,24.7,0,24.7,207.5,625.1
+Access Trail,776607940,False,11.9,0,11.9,36.9,345.6
+Way Back,776607941,False,13.0,0,13.0,46.3,321.3

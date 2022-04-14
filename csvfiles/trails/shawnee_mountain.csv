@@ -1,0 +1,28 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Learning Center,393242297,False,11.3,0,11.3,19.1,182.3
+Little Chief,393242298,False,11.7,0,11.7,23.7,208.6
+Freestyle Terrain Park,393242299,False,20.2,0,20.2,173.0,927.7
+Bennekill,393242300,False,11.9,0,11.9,47.0,269.6
+Kittatinny,393242301,False,16.5,0,16.5,168.0,1088.2
+Lower Bushkill,393242302,False,16.8,0,16.8,21.6,105.4
+Renegade,393242303,False,25.7,0,25.7,64.0,369.7
+Lookout,393242304,False,17.7,0,17.7,95.0,540.5
+Blue Mountain,393242305,False,12.5,0,12.5,12.8,83.6
+Upper Pennsylvannia,393242306,False,14.5,0,14.5,90.3,490.2
+Upper Tomahawk,393242307,False,14.3,0,14.3,89.0,454.8
+Upper Arrowhead,393242308,False,15.6,0,15.6,87.7,450.0
+Upper Delaware,393242309,False,12.6,0,12.6,65.7,368.4
+Country Club,393242310,False,10.4,0,10.4,54.3,423.7
+Freestyle Terrain Park_0,393242311,True,13.5,0,13.5,25.6,182.6
+Lower Delaware,393242312,False,19.5,0,19.5,112.2,567.8
+Lower Arrowhead,393242313,False,23.0,0,23.0,110.8,440.6
+Lower Tomahawk,393242314,False,21.5,0,21.5,103.4,411.7
+Tecumesh,393242315,False,20.3,0,20.3,88.1,335.4
+Chief Thunder Cloud,393242316,False,21.1,0,21.1,50.9,185.4
+Lower Pennsylvannia,393242317,False,13.5,0,13.5,68.4,398.1
+Lenape,393242318,False,15.0,0,15.0,25.2,105.7
+Minisink,393242319,False,5.0,0,5.0,11.7,216.6
+Meadows,393242320,False,11.0,0,11.0,20.8,127.2
+Indian Queen,393242321,False,5.6,0,5.6,4.8,54.2
+Pocahontas,393242322,False,12.0,0,12.0,38.6,324.5
+Greenhouse Slope,393242323,True,11.8,0,11.8,12.5,89.1

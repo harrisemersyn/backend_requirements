@@ -1,0 +1,61 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Coyote,130099927,False,35.8,0,35.8,184.5,443.8
+Cold Sholder,130099928,False,26.6,0,26.6,186.0,548.1
+Hully Gully,130099929,False,26.7,0,26.7,222.0,669.4
+Sunnyside,130099930,False,24.5,0,24.5,148.1,761.6
+Deadwood Spur,130099931,False,26.2,0,26.2,79.2,445.8
+Larry's Lip,130099932,False,28.8,0,28.8,193.6,586.6
+Button Bowl,130099933,False,49.0,0,49.0,163.3,482.4
+Bud's ALley,130099934,False,18.0,0,18.0,39.6,329.4
+Herringbone Straight,130099957,False,19.9,0,19.9,124.5,676.7
+Easy Rider,130099958,False,22.6,0,22.6,80.8,396.6
+Conestoga,130100674,False,26.4,0,26.4,197.5,648.3
+Hay Flat,130100675,False,9.8,0,9.8,76.4,980.9
+Snowkirk,130100676,False,14.2,0,14.2,115.1,1029.6
+Shotgun,130100677,False,30.0,0,30.0,216.5,749.1
+Flying Carpet,130100678,False,19.6,0,19.6,157.7,741.8
+Short Spoke,130100680,False,23.0,0,23.0,85.9,355.7
+Wagon Trail,130100681,False,25.8,0,25.8,135.2,466.7
+Lower Zachary,130100776,False,19.7,0,19.7,148.5,643.6
+Lost Cabin,130100777,False,34.4,0,34.4,296.5,899.7
+Headwaters,130100778,False,36.2,0,36.2,259.5,631.4
+Buckboard,130100779,False,21.0,0,21.0,232.9,1117.7
+Dick's Drop,130100780,False,32.6,0,32.6,100.8,288.6
+Monte Wolfe,130100781,False,33.2,0,33.2,190.6,430.9
+Race Course,130100782,False,23.7,0,23.7,158.9,617.7
+Mokelumne,130100783,False,24.4,0,24.4,136.8,544.7
+The Wall,130100784,False,36.4,0,36.4,255.3,646.8
+Look Out Janek,130100785,False,33.6,0,33.6,337.8,929.0
+The Drain,130100786,False,17.4,0,17.4,75.5,511.3
+Zachary,130100787,False,34.3,0,34.3,252.4,564.2
+Lower Monte Wolfe,130100788,False,19.5,0,19.5,217.2,1012.6
+Graduation,130101292,False,10.3,0,10.3,61.2,576.8
+Hole 'N' Wall,130101293,False,18.8,0,18.8,144.8,911.3
+Olympic,130101294,False,31.7,0,31.7,405.5,1278.7
+School Run,130101295,False,10.5,0,10.5,62.0,582.6
+Freee 'N' Easy,130101296,False,17.2,0,17.2,145.2,949.7
+Squirrel Ridge,130101298,False,12.5,0,12.5,112.8,791.9
+Funny Bunny,130101299,False,12.4,0,12.4,47.3,379.0
+devil's Draw,249120428,False,26.6,0,26.6,321.1,1598.4
+Thunder Saddle,249120429,False,33.9,0,33.9,254.7,1131.8
+Elevator Shaft,249127126,False,25.9,0,25.9,349.8,1518.7
+The Wave,249127128,False,27.7,0,27.7,104.4,288.0
+Happiness is,249127129,False,24.6,0,24.6,242.5,834.3
+Covered Wagon,258133458,False,26.4,0,26.4,314.0,1354.7
+Eagle Bowl,249135814,False,31.9,0,31.9,196.1,512.1
+Stump Run,249135815,False,33.2,0,33.2,316.7,1349.6
+Lightning,249135816,False,31.9,0,31.9,279.4,756.7
+Chamoix,249135817,False,42.5,0,42.5,167.2,304.4
+home Run to Timber Creek,249135974,False,13.7,0,13.7,93.3,982.8
+rabbit Runs,249135975,False,40.2,0,40.2,295.4,929.8
+Up'n'over,249135976,False,17.2,0,17.2,58.1,282.0
+all the way,249136278,False,35.6,0,35.6,296.2,727.3
+Cliff Chute,249136279,False,34.1,0,34.1,244.1,589.6
+Notch chute,249136280,False,42.6,0,42.6,263.2,503.2
+Shaffers Chute,249138285,False,33.8,0,33.8,253.1,652.0
+Saddle Chute,249138286,False,45.4,0,45.4,189.8,352.0
+Sister chute,249138287,False,43.9,0,43.9,269.5,578.4
+Hell's Delight,470456688,False,32.3,0,32.3,138.1,277.2
+Jeff's Line,470460941,False,31.8,0,31.8,237.2,631.6
+KGF,470460942,False,32.7,0,32.7,240.4,778.1
+Easy Rider_1,945373678,False,11.0,0,11.0,10.3,127.3

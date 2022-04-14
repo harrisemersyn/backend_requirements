@@ -1,0 +1,88 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Union Street,776665581,False,8.6,0,8.6,39.8,550.5
+Trolley Lane,776665582,False,7.3,0,7.3,20.2,310.3
+Easy Street,776665583,False,14.9,0,14.9,45.3,211.5
+Rhalves' Run,776665584,False,23.0,0,23.0,130.2,420.5
+Hellmen's Chute,776665586,False,27.8,0,27.8,102.0,257.0
+Crowley's Traverse22,776665587,False,27.8,0,27.8,394.3,2631.9
+Lake View,776665588,False,19.5,0,19.5,66.8,209.0
+Judah Bound,776665589,False,14.7,0,14.7,53.0,379.4
+Station B,776665590,False,11.9,0,11.9,52.9,367.5
+Sidewinder,776665591,False,17.4,0,17.4,60.6,339.9
+Pioneer Trail,776665592,False,18.5,0,18.5,191.7,1217.1
+ _1,776665593,False,11.1,0,11.1,21.1,138.3
+Ridge Run,776665594,False,22.0,0,22.0,127.0,571.4
+Trailblazer,879082567,False,19.7,0,19.7,193.9,954.3
+Broken Axle,879082568,False,16.1,0,16.1,54.3,252.3
+Caleb's Way,879082569,False,18.0,0,18.0,79.8,338.0
+Central Pacific,879082570,False,27.5,0,27.5,138.7,512.8
+Steamers,879082571,False,28.3,0,28.3,114.6,412.6
+Donner's Way,879082572,False,30.3,0,30.3,99.1,393.8
+Graydon Galdes,879082573,False,21.5,1,21.5,79.2,258.8
+Sunset Boulevard,879082574,False,24.6,0,24.6,253.2,1193.1
+Buena Vista,879082575,False,15.2,0,15.2,43.8,201.3
+Tunnel 41,879082576,False,20.3,0,20.3,188.6,797.9
+Pacific Crest Trail,879082577,False,18.2,0,18.2,79.6,412.4
+Golden Gate,879082578,False,21.8,0,21.8,203.8,970.8
+Cold Stream,879082579,False,16.9,0,16.9,123.2,745.1
+Juniper,879082580,False,21.8,0,21.8,92.5,399.1
+Pine Martin,879082581,False,6.7,0,6.7,22.6,235.5
+Marmot,879082582,False,7.1,0,7.1,24.3,217.2
+Black bear,879082583,False,7.3,0,7.3,24.3,231.5
+Chipmunk,879082584,False,6.6,0,6.6,8.4,83.3
+Von Ruiten's Run,879082585,False,23.5,0,23.5,136.2,495.3
+Mistletoe,879082586,False,24.1,0,24.1,139.7,509.9
+DAncer,879082587,False,19.1,0,19.1,43.3,247.9
+Sleigh Ride,879082588,False,21.0,0,21.0,91.8,339.7
+Disney Traverse,879926750,False,22.0,0,22.0,250.5,1528.4
+Disney Return,879926751,False,11.3,0,11.3,50.9,579.3
+Disney Nose,879926752,False,29.8,0,29.8,295.0,966.9
+Pony Express,879926753,False,26.5,0,26.5,130.9,352.4
+Montgomery,879926754,False,26.0,0,26.0,116.5,317.3
+McTavish Upper,879926755,False,24.7,0,24.7,85.7,271.7
+John John's Way,879926756,False,23.4,0,23.4,95.2,304.9
+Disney Meadow,879926757,True,19.5,0,19.5,74.9,241.4
+Overland,879926758,False,30.7,0,30.7,214.9,943.9
+Crow's Traverse,879926759,False,18.3,0,18.3,36.0,257.9
+Rob's Run,879926760,False,31.4,0,31.4,219.4,833.4
+The Other One,879926761,False,26.4,0,26.4,272.4,946.8
+Crow's Nest Glades,879926762,False,30.7,1,30.7,222.1,784.4
+Strawberry Fields,879926763,False,32.1,0,32.1,176.3,457.4
+Crow's Face,879926764,False,33.5,0,33.5,158.6,363.6
+Donald Duck,879926765,False,28.3,0,28.3,141.0,357.1
+Lonesome Pine,879926766,False,27.6,0,27.6,121.9,458.5
+Mctavish Lower,879926767,False,19.4,0,19.4,107.0,501.4
+Eagle,879926768,False,29.3,0,29.3,123.8,316.7
+Avalanche,879926769,False,34.2,0,34.2,152.6,388.9
+Hour Glass,879926770,False,35.2,0,35.2,134.0,315.4
+Sugar Bowl,879926771,False,35.6,0,35.6,253.3,815.4
+Market Street,879926772,False,26.9,0,26.9,129.1,338.7
+Bacon's Gully,879926773,False,32.5,0,32.5,165.6,389.2
+East Gully,879926774,False,33.5,0,33.5,235.1,641.2
+Nancy's Couloir,879926775,False,35.3,0,35.3,191.0,376.0
+Chase Ridge,879926776,False,19.0,0,19.0,97.6,442.4
+Crowley's Fingers,880756430,False,27.5,0,27.5,85.9,263.4
+Henderson's Bowl,880756431,False,23.3,0,23.3,126.5,626.3
+Comet,880756432,False,8.0,0,8.0,16.7,203.6
+Cat Walk,880756433,False,16.7,0,16.7,124.6,636.3
+Silver Belt Runout,880756434,False,15.9,0,15.9,60.2,495.3
+Union Pacific,880756435,False,24.3,0,24.3,73.3,352.9
+Chick's,880756436,False,22.7,0,22.7,77.6,360.4
+Crow's Nose,880756437,False,29.1,0,29.1,59.1,205.3
+Silver Belt,880756438,False,31.7,0,31.7,163.7,344.8
+Steilhang,880756439,False,35.1,0,35.1,165.5,512.7
+Steilhang Gully,880756440,False,29.5,0,29.5,139.2,399.5
+Vanderbilt,880756441,False,29.2,0,29.2,157.4,559.8
+Hari-Kari Gully,880756442,False,33.5,0,33.5,123.7,385.4
+Fuller's Folly,880756443,False,33.8,0,33.8,173.4,368.9
+Sister's,880756444,False,28.0,0,28.0,81.9,239.1
+The 58,880756445,True,30.0,0,30.0,157.3,366.6
+Hidden Gully,880756446,False,31.6,0,31.6,139.4,457.8
+The Palisades,880756447,True,39.0,0,39.0,209.5,633.6
+Tunnel,880756448,False,33.7,0,33.7,101.7,229.7
+Gold Rush,880756449,False,33.3,0,33.3,147.1,324.6
+Century Club,880756450,False,29.0,0,29.0,183.7,577.1
+Roller Pass,880756451,True,28.2,0,28.2,224.8,1022.4
+Emigrant glades,880756452,True,24.2,1,24.2,119.6,429.6
+Judah Bowl,880756453,False,28.7,0,28.7,162.3,657.8
+Sherpa Creek,880756454,False,32.1,0,32.1,143.5,509.2

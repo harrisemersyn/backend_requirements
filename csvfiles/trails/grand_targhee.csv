@@ -1,0 +1,65 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Shadow Woman,327519465,False,27.1,0,27.1,194.2,474.1
+Dreamweaver,327520464,False,25.3,0,25.3,358.8,1491.4
+Screaming Cheatah,327520465,False,16.7,0,16.7,166.8,1322.6
+Powder Reserve Traverse,327520466,False,19.4,0,19.4,109.4,1440.6
+Snowdancer,327520467,False,29.8,0,29.8,274.4,857.3
+Blackfoot Traverse,327520468,False,41.6,0,41.6,342.7,1259.9
+Shaman,327520469,False,31.3,0,31.3,310.1,844.6
+Millcreek Traverse,327520470,False,16.6,0,16.6,129.2,881.4
+Bird Woman,327520471,False,30.1,0,30.1,395.2,1226.5
+Powwow,327520473,False,29.5,0,29.5,246.1,619.5
+Exhibition,327520474,False,20.7,0,20.7,117.5,552.1
+Wampum,327520475,False,30.4,0,30.4,152.4,372.3
+Northern Lights,327520476,False,26.5,0,26.5,184.8,907.7
+Teton Vista Traverse,327526148,False,20.0,0,20.0,575.3,4142.8
+Headwall Traverse,327526149,False,23.2,0,23.2,165.1,1086.5
+Ladies Waist,327526150,False,27.2,0,27.2,399.1,1095.2
+The Ugly,327527250,False,37.5,0,37.5,150.3,342.3
+Midway Traverse,327527251,False,9.9,0,9.9,31.0,397.3
+Funnel,327527252,False,23.3,0,23.3,118.5,503.4
+Palmer's Raceway,327527253,False,16.3,0,16.3,103.1,574.4
+Big Thunder,327527254,False,27.5,0,27.5,211.7,517.7
+Rock Garden,327527255,False,23.5,0,23.5,213.2,729.7
+Chief Joe Bowl,327527256,False,25.9,0,25.9,465.9,1464.9
+East Woods,327527257,False,34.4,0,34.4,179.4,391.1
+Headwall,327527258,False,33.7,0,33.7,142.6,293.4
+Big Horn,327527259,False,16.4,0,16.4,105.2,534.3
+Wild Turkey,327527260,False,25.8,0,25.8,190.3,484.9
+The Good,327527261,False,34.8,0,34.8,179.9,382.2
+The Bad,327527262,False,34.7,0,34.7,187.2,431.4
+The Face,328101782,False,31.0,0,31.0,162.9,512.9
+Sitting Bull,328101783,False,21.2,0,21.2,181.6,643.3
+Slim's Shot,781868034,False,28.0,0,28.0,315.1,844.0
+Wandering Moose,781868035,False,25.7,0,25.7,292.4,785.8
+Sweetwater,781868036,False,28.2,0,28.2,297.4,911.0
+Six Shooter,781868037,False,28.5,0,28.5,246.1,827.5
+ _0,781868038,False,12.9,0,12.9,33.0,375.1
+Papoose,781868039,False,13.0,0,13.0,29.6,171.0
+Little Bighorn,781868040,False,13.8,0,13.8,78.0,516.8
+Rainbow Road,781868041,False,16.4,0,16.4,27.8,135.8
+Outback,781868042,False,16.1,0,16.1,108.1,809.5
+The Meadows,781868043,False,14.5,0,14.5,34.5,259.6
+Alley Oop Alley,781868044,False,15.7,0,15.7,32.5,242.9
+Fred'sChute,781868045,False,18.7,0,18.7,58.2,232.9
+The Highway,781868046,False,10.0,0,10.0,22.0,157.2
+North Pole,781868047,False,18.6,0,18.6,78.3,589.1
+Bobsled,781868048,False,17.8,0,17.8,48.0,269.2
+Wild Willie,781868049,False,29.5,0,29.5,418.2,1006.8
+Crazy Horse,781868050,False,28.4,0,28.4,426.7,1023.8
+Happy Hunting Grounds,781868051,False,23.0,0,23.0,131.6,360.0
+Lost Groomer,781868052,False,33.2,0,33.2,230.3,596.2
+Painted Pony,781868053,False,28.2,0,28.2,202.6,622.8
+Lightning Trees,781868054,False,38.6,0,38.6,180.9,421.7
+Patrol Chute,781868055,False,35.5,0,35.5,155.6,409.0
+Instructor's Chute,781868056,False,37.4,0,37.4,203.2,510.2
+Nasty Gash,781868057,False,40.4,0,40.4,204.8,624.4
+Croazy Horse Woods,781868058,False,32.0,0,32.0,179.4,468.3
+Floyd's Fantasy,781868059,False,30.5,0,30.5,321.2,743.6
+Arrowhead,781868060,False,30.9,0,30.9,368.6,909.9
+Steamvent,781868061,False,23.5,0,23.5,47.6,313.1
+Fallen Timber,781868062,False,27.3,0,27.3,166.2,408.5
+North Boundary Traverse,781868063,False,19.4,0,19.4,54.6,1053.2
+Raven Woods,781868064,False,30.5,0,30.5,266.0,633.5
+Lost Warrior,781868065,False,32.3,0,32.3,202.7,429.6
+Powder Cache,781868066,False,22.6,0,22.6,87.5,319.8

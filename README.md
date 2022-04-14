@@ -11,10 +11,10 @@ Index - Complete
 
 About - Complete
 
-Search: needs next/prev page, mountain map links, and proper SQL queries
+Search: needs next/prev page, mountain map links
 
 Rankings: Complete
 
 Map: Complete (until specifics for statistics are given)
 
-Other Tasks: nav link arg, ask for database info in svgs to be properly formatted, ask about blacklist column
+Other Tasks: nav link arg

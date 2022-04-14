@@ -1,0 +1,189 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Gad Valley Road,10126153,False,11.7,0,11.7,80.6,696.5
+Chickadee,261410171,False,12.0,0,12.0,41.4,233.9
+Alice Avenue,261414374,False,24.1,0,24.1,162.1,650.8
+Black Forest,261414377,False,32.3,0,32.3,149.5,721.7
+Cirque Traverse,261414380,False,42.2,0,42.2,382.0,1421.5
+Dick Bass Highway,261414381,False,11.8,0,11.8,166.8,1377.8
+Gad Gulley,261414383,False,23.5,0,23.5,73.2,360.4
+Harper's Ferry,261414384,False,18.4,0,18.4,51.2,255.1
+Harper's Ferry_0,261414385,False,31.3,0,31.3,156.9,344.3
+Harper's Ferry East,261414386,False,28.4,0,28.4,166.0,403.6
+Junior's Powder Paradise,261414387,False,29.9,0,29.9,313.5,1263.5
+Lazy Susan,261414388,False,27.9,0,27.9,76.6,223.8
+Organ Grinder,261414391,False,37.9,0,37.9,162.8,626.1
+Regulator Johnson,261414392,False,32.4,0,32.4,339.0,1215.2
+Thunder Alley,261414394,False,30.6,0,30.6,176.9,761.9
+Tiny Tiger,261414395,False,27.3,0,27.3,186.8,538.5
+White Diamonds,261414396,False,32.7,0,32.7,110.1,244.9
+West 2nd South On-Ramp,261414397,False,9.0,0,9.0,21.7,335.3
+Chamonix Bowl,261416596,False,37.9,0,37.9,110.0,177.3
+Bananas,265142715,False,21.1,0,21.1,326.0,1589.2
+Bluebell,265142716,False,22.0,0,22.0,104.1,409.3
+Carbonate,265142717,False,31.4,0,31.4,121.1,519.3
+Cat Crew Cutoff,265142718,False,25.7,0,25.7,76.0,260.8
+Election,265142720,False,23.3,0,23.3,142.5,640.2
+Goblin Gully,265142721,False,25.1,0,25.1,96.0,443.7
+Lower Bassackwards,265142722,False,28.7,0,28.7,139.2,574.1
+Lower Emma,265142723,False,17.9,0,17.9,122.4,499.1
+Lowest Bassackwards,265142724,False,20.1,0,20.1,118.9,469.8
+Madam Annie's,265142725,False,25.6,0,25.6,104.2,361.8
+Mark Malu Fork,265142726,False,27.8,0,27.8,220.6,793.9
+Middle Bassackwards,265142727,False,23.8,0,23.8,239.0,1345.1
+Middle Emma,265142728,False,17.2,0,17.2,75.9,323.0
+S.T.H.,265142730,False,39.5,0,39.5,193.7,412.6
+Tricep,265142731,False,32.5,0,32.5,97.4,193.2
+Upper Bassackwards,265142732,False,25.7,0,25.7,136.5,874.8
+Wilbere Cutoff,265142735,False,23.3,0,23.3,70.5,270.1
+Wilbere Ridge,265142736,False,22.9,0,22.9,123.1,377.9
+ _1,265142737,False,8.6,0,8.6,7.7,134.4
+Fields Cut-Off,265142738,False,15.9,0,15.9,42.6,247.5
+Exit Gully,266494881,False,40.9,0,40.9,373.8,764.1
+Upper Tiger Tail,266494882,False,24.7,0,24.7,101.4,639.7
+Upper Mach Schnell,266494883,False,38.1,0,38.1,239.5,386.2
+Gad 2 Return,266494884,False,29.1,0,29.1,139.7,684.5
+Pearly Gates,266494885,False,38.6,0,38.6,164.4,244.7
+Wilbere Bowl,266494886,False,40.0,0,40.0,161.9,222.7
+Red Lens Line,266494887,False,17.8,0,17.8,23.8,316.4
+Wilma's,266494888,False,40.7,0,40.7,231.0,362.9
+Peruvian Gulch Trail,295816647,False,19.5,0,19.5,143.1,642.1
+Chip's Run,304012027,False,26.6,0,26.6,186.6,724.5
+Sneaky Pete,328646250,False,32.9,0,32.9,75.3,159.5
+Big Emma,328647083,False,10.5,0,10.5,13.1,84.3
+Rothman Way,445128732,False,14.3,0,14.3,113.9,1076.4
+Blue Angel,557341956,False,34.7,0,34.7,88.1,202.8
+Defiance Ledge,557341959,False,38.7,0,38.7,116.4,274.4
+High Saddle Traverse,557341960,False,41.2,0,41.2,201.0,1074.5
+The Fin,557341961,False,33.0,0,33.0,136.3,434.4
+Figure 8 Bowl,557341962,False,40.1,0,40.1,142.1,239.1
+Ted's Bowl,557341963,False,32.2,0,32.2,99.2,243.9
+Middle Tiger Tail,557341964,False,31.6,0,31.6,176.0,657.9
+Low Saddle,557341965,False,40.2,0,40.2,138.8,621.7
+Silver Dipper,557341966,False,37.3,0,37.3,148.7,340.6
+Nash Flora Lode,557341967,False,40.0,0,40.0,264.4,479.0
+Blue By You,557341968,False,36.2,0,36.2,322.5,737.7
+Lone Star,557341969,False,35.6,0,35.6,268.1,570.8
+ _2,557341970,False,21.3,0,21.3,85.7,699.2
+49er Gully,557341971,False,29.8,0,29.8,125.1,585.3
+Ski Patrol Gully,557341973,False,40.0,0,40.0,283.0,1501.5
+Luckey Boy,557341974,False,28.6,0,28.6,129.0,490.0
+Claim Jumper,557341976,False,19.6,0,19.6,133.8,622.8
+Bird's Nest,557341977,False,22.6,0,22.6,157.4,838.6
+Bookmark Gully,557341978,False,33.5,0,33.5,153.3,297.8
+ _3,557341979,False,30.3,0,30.3,188.7,675.4
+ _4,557341981,False,19.6,0,19.6,37.2,147.6
+ _5,557341983,False,20.5,0,20.5,34.9,252.3
+Bassanova,557341986,False,25.0,0,25.0,164.0,555.4
+Mid-Baldy Traverse,557341988,False,19.1,0,19.1,37.2,553.4
+High Ridge 3,557341991,False,37.3,0,37.3,154.9,247.0
+High Baldy Traverse,557341994,False,29.9,0,29.9,309.3,1387.3
+Lupine Loop,557341999,False,22.2,0,22.2,325.9,2102.6
+Hot Lips Gully,557342004,False,24.4,0,24.4,80.8,308.8
+Dalton's Draw,557342006,False,42.9,0,42.9,257.8,505.2
+Lower Willows,557342007,False,30.6,0,30.6,89.3,216.1
+Willows,557342008,False,37.3,0,37.3,113.7,272.1
+Cliff Access,557342010,False,17.3,0,17.3,51.0,374.6
+Oh My God,557342011,False,34.3,0,34.3,116.3,325.6
+Blackjack Gully,557342014,False,34.4,0,34.4,237.3,768.1
+Lightning Tree Gully,557342015,False,30.5,0,30.5,106.6,245.6
+Blackjack Traverse,557342017,False,36.3,0,36.3,189.5,697.4
+Round the World Traverse,557342018,False,26.5,0,26.5,65.2,395.2
+Lower Silver Fox,557342019,False,43.7,0,43.7,419.7,1194.8
+Lower Primrose Path,557342020,False,15.1,0,15.1,57.8,310.5
+Binx's Bumper,557342021,False,36.2,0,36.2,233.6,430.9
+Adager,557342022,False,34.9,0,34.9,235.9,522.1
+Route 4 Gully,557342024,False,37.2,0,37.2,198.4,438.4
+Hot Foot Gully,557342025,False,31.1,0,31.1,75.2,281.5
+Hubba Bubba,557342026,False,20.5,0,20.5,53.0,316.5
+Think Young,557342027,False,14.6,0,14.6,34.6,274.1
+Lower Primrose Path_6,557342028,False,30.9,0,30.9,385.4,1189.8
+Primrose Split,557342029,False,30.7,0,30.7,70.4,317.6
+Middle Men's,557342030,False,31.2,0,31.2,74.4,165.6
+Bicarbonate Gully,557342032,False,23.8,0,23.8,101.8,414.8
+Shireen,557342037,False,34.4,0,34.4,160.2,369.2
+Old Ladies,557342039,False,32.5,0,32.5,218.8,489.5
+Rasta Chutes,557342044,False,36.1,0,36.1,154.7,380.4
+Hoop's,557342047,False,43.0,0,43.0,250.4,645.9
+Bonar's Pass,557342049,False,33.4,0,33.4,187.8,586.4
+Knucklehead Traverse,557342052,False,34.6,0,34.6,187.9,1037.0
+ _7,557342056,False,1.6,0,1.6,0.7,44.4
+Regulator Gully,557342058,False,25.1,0,25.1,97.9,394.3
+Bryce's Run,557342061,False,23.7,0,23.7,105.6,365.9
+Lower Mach Schnell,557342064,False,37.5,0,37.5,144.1,283.3
+Gadzooks,557342072,False,32.8,0,32.8,313.7,1027.3
+Elbow Proper,557342075,False,26.7,0,26.7,97.3,269.2
+Thunder Junction,557342077,False,13.0,0,13.0,27.4,161.3
+Lower Mini Miners' Camp,557342078,False,13.9,0,13.9,71.8,449.5
+Upper Mini Miners' Camp,557342079,False,16.9,0,16.9,46.3,191.6
+West 2nd Short,557342080,False,20.4,0,20.4,58.0,217.5
+West 2nd South On-Ramp_8,557342081,False,9.3,0,9.3,11.6,79.1
+Figure 8 Gully,557342082,False,31.8,0,31.8,189.0,918.2
+ _9,557342084,False,12.6,0,12.6,33.2,338.8
+Chip's Face,557342091,False,29.5,0,29.5,97.2,285.9
+Middle Chip's Run,557342094,False,18.8,0,18.8,143.6,798.4
+Chip's Bypass,557342097,False,21.8,0,21.8,186.6,1112.0
+Lowest Chip's,557342100,False,26.7,0,26.7,123.4,409.3
+Middle Cirque,564160429,False,37.0,0,37.0,166.3,355.9
+Center of Gravity,776844932,False,51.2,0,51.2,242.2,332.6
+Fields of Glory,776844933,False,46.9,0,46.9,347.2,583.0
+Venus Line,776844934,False,40.6,0,40.6,316.1,549.6
+West Baldy,776844935,True,45.4,0,45.4,241.1,506.6
+Thanks for the Memories,776844936,False,46.3,0,46.3,338.1,568.5
+The Keyhole,776844937,False,54.7,0,54.7,163.2,384.9
+Shot,776844938,False,41.4,0,41.4,178.5,253.8
+Dun Towers,776844939,False,45.0,0,45.0,215.7,320.6
+Lower Cirque,776844941,False,31.9,0,31.9,165.7,370.3
+Upper Cirque,776844942,False,50.4,0,50.4,184.8,400.2
+Great Scott,776844943,False,43.9,0,43.9,207.4,536.9
+Upper Primrose Path,776844944,False,41.5,0,41.5,293.9,611.3
+Upper Silver Fox,776844945,False,47.7,0,47.7,366.0,951.3
+Pucker Brush,776844946,False,39.8,0,39.8,238.4,402.0
+Gad Chutes,776844947,False,43.4,0,43.4,269.3,450.3
+Restaurant Roll,776844948,False,44.8,0,44.8,381.1,624.2
+Barry Barry Steep,776844949,False,47.2,0,47.2,351.8,484.3
+Temptation Chutes,776844950,True,38.6,0,38.6,167.2,294.8
+Boundary Bowl,776844951,True,35.8,0,35.8,148.5,346.0
+Thunder Bowl,776844952,True,29.1,0,29.1,122.5,426.8
+White Rabbit,776844953,False,41.7,0,41.7,221.7,368.1
+Mushroom Land,776844954,False,45.4,0,45.4,358.9,720.7
+Richie's Run,776844955,False,36.6,0,36.6,278.1,668.4
+The Endoras,776844956,False,44.3,0,44.3,281.5,688.2
+Altar Bowl,776844957,False,37.3,0,37.3,278.1,695.5
+Bookends Bowl Return Road,776844958,False,10.8,0,10.8,18.1,269.8
+Almony Chutes,776844959,False,45.9,0,45.9,319.9,837.1
+High Stakes,776844960,False,41.8,0,41.8,288.2,569.0
+Not Quite Corn,776844961,False,42.3,0,42.3,293.8,567.7
+Double Down,776844962,False,40.9,0,40.9,208.7,482.9
+ _10,776844963,False,14.0,0,14.0,12.5,72.8
+Chamonix Bowl_11,776844964,False,47.0,0,47.0,164.1,398.3
+Split Rock Gully,776844965,False,42.9,0,42.9,272.8,976.5
+Chamonix Chutes,776844966,False,55.4,0,55.4,202.9,446.5
+Livin' the Dream,776844967,True,43.6,0,43.6,252.1,589.5
+ _12,776844968,True,33.3,0,33.3,169.6,402.0
+Miner's Road,846892617,False,10.9,0,10.9,37.3,319.7
+Get Serious Chutes,914396271,False,49.0,0,49.0,177.3,320.6
+Jones Ave,914396272,False,44.1,0,44.1,158.2,272.5
+ _13,976137517,False,15.9,0,15.9,39.2,172.9
+Creek Road,977024751,False,5.8,0,5.8,20.3,333.5
+West 2nd South Short,978281028,False,19.0,0,19.0,114.8,772.1
+Gad Valley Road_14,978281029,False,11.9,0,11.9,56.6,417.9
+ _15,978281030,False,25.5,0,25.5,78.6,738.8
+ _16,978281031,False,12.2,0,12.2,52.7,822.7
+ _17,978281032,False,14.9,0,14.9,37.6,205.3
+ _18,978281033,False,8.7,0,8.7,5.9,78.8
+ _19,978281034,False,15.2,0,15.2,36.8,176.7
+Gad Valley Road_20,990969459,False,11.8,0,11.8,29.3,328.5
+Gad Valley Road_21,990969460,False,9.6,0,9.6,9.7,93.3
+Miner's Road_22,994105784,False,11.0,0,11.0,22.1,261.8
+Miner's Road_23,994105785,False,6.4,0,6.4,7.5,88.6
+Gad Valley Road_24,994105786,False,19.1,0,19.1,106.1,502.7
+Upper Big Emma,994105787,False,9.6,0,9.6,12.9,109.6
+Upper Big Emma_25,994105788,False,23.2,0,23.2,127.0,339.6
+Upper Big Emma_26,994105789,False,18.7,0,18.7,22.7,109.8
+Gad Valley Road_27,994105790,False,14.7,0,14.7,72.1,384.6
+Lautrenoe,994105791,False,21.4,0,21.4,59.8,307.5
+Peruvian Gulch Road,994105793,False,18.3,0,18.3,100.4,807.7
+Upper Chip's Run,994105794,False,20.9,0,20.9,113.8,462.5
+Mineral Basin Trail,994105795,False,15.6,0,15.6,43.8,372.2
+ _28,994105796,False,15.3,0,15.3,37.6,488.3
+Rothman Way_29,998947158,False,4.8,0,4.8,3.4,40.5

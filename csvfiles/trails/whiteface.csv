@@ -1,0 +1,96 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Weber's Way,200858870,False,23.5,0,23.5,46.7,173.0
+Upper Switchback,200858871,False,17.3,0,17.3,33.2,146.2
+Slide Out,200858872,False,12.7,0,12.7,25.4,254.4
+Cloudspin,200858873,False,29.1,0,29.1,220.8,547.9
+Niagara,200858874,False,31.6,0,31.6,115.3,276.0
+Lower Skyward,200858875,False,28.6,0,28.6,220.4,665.3
+Lower Switchback,200858876,False,15.8,0,15.8,38.4,176.5
+Upper Skyward,200858877,False,30.4,0,30.4,323.5,727.1
+Cloudspin Cut,200858878,False,16.1,0,16.1,41.1,218.8
+Paron's Run,200858879,False,23.8,0,23.8,196.8,631.5
+The Follies,200858880,False,19.2,0,19.2,178.5,815.5
+Blazer's Bluff,200858881,False,35.2,0,35.2,68.9,207.4
+Hoyt's High,200858882,False,31.2,0,31.2,477.4,1281.0
+Riva Ridge,200858883,False,21.4,0,21.4,58.8,230.6
+Crossover Loop,200858884,False,15.2,0,15.2,22.0,150.3
+Victoria Shoot,200858885,False,22.8,0,22.8,33.2,104.5
+Glen,200858886,False,16.5,0,16.5,37.7,164.4
+Victoria,200858887,False,25.9,0,25.9,176.7,620.7
+Approach,200858888,False,20.2,0,20.2,154.3,699.2
+The Wilmington Trail,200858889,False,25.2,0,25.2,699.6,2922.8
+Lookout Below,200858890,False,31.0,0,31.0,138.7,427.8
+Bobcat Glades,204616542,False,14.2,1,14.2,25.1,146.2
+Loon,204616543,False,11.4,0,11.4,9.7,46.8
+Bobcat Shoot,204616544,False,10.0,0,10.0,27.4,205.7
+Flying squirrel,204616545,False,12.8,0,12.8,64.0,473.7
+Hoot Owl Glades,204616546,False,12.6,1,12.6,45.6,309.4
+Otter,204616547,False,12.2,0,12.2,66.7,494.0
+Moose,204616548,False,11.7,0,11.7,49.1,478.4
+Bobcat,204616549,False,14.7,0,14.7,91.0,689.5
+Moose Cut,204616550,False,5.2,0,5.2,3.6,53.5
+Porcupine Pass,204616551,False,12.3,0,12.3,32.1,190.7
+Brookside,204861406,False,15.8,0,15.8,86.7,476.7
+Danny's Bridge,204861409,False,19.0,0,19.0,78.4,383.4
+Lower Gap,204861412,False,17.6,0,17.6,23.5,126.1
+River Run,204861416,False,20.1,0,20.1,63.4,266.5
+Runner Up,204861418,False,6.9,0,6.9,17.7,252.4
+U. Valley,204861421,False,19.6,0,19.6,138.7,637.0
+Wolf Run,204861426,False,11.8,0,11.8,25.2,172.2
+Mixing Bowl,204861428,False,7.5,0,7.5,22.6,206.3
+Bear,204861429,False,13.5,0,13.5,85.6,499.5
+Boreen,204861432,False,21.8,0,21.8,265.4,1360.9
+L. Valley,204861436,False,20.1,0,20.1,160.1,677.8
+Ladies Bridge,204861439,False,18.3,0,18.3,19.2,78.1
+Deer,204861441,False,17.8,0,17.8,88.7,445.0
+Parkway Exit,204861446,False,20.6,0,20.6,38.4,137.5
+Fox,204861449,False,16.0,0,16.0,105.1,641.2
+Valvehouse Road,204861450,False,3.3,0,3.3,1.3,80.2
+Round-A-Bout,204861451,False,9.7,0,9.7,21.4,256.6
+Wolf,204861452,False,11.3,0,11.3,78.9,534.5
+Boreen Loop,204861453,False,13.7,0,13.7,37.3,317.0
+Upper Boreen,204865785,False,14.9,0,14.9,56.6,248.8
+Easy Street,204865786,False,19.6,0,19.6,122.2,647.0
+Broadway,204865787,False,20.4,0,20.4,117.6,543.7
+Easy Way,204865788,False,14.6,0,14.6,41.0,206.6
+Off Broadway,204865789,False,20.1,0,20.1,31.9,95.3
+Sugar Valley Glades,204866966,False,31.3,1,31.3,400.3,1436.7
+Low Road,205154031,False,19.8,0,19.8,30.6,279.1
+Tom Cat,205154032,False,3.3,0,3.3,1.6,41.6
+Lower Parkway,205154033,False,22.1,0,22.1,199.7,687.1
+Burton's,205154034,False,11.9,0,11.9,18.7,209.4
+Calamity Lane,205154035,False,18.9,0,18.9,29.1,139.2
+Draper's Drop,205154036,False,25.7,0,25.7,180.7,630.7
+Lower Thruway,205154037,False,18.5,0,18.5,85.7,314.6
+Upper Thruway,205154066,False,30.1,0,30.1,259.0,616.9
+Upper Parkway,205154067,False,30.3,0,30.3,227.6,578.8
+Mountain Run,205154068,False,29.6,0,29.6,296.4,703.5
+On Ramp,205296466,False,9.9,0,9.9,19.7,191.3
+Excelsior,205296467,False,18.9,0,18.9,281.5,1433.0
+Empire Cut,205296468,False,9.1,0,9.1,12.5,102.1
+High Country Glades,205296469,False,23.3,1,23.3,170.4,635.5
+Lower Wilderness,205296470,False,27.4,0,27.4,113.9,250.5
+Essex,205296471,False,27.5,0,27.5,126.8,321.2
+Lower Mackenzie,205296472,False,26.8,0,26.8,119.1,290.9
+Summit Express,205296473,False,18.9,0,18.9,25.4,90.8
+10th Mt. Division Glades,205296474,False,21.2,1,21.2,74.0,301.3
+Cloudsplitter Glades,205296475,False,30.5,1,30.5,113.1,266.7
+L. Excelsior,205296476,False,17.5,0,17.5,58.6,261.4
+Upper Wilderness,205296477,False,28.3,0,28.3,140.5,296.4
+Upper Mackenzie,205296478,False,31.1,0,31.1,189.6,465.1
+Upper Empire,205296479,False,28.6,0,28.6,169.7,453.4
+"1,900 Road",205296480,False,13.6,0,13.6,37.3,193.3
+"2,200 Road",205296481,False,18.5,0,18.5,51.6,202.2
+Upper Northway,205296482,False,30.9,0,30.9,102.3,205.8
+Lower Empire,205296483,False,21.1,0,21.1,31.1,93.8
+Lower Northway,205296484,False,21.7,0,21.7,129.3,497.1
+Connector,205296719,False,9.2,0,9.2,20.8,260.0
+John's Bypass,205296720,False,23.8,0,23.8,85.4,312.7
+Slide 1,205297073,False,38.5,0,38.5,355.8,579.3
+Slide 4,205297075,False,43.4,0,43.4,284.5,438.9
+Slide 3,205297076,False,41.4,0,41.4,250.9,356.0
+Slide 2,205297078,False,39.9,0,39.9,137.7,222.6
+Slide 5,205297079,False,38.3,0,38.3,244.0,441.7
+Rand's Last Stand,243715635,False,32.7,1,32.7,185.3,434.4
+Lookout Loop,987407097,False,14.6,0,14.6,22.7,315.2
+Coyote Cut,1012174057,False,8.1,0,8.1,9.9,138.9

@@ -1,0 +1,30 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Melon Patch,142855038,False,12.0,0,12.0,14.7,82.7
+The Cure,256100177,False,30.5,0,30.5,112.2,435.2
+Holy Mackerel,256436652,False,21.7,0,21.7,209.7,984.5
+Frolic,256436763,False,19.8,0,19.8,185.1,908.2
+Crossover,256437313,False,12.5,0,12.5,18.0,122.9
+Slip Thru,256437617,False,19.0,0,19.0,51.9,210.0
+Northwest Passage,256437928,False,13.8,0,13.8,44.0,305.6
+Alley,256438813,False,19.2,0,19.2,133.1,532.3
+Chute,256438843,False,17.6,0,17.6,35.7,138.0
+Turtle Back,256438880,False,18.6,0,18.6,34.9,147.4
+Banister,256439432,False,17.4,0,17.4,101.3,496.4
+Inchworm,256440222,False,12.6,0,12.6,29.7,250.4
+Brandt Pass,256441312,False,19.3,0,19.3,65.9,299.3
+Race Face,256442942,False,18.2,0,18.2,80.9,330.9
+Tubing Park,256444105,False,13.2,0,13.2,24.7,141.6
+Tubing Park_2,256444106,False,15.4,0,15.4,25.7,141.3
+Tubing Park_3,256444108,False,17.0,0,17.0,27.1,140.3
+Tubing Park_4,256444109,False,17.4,0,17.4,27.5,140.3
+Mach,256444554,False,23.5,0,23.5,238.4,941.6
+Go-Go,256444562,False,22.1,0,22.1,65.3,253.9
+Evergreen Pass,256445392,False,17.4,0,17.4,33.8,187.1
+Midway,256445614,False,22.0,0,22.0,227.2,796.9
+Front Yard,256446066,False,22.0,0,22.0,38.0,162.3
+Gleason's Road,256446067,False,14.6,0,14.6,28.3,142.6
+A.O.A,256446312,False,22.7,0,22.7,268.5,1103.4
+Connection,256446514,False,11.3,0,11.3,19.1,160.7
+Gnar Wall,663551858,False,25.7,0,25.7,74.3,230.4
+Coy Dog,909349859,False,17.9,0,17.9,40.2,148.5
+The Meadows,909349860,False,16.4,0,16.4,50.1,328.2

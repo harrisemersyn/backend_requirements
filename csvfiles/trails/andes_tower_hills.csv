@@ -1,0 +1,20 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Bunny Hill,313023271,False,5.2,0,5.2,4.7,71.3
+Bunny Hill_1,313023274,False,3.7,0,3.7,3.2,56.8
+Hollywood High,313025380,False,11.0,0,11.0,12.1,115.9
+Hollywood High_2,313025381,False,10.3,0,10.3,11.8,94.7
+Hollywood High_3,313025382,False,21.4,0,21.4,40.3,146.5
+The Wall,313025995,False,20.5,0,20.5,48.9,347.7
+Serendipity,313025996,False,14.9,0,14.9,52.9,339.3
+Big Ben,313026158,False,12.7,0,12.7,47.0,354.3
+Hawaiian Cruise,313026455,False,10.3,0,10.3,46.1,430.6
+Frikadilly,313026457,False,13.4,0,13.4,45.9,296.8
+Dr. Pepper,313026458,False,19.0,0,19.0,39.3,244.9
+Cloud Nine,313026794,False,19.1,0,19.1,44.2,308.0
+Milky Way,313026795,False,19.2,0,19.2,46.2,286.1
+Paradise,313027186,False,13.8,0,13.8,52.9,365.1
+Cannonball,313027187,False,14.6,0,14.6,46.2,282.0
+Little America,313027454,False,17.4,0,17.4,52.4,348.9
+Upper Worm Gear,313028374,False,10.6,0,10.6,13.5,153.3
+Worm Gear,313028375,False,18.1,0,18.1,52.4,360.0
+L.A. Connection,313028508,False,6.2,0,6.2,10.5,297.9

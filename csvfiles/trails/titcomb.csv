@@ -1,0 +1,18 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Pony,344521205,False,8.8,0,8.8,8.9,87.7
+Bunny,344521702,False,14.7,0,14.7,82.7,560.2
+Beagle,344522084,False,12.9,0,12.9,58.2,405.4
+Lower Fox,344522501,False,17.2,0,17.2,47.8,246.3
+Youngs Way,344522614,False,8.8,0,8.8,31.6,294.8
+Upper Fox,344522810,False,12.3,0,12.3,32.3,207.6
+Cougar,344522908,False,11.3,0,11.3,26.0,162.6
+The Main,344522909,False,15.6,0,15.6,50.4,263.8
+Otter Slide,559475591,False,16.7,0,16.7,88.5,407.1
+Dare Devil's Plunge,559475592,False,22.8,0,22.8,83.1,284.7
+Greyhound,559475593,False,21.2,0,21.2,87.3,377.5
+Deception,559475594,False,20.4,0,20.4,87.4,465.1
+Chester's Challenge,559475595,False,19.7,0,19.7,42.9,362.1
+Old Jumper,559475596,False,19.6,0,19.6,40.9,138.6
+Final Fall,559475597,False,29.1,0,29.1,23.6,80.6
+Dire Straights,559475598,False,24.4,0,24.4,36.6,165.7
+Little Jumper,559475599,False,20.0,0,20.0,65.9,348.2

@@ -1,0 +1,22 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Logging Trail,393238634,False,15.5,0,15.5,66.9,673.6
+Lynx,393238635,False,24.4,0,24.4,56.9,199.5
+Pine Grove,393238636,False,9.7,0,9.7,24.5,189.4
+Rabbit Run,393238637,False,11.0,0,11.0,20.3,266.1
+Big Buck,393238638,False,17.3,0,17.3,42.4,183.5
+Bull Moose,393238639,False,23.6,0,23.6,67.6,285.9
+Bobcat,393238640,False,17.7,0,17.7,48.2,238.1
+Chipmunk,393238641,False,8.6,0,8.6,21.4,232.1
+Foxhole,393238642,False,9.7,0,9.7,14.2,127.7
+Fisher,393238643,False,21.1,0,21.1,31.8,117.9
+Beaver,393238644,False,20.7,0,20.7,32.6,156.3
+Squirrel Run,393238645,False,12.9,0,12.9,65.3,608.7
+Bear,393238646,False,16.4,0,16.4,50.4,292.7
+Otter Slide,393238647,False,14.0,0,14.0,36.7,256.4
+Coyote,822070833,False,29.7,0,29.7,68.1,239.6
+Deer Run,822070834,False,8.8,0,8.8,17.0,222.9
+Skunk,822070836,False,12.7,0,12.7,29.5,184.8
+ _0,822070837,False,2.7,0,2.7,1.4,69.8
+Lower Foxhole,822070838,False,13.4,0,13.4,30.4,215.9
+Porcupine,822070839,False,15.0,0,15.0,30.4,198.8
+Cub Carpet,822070841,False,9.0,0,9.0,7.2,29.7

@@ -1,0 +1,18 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Little Bear,48779237,False,6.5,0,6.5,12.8,136.5
+Tower 3 Chute,48779241,False,14.6,0,14.6,34.7,222.1
+Grizzly,48779242,False,21.7,0,21.7,76.0,215.2
+Deer Run,48779243,False,13.2,0,13.2,125.2,726.8
+Utah,48779244,False,24.4,0,24.4,109.6,319.8
+Lower Tuscarora,48779250,False,20.1,0,20.1,70.6,242.7
+Lower Shamokin,48779251,False,19.8,0,19.8,83.1,285.2
+Upper Tuscarora,48779254,False,26.7,0,26.7,54.8,132.0
+Upper Shamokin,48779255,False,26.9,0,26.9,47.9,106.4
+Lion's Way,449977277,False,12.0,0,12.0,59.8,447.0
+ _0,452951408,False,8.5,0,8.5,12.2,90.6
+Winter's Way,539327786,False,19.2,0,19.2,69.9,262.0
+Chicken Ridge,858967591,False,16.1,0,16.1,23.7,91.4
+Doc White,884969882,False,20.6,0,20.6,72.2,264.6
+Terrain Park,884971025,True,13.8,0,13.8,9.2,38.3
+Terrain Park_1,884971026,True,15.8,0,15.8,16.8,74.7
+Grizzly Glades,906936453,False,23.1,1,23.1,41.8,135.6

@@ -1,0 +1,47 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Kelly Boyce Trail,685996705,False,18.4,0,18.4,197.2,1531.9
+Bunny Hop,685996707,False,18.5,0,18.5,110.9,633.7
+Thumper,685996710,False,23.4,0,23.4,156.6,640.0
+Snow Shoe,685996712,False,17.3,0,17.3,46.1,294.4
+Gun Barrel,685996714,False,21.4,0,21.4,69.1,186.9
+Divide Trail,685996717,False,12.1,0,12.1,77.3,577.7
+Turnpike,685996719,False,15.5,0,15.5,120.0,1034.0
+Charisma,686215372,False,22.8,0,22.8,196.9,805.0
+Gun Barrel_1,686215373,False,21.1,0,21.1,121.9,469.2
+Treasure,686215374,False,18.1,0,18.1,231.7,1149.3
+Bonanza Crossover,686215375,False,22.1,0,22.1,201.7,1586.6
+Charisma Crossover,686215376,False,8.7,0,8.7,33.5,407.8
+Solar Slide,686215377,False,23.4,0,23.4,32.6,99.2
+Blueberry Hill,686215378,False,24.8,0,24.8,53.7,133.6
+Valley,686215379,False,13.5,0,13.5,29.8,172.0
+Powder Puff,686215380,False,15.0,0,15.0,110.6,637.3
+Powder Puff_2,686215381,False,19.0,0,19.0,86.8,391.3
+Windjammer,686215382,False,21.4,0,21.4,209.4,1069.8
+Susan's,686215383,False,12.2,0,12.2,35.2,213.9
+ _3,686215384,False,17.6,0,17.6,43.6,168.9
+Nova,686215385,False,10.1,0,10.1,31.6,210.3
+Coyote Park Trail,686215386,False,16.9,0,16.9,211.2,1861.3
+Horseshoe Bowl,686215387,True,27.2,0,27.2,124.6,365.9
+Park Avenue,686215388,False,14.4,0,14.4,81.2,912.8
+A-Way,686215389,False,17.4,0,17.4,74.9,1019.2
+Looky Loo,686215390,False,17.6,0,17.6,137.0,734.8
+Flim Flam,686215391,False,24.6,0,24.6,118.4,511.8
+Treasure Falls,686215392,False,22.4,0,22.4,86.4,339.6
+Holy Moses,686215393,False,21.9,0,21.9,75.1,240.6
+Bonanza Trail,686215394,False,14.6,0,14.6,105.7,650.4
+Navajo Trail,686215395,False,20.9,0,20.9,184.5,997.0
+Glory Hole,686215396,False,23.8,0,23.8,147.2,697.7
+Silver Streak,686215397,False,27.5,0,27.5,296.1,1413.8
+Muskrat Ramble,686215398,False,12.4,0,12.4,68.3,444.5
+Holy Moses_4,686215399,False,18.8,0,18.8,149.6,735.2
+Tranquility,686215400,False,25.9,0,25.9,213.7,934.0
+Navajo Trail_5,686215401,False,12.7,0,12.7,83.7,827.1
+Sasquatch,900528150,False,14.2,0,14.2,105.0,812.3
+Whoopsie,900528151,False,14.4,0,14.4,100.9,686.8
+Tail Spin,900528152,False,11.7,0,11.7,57.9,386.7
+Lagerfest,900528153,False,9.1,0,9.1,12.8,275.5
+The Expanse,900528154,False,6.3,0,6.3,17.8,182.4
+G Eliot Parkway,900528155,False,13.7,0,13.7,32.9,420.3
+Schuss Boom,900528156,False,13.9,0,13.9,100.5,624.2
+Pitch's Gate,900528157,False,15.7,0,15.7,113.4,908.8
+Orion's Beltway,900528158,False,14.9,0,14.9,154.1,993.5

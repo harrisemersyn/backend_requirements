@@ -1,0 +1,22 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Deer Path,1026225747,False,12.2,0,12.2,64.0,651.0
+The Slot,1026225750,False,14.4,0,14.4,24.6,122.8
+Easy Way,1026225751,False,8.2,0,8.2,22.9,211.8
+Laurel Run,1026225752,False,20.5,0,20.5,48.7,155.7
+Ski Top,1026225753,False,9.9,0,9.9,27.5,216.3
+Dream Highway,1026225754,False,19.0,0,19.0,211.1,1090.8
+Upper Wildcat,1026225755,False,20.9,0,20.9,53.0,191.5
+Lower Wildcat,1026225756,False,28.9,0,28.9,139.5,301.9
+Hegan's Cut,1026225757,False,21.5,0,21.5,36.2,178.2
+Lincoln Highway,1026225758,False,18.4,0,18.4,79.2,408.8
+Innsbruck,1026225759,False,13.9,0,13.9,100.3,641.0
+17. Old Innsbruck,1026225760,False,8.5,0,8.5,18.7,168.9
+18 Old Innsbruck,1026225761,False,9.7,0,9.7,13.3,112.8
+Tame Cat,1026225762,False,7.2,0,7.2,14.5,174.8
+Bobcat,1026225763,False,8.7,0,8.7,14.6,154.3
+Woodland Trail,1026225764,False,14.0,0,14.0,21.0,118.6
+Lynx Trail,1026225765,False,7.2,0,7.2,11.4,103.3
+Last Chance Trail,1026225766,False,5.1,0,5.1,8.7,135.8
+Upper Broadway,1026225767,False,17.6,0,17.6,57.7,283.4
+Lower Broadway,1026225768,False,12.7,0,12.7,80.2,485.3
+DOC's Forest Glades,1026225769,False,21.2,1,21.2,57.4,259.4

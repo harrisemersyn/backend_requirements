@@ -1,0 +1,9 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Mighty Mite,882074478,False,10.0,0,10.0,17.1,117.7
+I-89,882074479,False,15.8,0,15.8,97.1,483.5
+Race Trail,882074480,False,21.8,0,21.8,87.7,485.0
+Route 2,882074481,False,11.1,0,11.1,33.0,249.0
+The Elbow,882074482,False,12.9,0,12.9,56.9,349.5
+The Face,882074483,False,23.0,0,23.0,43.5,205.7
+ _0,882074484,False,6.1,0,6.1,7.8,82.5
+ _1,882074485,False,10.5,0,10.5,13.7,95.0

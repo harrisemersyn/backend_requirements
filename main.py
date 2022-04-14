@@ -23,7 +23,6 @@ def about():
 @app.route("/search")
 def search():
     #parsing query string for database search
-    #TODO will need to change this section and parse the query string due to format
     q = request.args.get('q')
     if q:
         q = "%" + q  + "%"

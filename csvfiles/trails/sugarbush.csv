@@ -1,0 +1,144 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Sugar Run,32220779,False,15.9,0,15.9,137.3,659.6
+Bravo,32220782,False,31.9,0,31.9,216.2,618.0
+Crackerjack,32220786,False,14.5,0,14.5,38.0,342.5
+Exterminator,32220789,False,31.8,0,31.8,167.7,405.5
+Walt's Trail,32220817,False,18.1,0,18.1,318.1,1643.9
+The Cliffs,32220838,False,27.9,0,27.9,278.9,772.8
+Riemergasse,32220844,False,19.9,0,19.9,142.3,645.2
+Rim Run,32220851,False,18.8,0,18.8,90.7,438.1
+Spin Out,32220869,False,25.9,0,25.9,68.6,185.4
+Black Diamond,32220902,False,32.1,0,32.1,157.5,303.9
+Brambles,32220905,False,26.7,0,26.7,253.1,960.4
+Tumbler,32220909,False,27.5,0,27.5,274.9,806.8
+Inverness,32220925,False,28.5,0,28.5,335.0,1256.3
+Lower F.I.S.,32220934,False,27.0,0,27.0,503.2,2623.9
+Semi Tough,32220937,False,25.0,0,25.0,306.4,1258.6
+Which Way,32220950,False,22.4,0,22.4,232.3,815.7
+Elbow,32220959,False,25.4,0,25.4,187.8,642.8
+Upper Lookin' Good,32220961,False,13.9,0,13.9,64.0,294.3
+Snowflake,32220966,False,18.4,0,18.4,50.1,342.8
+F.I.S.,32220983,False,30.4,0,30.4,127.8,247.9
+Hammerhead,32220985,False,29.6,0,29.6,250.6,702.5
+Northstar,32220994,False,16.4,0,16.4,138.9,764.0
+Way Back,32220999,False,11.7,0,11.7,53.3,470.1
+Straight Shot,32221005,False,14.0,0,14.0,148.4,892.7
+Lower Rim Run,32232121,False,18.8,0,18.8,225.4,1118.5
+Panorama,32232285,False,16.7,0,16.7,23.7,152.0
+Northridge Expressway,32232368,False,15.8,0,15.8,77.2,678.2
+Mainstream,32232424,False,17.2,0,17.2,99.6,472.4
+Northway,32232670,False,10.5,0,10.5,95.4,1281.1
+Graduation,32232764,False,16.2,0,16.2,85.7,404.2
+Spring Road,44972334,False,10.9,0,10.9,32.7,251.9
+Troll Road,44972336,False,16.6,0,16.6,191.4,1309.6
+Spring Fling,44972340,False,21.1,0,21.1,250.0,827.5
+ _0,44972342,False,18.3,0,18.3,41.2,187.0
+Second Thoughts,44972344,False,13.0,0,13.0,21.1,185.5
+Pushover Chute,44972346,False,22.4,0,22.4,34.5,129.9
+Snowball,44972348,False,19.9,0,19.9,119.4,509.8
+Morning Star,44972351,False,22.9,0,22.9,254.9,842.2
+Castlerock Run,44972353,False,25.8,0,25.8,252.8,759.5
+Cotillion,44972355,False,23.1,0,23.1,247.1,848.4
+Lower Liftline,44972357,False,25.7,0,25.7,221.3,725.8
+Hi &amp; Lo Road,44972359,False,22.9,0,22.9,60.3,285.6
+Valley House Traverse,44972361,False,15.0,0,15.0,81.7,748.4
+Village Run,44972363,False,18.3,0,18.3,234.5,1933.8
+Lower Birdland,44972366,False,26.9,0,26.9,190.8,561.4
+Twist,44972369,False,26.5,0,26.5,120.8,316.5
+Sleeper Chutes,44972376,False,25.4,0,25.4,52.4,163.9
+Waterfall,44972378,False,28.1,0,28.1,62.4,174.3
+Sunrise,44972380,False,26.4,0,26.4,256.9,886.0
+Rumble,44972383,False,34.0,0,34.0,302.1,759.8
+Spillsville,44972385,False,31.1,0,31.1,192.9,572.0
+Paradise Extension,44972387,False,24.6,0,24.6,161.7,613.1
+The Mall,44972389,False,28.8,0,28.8,360.9,1011.1
+Lower Ripcord,44972391,False,23.0,0,23.0,89.6,257.2
+Lower Paradise,44972393,False,30.0,0,30.0,179.0,512.6
+Lower Organgrinder,44972397,False,25.3,0,25.3,326.8,1268.4
+Liftline,44972404,False,34.3,0,34.3,271.4,616.5
+Paradise,44972406,False,31.4,0,31.4,179.8,536.1
+Ripcord,44972407,False,31.6,0,31.6,238.2,498.4
+Stein's Run,44972408,False,31.8,0,31.8,281.9,550.7
+ _1,44972494,False,8.2,0,8.2,11.0,104.1
+First Time,44972496,False,10.0,0,10.0,24.8,191.8
+Sugarbear Road,44972498,False,11.8,0,11.8,46.8,376.4
+Sleeper,44972499,False,18.3,0,18.3,238.8,1331.8
+Out to Lunch,44972502,False,12.3,0,12.3,79.2,668.1
+Pushover,44972504,False,16.0,0,16.0,66.2,316.0
+Gondolier,44972506,False,18.3,0,18.3,74.4,559.1
+Coffee Run,44972508,False,12.6,0,12.6,60.1,524.3
+ _2,44972511,False,17.5,0,17.5,28.9,228.6
+Header,44972513,False,11.1,0,11.1,25.3,223.9
+Allyn's Traverse,44972517,False,10.4,0,10.4,36.9,376.1
+Bailout,44972519,False,15.5,0,15.5,72.3,708.2
+Birch Run,44972529,False,22.9,0,22.9,254.7,927.4
+Castlerock Connection,44972531,False,14.1,0,14.1,115.3,1182.5
+Birdland,44972533,False,25.3,0,25.3,194.7,518.3
+Domino Chute,44972535,False,22.0,0,22.0,56.6,207.7
+Lower Domino,44972537,False,20.9,0,20.9,111.9,370.9
+Heaven's Gate Traverse,44972539,False,12.3,0,12.3,43.5,470.2
+ _3,44972544,False,6.2,0,6.2,7.7,162.4
+Moonshine,44972548,False,21.8,0,21.8,157.6,446.5
+Jester,44972550,False,16.3,0,16.3,267.3,1584.0
+Murphy's Glade,44972552,False,23.9,1,23.9,189.5,574.3
+Overshot,44972557,False,7.5,0,7.5,21.6,223.6
+ _4,44972559,False,17.8,0,17.8,25.8,101.2
+Slowpoke,44976916,False,19.8,0,19.8,117.6,488.3
+Lower Pushover,44976922,False,17.3,0,17.3,114.1,463.3
+Castlerock Runout,44977840,False,13.5,0,13.5,116.5,1003.9
+Lower Downspout,44977924,False,14.2,0,14.2,93.2,586.2
+Reverse Traverse,44978080,False,13.9,0,13.9,43.1,597.3
+Lower Snowball,44978221,False,19.8,0,19.8,145.9,554.4
+Easy Rider,44988566,False,12.6,0,12.6,79.1,539.9
+Sugarbear Forest,44990163,False,11.7,0,11.7,26.5,183.5
+Lower Hot Shot,44990171,False,19.9,0,19.9,119.3,428.3
+Hot Shot,44990712,False,16.8,0,16.8,45.6,303.8
+ _5,44991059,False,7.7,0,7.7,5.0,24.5
+Middle Earth,44995640,False,26.5,0,26.5,450.7,1636.4
+Troll Road_6,44995704,False,11.8,0,11.8,43.8,432.1
+Organgrinder,44997187,False,26.8,0,26.8,294.4,854.3
+Downspout,44997346,False,22.9,0,22.9,173.6,580.1
+Lower Jester,44997348,False,18.2,0,18.2,387.0,2141.2
+ _7,44997363,False,9.8,0,9.8,10.5,80.8
+Deeper Sleeper,44998906,False,21.4,1,21.4,182.4,655.9
+Eden,44998950,False,23.9,1,23.9,109.0,325.3
+Lower Hot Shot_8,85646465,False,13.1,0,13.1,25.1,241.9
+Lower Ripcord_9,85646466,False,22.2,0,22.2,79.3,317.0
+Out Road,235487091,False,11.5,0,11.5,7.1,141.4
+In Road,235487092,False,5.5,0,5.5,5.6,99.7
+ _10,235487978,False,14.5,0,14.5,14.6,61.5
+Sleeper Road,235487979,False,7.3,0,7.3,13.9,229.0
+Lower Castlerock Run,235488428,False,23.0,0,23.0,181.4,663.9
+Race Course Woods,235493838,False,20.5,1,20.5,48.1,149.3
+Christmas Tree Woods,235493839,False,27.1,1,27.1,195.4,504.4
+Gangstas' Grotto,235493840,False,27.8,1,27.8,213.8,454.5
+Lower Moonshine,235493841,False,20.6,0,20.6,122.1,458.1
+Stein's Woods,235493842,False,31.7,1,31.7,209.7,380.0
+Sap Line,235493843,False,23.4,1,23.4,144.7,447.0
+Domino,235493844,False,27.6,0,27.6,95.7,239.4
+Lower Twist,235493845,False,25.0,0,25.0,119.8,322.1
+Cat's Meow,235493846,False,15.2,0,15.2,78.0,543.3
+Egan's Woods,235493847,False,31.4,1,31.4,192.0,451.9
+Racer's Edge,235493848,False,18.5,0,18.5,104.1,472.2
+Lew's Line,235496490,False,27.5,1,27.5,85.4,223.9
+Ellen's Woods,235497471,False,23.2,1,23.2,85.3,371.7
+Lower Crackerjack,235497472,False,14.5,0,14.5,85.7,449.8
+Graduation Woods,235497473,False,15.6,1,15.6,60.1,267.1
+Easy Does It,235497474,False,6.5,0,6.5,7.2,65.2
+Walt's Woods,235499052,False,24.1,1,24.1,42.9,188.7
+Brambles Woods,235499053,False,25.9,1,25.9,190.5,586.3
+Semi Tough Woods,235499058,False,26.2,1,26.2,205.4,659.7
+Lower Elbow,235500329,False,22.3,0,22.3,48.2,201.7
+Tumbler Woods,235500330,False,27.2,1,27.2,149.7,443.3
+ _11,235500331,False,24.6,0,24.6,80.2,214.8
+South Bound,235500332,False,15.7,0,15.7,35.5,204.3
+Bravo Woods,235500333,False,27.8,1,27.8,147.1,432.6
+Encore,235500335,False,27.0,0,27.0,232.9,767.9
+Bravinator Woods,235500337,False,30.6,1,30.6,94.4,218.0
+Way Back Woods,235500338,False,20.3,1,20.3,41.6,150.4
+Cruiser,235500340,False,24.1,0,24.1,249.5,954.0
+Lower Northstar,235500343,False,22.0,0,22.0,110.6,517.1
+Exterminator Woods,235500344,False,27.6,1,27.6,227.3,627.0
+Lookin' Good,235500346,False,19.9,0,19.9,156.0,668.2
+Moose Run Woods,235500348,False,12.5,1,12.5,67.6,434.1
+Lower Exterminator,235500350,False,22.2,0,22.2,109.7,364.8

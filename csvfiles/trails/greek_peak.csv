@@ -1,0 +1,43 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Iliad,391411790,False,25.9,0,25.9,215.4,858.9
+Alcmene,391411791,False,23.9,0,23.9,210.6,855.4
+Elysian Fields,391411792,False,21.1,0,21.1,90.1,335.2
+Karyatis Way,391411793,False,21.9,0,21.9,106.2,809.9
+Alpha Slope,391411794,False,12.1,0,12.1,48.1,374.9
+Stoic,391411795,False,20.7,0,20.7,112.6,520.3
+Magic Carpet Trail,391411796,False,10.6,0,10.6,5.4,31.3
+Castor,391411797,False,15.4,0,15.4,196.2,1453.4
+Lower Pollux,391411798,False,10.1,0,10.1,16.3,131.0
+Odyssey,391795593,False,28.3,0,28.3,210.6,819.2
+Boardwalk Trail,391795594,False,7.4,0,7.4,8.1,78.0
+Parkathon,391795596,True,14.0,0,14.0,26.6,144.5
+Meadow,391795597,False,15.0,0,15.0,64.0,403.4
+East Meadows,391795598,False,10.3,0,10.3,49.6,339.9
+Platonic,391795600,False,19.8,0,19.8,77.9,526.3
+Wendy's Way,391795601,False,24.5,0,24.5,67.6,290.5
+Cristy's Run,391795602,False,19.2,0,19.2,90.6,419.3
+Olympian,391795603,False,31.1,0,31.1,225.3,1004.2
+Epicurus Way,391795604,False,13.8,0,13.8,33.6,546.3
+Zephyr,391795605,False,12.9,0,12.9,41.6,348.0
+Marathon,391795606,False,11.3,0,11.3,36.5,551.0
+Trojan,391795607,False,22.1,0,22.1,151.0,774.5
+Upper Mars Hill,392991105,False,13.3,0,13.3,48.9,574.4
+Poseidon,392991106,False,15.6,0,15.6,64.4,553.9
+Lower Poseidon,392991107,False,17.0,0,17.0,58.1,590.4
+East Alpha,392991108,False,7.6,0,7.6,19.0,189.4
+Lower Atlas,392991109,False,11.5,0,11.5,36.6,242.0
+Hercules,392991110,False,27.6,0,27.6,121.8,556.9
+Zeus,392991111,False,25.4,0,25.4,186.6,801.9
+ _0,392991112,False,15.7,0,15.7,15.8,77.8
+ _1,392991113,False,11.6,0,11.6,6.0,123.2
+Mars Hill,392991114,False,18.5,0,18.5,191.9,1060.2
+Arethusa Way,392991115,False,22.5,0,22.5,106.9,504.8
+Upper Arcadian Gate,392991116,False,16.7,0,16.7,100.2,538.8
+Crisean Way,392991117,False,18.9,0,18.9,52.8,334.5
+Lower Arcadian Gate,392991118,False,21.6,0,21.6,142.2,1083.1
+Castor Connection,439436345,False,6.0,0,6.0,11.2,174.3
+Upper Pollux,842518911,False,11.0,0,11.0,30.5,235.8
+Middle Pollux,842518912,False,17.2,0,17.2,92.3,452.3
+Alsos Glade,842518913,False,14.6,1,14.6,72.2,402.4
+Aesop's Glade,842518914,False,22.7,1,22.7,116.2,458.1
+Mars Hill Connection,842518915,False,11.5,0,11.5,21.0,131.8

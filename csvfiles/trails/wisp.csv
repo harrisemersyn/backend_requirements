@@ -1,0 +1,33 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Backbone Pass,190524618,False,7.9,0,7.9,54.7,486.9
+Bear Paw,190524619,False,12.4,0,12.4,25.0,184.4
+Beaver,190524620,False,16.1,0,16.1,54.4,478.7
+Central Park Terrain Park,190524621,False,11.6,0,11.6,35.7,205.7
+Bobcat Bowl,190524623,False,11.9,0,11.9,13.2,145.0
+Boulder Run,190524624,False,13.5,0,13.5,77.0,421.5
+Deer Run,190524625,False,14.4,0,14.4,67.9,401.3
+Devil's Drop,190524626,False,27.9,0,27.9,52.9,113.6
+Down Under,190524627,False,13.1,0,13.1,4.8,33.4
+Down Under_0,190524628,False,16.1,0,16.1,96.0,607.4
+Down Under_1,190524629,False,16.0,0,16.0,25.4,125.2
+Eye Opener,190524630,False,18.7,0,18.7,141.8,581.4
+Fox Way,190524631,False,13.0,0,13.0,16.7,124.4
+Grouse Way,190524632,False,12.3,0,12.3,46.4,432.5
+Happy Camper,190524633,False,7.4,0,7.4,28.8,266.2
+Highline Pass,190524634,False,17.9,0,17.9,50.8,185.4
+Little Dipper,190524635,False,15.4,0,15.4,57.4,367.4
+Logger's Way,190524636,False,14.5,0,14.5,56.7,331.6
+Longview,190524637,False,14.7,0,14.7,34.1,145.5
+Main Street,190524639,False,24.1,0,24.1,158.5,576.6
+Muskrat,190524641,False,13.2,0,13.2,49.1,354.0
+Odin's Chute,190524642,False,22.6,0,22.6,64.2,252.7
+Possum,190524644,False,9.8,0,9.8,132.1,1172.7
+Randal's Run,190524645,False,13.8,0,13.8,42.7,402.4
+Road Runner,190524647,False,18.2,0,18.2,49.3,206.2
+Slider,190524648,False,14.4,0,14.4,36.2,185.8
+Squirrel Cage,190524649,False,24.7,0,24.7,121.2,443.5
+The Face,190524650,False,28.4,0,28.4,118.4,391.8
+Wisp Trail,190524652,False,12.8,0,12.8,159.9,1135.9
+ _2,190524668,False,14.6,0,14.6,31.7,199.3
+Lower Boulder Park,778117487,False,12.3,0,12.3,29.8,164.8
+Sunset Blvd.,778117491,False,7.3,0,7.3,22.9,250.0

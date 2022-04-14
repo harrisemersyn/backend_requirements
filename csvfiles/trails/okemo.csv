@@ -1,0 +1,123 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Dream Weaver,257509176,False,22.2,0,22.2,319.1,1678.5
+Rimrock,257511000,False,22.9,0,22.9,304.5,1580.2
+Off The Rim,257511800,False,19.0,0,19.0,170.3,785.8
+Stump Jumper,257511801,False,21.7,0,21.7,189.8,823.3
+Punch Line,257511802,False,25.0,0,25.0,209.0,891.2
+Wild Thing,257511803,False,23.0,0,23.0,199.0,796.0
+Blind Faith,257512874,False,23.0,0,23.0,196.2,759.3
+Catnap,257513059,False,16.6,0,16.6,59.7,762.5
+Upper Wild Thing,257514623,False,18.6,0,18.6,83.1,408.1
+Moon Dog,257514754,False,17.5,0,17.5,26.2,118.5
+Sun Dog,257514870,False,7.8,0,7.8,6.4,106.9
+Upper Mountain Road,257538760,False,16.7,0,16.7,200.8,1986.5
+Buckhorn,257539125,False,14.8,0,14.8,42.0,466.2
+Triplesec,257539490,False,26.8,0,26.8,102.2,385.9
+Challenger,257539819,False,19.9,0,19.9,109.3,503.7
+Moment's Rest,257541216,False,15.7,0,15.7,88.9,459.4
+Turkey Shoot,257541300,False,17.8,0,17.8,42.7,222.0
+Countdown,257541444,False,20.2,0,20.2,103.3,401.5
+Sprint,257541487,False,16.2,0,16.2,28.8,118.2
+Upper Fall Line,257541595,False,24.4,0,24.4,137.5,517.1
+Lower Fall Line,257542035,False,24.4,0,24.4,157.8,602.4
+Defiance,257542499,False,24.2,0,24.2,186.5,659.4
+Upper World Cup,257545874,False,24.6,0,24.6,233.2,831.9
+Upper Chief,257548958,False,26.2,0,26.2,216.7,735.5
+Drop Off,257555647,False,15.8,0,15.8,61.7,301.7
+Scooter,257555985,False,16.1,0,16.1,39.0,138.6
+Link,257556184,False,7.0,0,7.0,16.6,159.3
+Sachem,257558192,False,18.9,0,18.9,287.6,1803.3
+Easy Street,257558294,False,18.9,0,18.9,80.9,424.1
+Home Stretch,257558476,False,12.5,0,12.5,51.0,299.0
+Ledges,257558642,False,29.1,0,29.1,165.1,661.8
+Lower World Cup,257559992,False,23.4,0,23.4,235.7,981.3
+Chute,257560092,False,12.4,0,12.4,39.2,305.1
+Lower Chief,257560678,False,18.5,0,18.5,253.5,1078.1
+French Connection,257560780,False,17.9,0,17.9,80.0,350.0
+Nor'Easter,257561440,False,24.8,0,24.8,478.1,1848.0
+Fast Lane,257562298,False,26.3,0,26.3,175.4,572.2
+Timberline,257562413,False,21.3,0,21.3,303.8,1190.8
+Jolly Green Giant,257632651,False,23.0,0,23.0,247.8,979.8
+Searle's Way,257632735,False,23.3,0,23.3,186.2,762.7
+Sidekick,257632796,False,17.8,0,17.8,27.4,144.4
+Sprout,257633554,False,9.7,0,9.7,12.5,102.8
+Sapphire,257633641,False,21.2,0,21.2,292.5,1233.9
+Wardance,257633982,False,22.7,0,22.7,196.1,733.1
+Black Out,257634253,False,25.3,0,25.3,203.8,776.7
+Sel's Choice,257634301,False,25.3,0,25.3,103.3,335.4
+Lower Sel's,257634449,False,16.4,0,16.4,69.4,292.6
+Rum Run,257634921,False,19.9,0,19.9,31.0,268.4
+Easy Rider,257636409,False,15.3,0,15.3,152.8,1028.7
+The Narrows,257636576,False,20.6,0,20.6,21.2,155.5
+Mountain Road,257641217,False,12.9,0,12.9,282.7,2696.1
+Roundhouse Run,257641244,False,14.1,0,14.1,68.7,427.8
+Coleman Brook,257641385,False,17.1,0,17.1,120.3,542.7
+Sweet Solitude,257641497,False,18.7,0,18.7,97.4,551.1
+Upper Tomahawk,257641792,False,19.0,0,19.0,91.0,426.1
+Lower Tomahawk,257641877,False,20.8,0,20.8,156.9,683.5
+Whistler,257642359,False,13.1,0,13.1,63.7,449.5
+Express Lane,257643580,False,11.0,0,11.0,22.8,254.0
+Route 103,257643593,False,9.6,0,9.6,15.8,132.7
+Cutter's Folly,257643791,False,9.9,0,9.9,19.8,154.1
+Heaven's Gate,257643993,False,21.7,0,21.7,190.5,781.4
+Ridge Runner,257644137,False,14.1,0,14.1,50.9,573.0
+Upper Arrow,257644273,False,19.1,0,19.1,181.4,752.4
+Double Dipper,257644294,False,12.8,0,12.8,53.8,346.9
+Lower Arrow,257644727,False,20.1,0,20.1,97.3,441.2
+Lower Mountain Road,257644870,False,11.1,0,11.1,101.9,771.1
+Fairway,257645149,False,10.6,0,10.6,18.7,134.0
+Open Slope,257645794,False,14.2,0,14.2,119.4,787.0
+Robbins' Nest,257646125,False,8.9,0,8.9,14.1,108.0
+Lift Line,257646413,False,16.2,0,16.2,74.8,493.7
+Bull Run,257646531,False,17.0,0,17.0,69.8,408.0
+Kettle Brook,257647334,False,14.6,0,14.6,49.8,495.8
+Ledgewood,257647878,False,12.3,0,12.3,20.8,171.2
+Snowtrak,257648017,False,9.6,0,9.6,26.2,323.9
+Galaxy Bowl,257648435,False,0.7,0,0.7,0.3,49.0
+Village Run,257650137,False,14.6,0,14.6,74.0,628.3
+Switchback,257650377,False,17.1,0,17.1,52.6,294.6
+The Plunge,257650544,False,20.8,0,20.8,139.1,457.4
+Screamin Demon,257650630,False,24.8,0,24.8,133.1,467.5
+Boomerang,257651158,False,19.1,0,19.1,155.5,561.8
+Sidewinder,257651231,False,20.5,0,20.5,213.0,933.3
+Side Out,257651334,False,9.3,0,9.3,18.7,158.2
+Exhibition,257651742,False,20.8,0,20.8,168.5,679.5
+Moon Shadow,257653407,False,18.5,0,18.5,214.5,1335.1
+Daybreak,257653951,False,14.5,0,14.5,122.2,804.3
+Rising Star,257654233,False,14.5,0,14.5,34.0,172.2
+Promenade,257654418,False,16.4,0,16.4,24.3,437.3
+Jack-A-Lope,257654586,False,14.3,0,14.3,50.7,412.4
+Line Drive,257654686,False,18.1,0,18.1,113.9,515.1
+Black Hole,257656726,False,24.9,1,24.9,100.0,366.1
+Big Bang,257662125,False,26.0,0,26.0,148.7,504.2
+Vortex,257662244,False,20.7,0,20.7,91.1,363.8
+Quantum Leap,257662422,False,27.2,0,27.2,368.9,1209.1
+Eclipse,257662629,False,23.2,0,23.2,264.3,1018.0
+Sunset Strip,257663060,False,12.2,0,12.2,62.1,537.0
+Sunset Strip_0,257663069,False,4.0,0,4.0,3.0,53.5
+Blue Moon,257663358,False,15.9,0,15.9,31.0,367.3
+Upper Limelight,257663418,False,22.8,0,22.8,87.9,330.0
+Lower Limelight,257663956,False,23.6,0,23.6,286.4,1185.4
+Rolling Thunder,257664153,False,25.1,0,25.1,266.1,916.1
+White Lightning,257664247,False,22.6,0,22.6,96.6,352.1
+Expresso,257665085,False,12.2,0,12.2,28.9,212.9
+Spur Line,257665150,False,12.4,0,12.4,35.1,220.8
+Fast Track,257665199,False,24.5,0,24.5,61.0,386.5
+Inn Bound,257665977,False,7.8,0,7.8,24.0,301.3
+Bright Star Basin,257667803,False,8.9,0,8.9,15.2,199.8
+Southern Crossing,257668293,False,21.2,0,21.2,105.0,644.4
+Double Diamond,267840341,False,26.8,1,26.8,126.1,392.6
+Everglade,267840342,False,19.8,1,19.8,118.8,639.1
+Forrest Bump,267840343,False,23.9,1,23.9,127.9,413.0
+Loose Spruce,267840344,False,21.1,1,21.1,124.4,533.6
+Outrage,267840345,False,29.8,1,29.8,149.8,473.8
+Supernova,267840346,False,29.8,1,29.8,288.5,1005.6
+Tuckered Out,267840347,False,21.5,0,21.5,359.9,2225.9
+Beeline,544944181,False,10.2,0,10.2,17.3,118.5
+Zip,544944411,False,14.8,0,14.8,13.1,76.6
+Whispering Pines,544945240,False,16.7,1,16.7,99.1,646.0
+Broken Arrow,544946964,False,18.5,1,18.5,55.1,252.1
+Tree Dancer,544948983,False,18.6,1,18.6,101.2,416.9
+The Shadows,544949376,False,21.6,1,21.6,88.2,291.8
+Suncatcher,562233708,False,13.2,0,13.2,130.6,856.2
+Green Link,958970329,False,16.4,0,16.4,59.4,690.9

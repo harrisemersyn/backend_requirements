@@ -1,0 +1,24 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Snowtubing,393248903,True,13.2,0,13.2,42.4,246.9
+Cascade Park,393248904,False,15.9,0,15.9,130.7,789.0
+Black Bear Park,393248905,False,16.4,0,16.4,133.9,821.0
+Kodiak,393248906,False,17.9,0,17.9,135.1,851.7
+Broadway,393248907,False,14.5,0,14.5,141.6,1168.1
+Bear Pass,393248910,False,7.6,0,7.6,16.8,150.4
+Timberline,393248913,False,16.2,0,16.2,93.7,622.8
+Bear Claw,393248914,False,13.1,0,13.1,14.0,76.8
+Polar Bear,393248915,False,18.2,0,18.2,35.6,152.3
+Sun Bear,393248916,False,6.1,0,6.1,11.6,167.1
+Homerun,393248917,False,7.7,0,7.7,18.1,225.0
+Family Park,393248918,False,8.1,0,8.1,21.7,340.6
+Bear Trap,393248919,False,21.9,0,21.9,30.0,124.6
+Sasquatch,393248920,False,26.6,0,26.6,68.2,202.0
+Growler,393248921,False,6.4,0,6.4,6.6,128.4
+Extreme,393248925,False,23.1,0,23.1,56.8,170.9
+Grizzly,393248926,False,20.6,0,20.6,52.6,175.1
+Easy Street,393248927,False,11.1,0,11.1,40.8,269.0
+Coaster,393248928,False,10.2,0,10.2,25.9,165.4
+Drifter,393248929,False,12.9,0,12.9,44.8,272.9
+Teddy Bear,393248930,False,10.0,0,10.0,26.1,200.2
+Cub Run,393248931,False,8.8,0,8.8,27.2,203.5
+Discovery,393248932,True,3.1,0,3.1,2.3,56.6

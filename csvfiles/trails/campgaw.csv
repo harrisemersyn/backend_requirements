@@ -1,0 +1,14 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Lower Lenape,80572856,False,7.8,0,7.8,31.2,335.5
+Upper Mighty Gaw,262772572,False,19.6,0,19.6,47.3,197.4
+ _0,262772574,False,9.2,0,9.2,15.8,145.3
+Upper Lenape,262772576,False,19.7,0,19.7,44.2,260.6
+Lower Race Trail,262772577,False,4.9,0,4.9,2.7,38.1
+Learning Center,262772578,False,7.3,0,7.3,8.0,79.5
+Oratam Way,299597220,False,17.1,0,17.1,33.3,192.4
+Lower Mighty Gaw,299597221,False,3.0,0,3.0,2.7,51.4
+Lower Lift Line,299597222,False,8.8,0,8.8,28.9,247.6
+Lower Mighty Gaw_1,299597223,False,8.9,0,8.9,34.9,329.4
+Upper Lift Line,299597224,False,21.0,0,21.0,37.9,154.2
+Lower Oratam,299597225,False,11.8,0,11.8,29.7,192.3
+Upper Race Trail,299597226,False,19.1,0,19.1,73.4,537.4

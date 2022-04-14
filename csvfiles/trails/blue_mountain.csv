@@ -1,0 +1,39 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+ _0,44526208,False,7.0,0,7.0,20.2,250.6
+Easy Out,44526214,False,8.3,0,8.3,34.6,298.9
+Window Maker,44526222,False,20.7,0,20.7,84.2,364.1
+The Chute,44526227,False,26.8,0,26.8,55.9,158.6
+Upper Main Street,44526230,False,19.8,0,19.8,141.2,482.7
+Burma Road,44526238,False,15.2,0,15.2,165.0,1277.9
+ _1,44526240,False,6.2,0,6.2,5.6,59.8
+Switchback,44526251,False,19.3,0,19.3,203.1,776.8
+Lazy Mile,44526323,False,14.3,0,14.3,226.6,1302.3
+Connector,44526325,False,10.5,0,10.5,8.2,102.0
+ _2,44526326,False,0.6,0,0.6,0.3,29.0
+ _3,44526327,False,0.7,0,0.7,0.4,27.6
+Shuttle,44526333,False,6.0,0,6.0,14.9,333.9
+Tut's Lane,44526334,False,9.1,0,9.1,50.4,630.3
+Paradise,44526358,False,14.7,0,14.7,296.0,1748.8
+Sidewinder Park,44526374,False,18.8,0,18.8,220.4,1009.7
+ _4,44526376,False,0.8,0,0.8,0.4,46.9
+Challenge,44526379,False,26.0,0,26.0,226.6,773.9
+ _5,44526380,False,6.4,0,6.4,5.2,47.3
+Falls,44526381,False,25.9,0,25.9,48.7,222.7
+Razor's Edge,44526385,False,26.9,0,26.9,279.0,1065.7
+Valley School West,44526389,False,9.5,0,9.5,39.0,398.4
+Terrain Run Park,44526390,False,11.1,0,11.1,39.1,324.2
+ _6,44526391,False,13.6,0,13.6,31.8,237.6
+Connector_7,44526396,False,8.6,0,8.6,28.6,429.1
+Come Around Park,44526397,False,17.7,0,17.7,73.8,409.6
+X-ing,44526398,False,14.2,0,14.2,31.6,131.5
+Nightmare,87424108,False,17.3,0,17.3,74.5,298.8
+Midway,211754241,False,21.0,0,21.0,69.3,207.0
+Lower Main Street,211754244,False,19.0,0,19.0,89.9,374.9
+Dream Weaver,211754256,False,18.4,0,18.4,170.4,705.3
+Lower Sidewinder,211754261,False,15.7,0,15.7,55.3,333.0
+Home Stretch,211754266,False,8.0,0,8.0,37.3,340.0
+Vista,211754268,False,9.8,0,9.8,45.4,367.7
+Finish Line,211754272,False,7.9,0,7.9,30.2,291.6
+Barney's Bumps,320865879,False,18.7,0,18.7,36.6,132.3
+School Hill,624541965,False,13.1,0,13.1,17.6,155.5
+Valley School West_8,624541967,False,9.0,0,9.0,40.3,409.9

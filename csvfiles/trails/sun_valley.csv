@@ -1,0 +1,90 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Warm Springs Face,59003176,False,26.5,0,26.5,423.7,1112.6
+Mid Warm Springs,59003177,False,25.0,0,25.0,207.6,599.2
+Lower Warm Springs,59003178,False,21.5,0,21.5,317.6,996.2
+ _0,342092638,False,27.6,0,27.6,211.1,757.9
+Arnold's Run,342092639,False,32.4,0,32.4,120.5,209.1
+Aujus,342092640,False,27.6,0,27.6,58.5,155.8
+Blue Grouse,342092641,False,29.1,0,29.1,178.1,436.5
+Brick's Island,342092642,False,31.1,0,31.1,178.0,462.3
+Can-Can,342092644,False,26.2,0,26.2,156.3,374.7
+Canyon,342092645,False,28.1,0,28.1,317.3,791.3
+Christmas Bowl,342092646,False,30.0,0,30.0,335.5,734.8
+Christmas Lane,342092647,False,9.8,0,9.8,51.1,658.4
+Christmas Ridge,342092648,False,30.2,0,30.2,347.7,783.7
+Cozy,342092649,False,27.8,0,27.8,246.2,825.0
+Cut Off,342092650,False,29.1,0,29.1,106.1,229.9
+Easter Bowl,342092651,False,30.7,0,30.7,429.7,916.0
+Exhibition,342092652,False,30.1,0,30.1,273.4,571.9
+Flying Squirrel,342092653,False,24.8,0,24.8,242.5,667.2
+French Connection,342092654,False,16.8,0,16.8,108.4,904.6
+French Dip,342092655,False,27.9,0,27.9,82.1,332.5
+Graduate,342092656,False,32.9,0,32.9,257.5,552.8
+Hemingway,342092657,False,27.9,0,27.9,273.9,696.3
+Holiday,342092658,False,34.5,0,34.5,270.4,534.4
+I-80,342092659,False,21.1,0,21.1,245.7,1700.9
+International,342092660,False,29.2,0,29.2,224.5,655.3
+Janss Pass,342092661,False,25.1,0,25.1,137.2,324.5
+Lilly Marlane,342092662,False,18.9,0,18.9,113.8,1267.5
+Limelight,342092663,False,27.6,0,27.6,276.4,583.6
+Little Easter Bowl,342092664,False,29.8,0,29.8,258.4,553.0
+Lookout Bowl,342092665,False,31.7,0,31.7,507.8,1077.6
+Lower Can-Can,342092667,False,29.1,0,29.1,131.5,334.9
+Lower College,342092670,False,22.1,0,22.1,355.6,1256.8
+Lower French Dip,342092672,False,31.0,0,31.0,117.0,345.9
+Lower Greyhawk,342092674,False,17.4,0,17.4,86.7,476.7
+Lower Janss Pass,342092677,False,26.8,0,26.8,144.2,381.0
+Lower Limelight,342092679,False,27.8,0,27.8,105.6,269.4
+Lower Olympic,342092680,False,24.1,0,24.1,166.2,501.7
+Lower Picabo's,342092682,False,23.5,0,23.5,154.4,400.9
+Lower River Run,342092683,False,16.1,0,16.1,168.4,937.5
+Maiden Lane,342092687,False,11.4,0,11.4,50.5,570.7
+Mid Greyhawk,342092689,False,30.1,0,30.1,271.2,648.4
+Mid River Run,342092691,False,25.4,0,25.4,392.0,1054.0
+Olympic Lane,342092694,False,14.3,0,14.3,134.4,1263.0
+Olympic Ridge,342092695,False,26.6,0,26.6,217.2,1553.5
+Olympic,342092696,False,30.7,0,30.7,245.7,581.9
+Picabo's Street,342092697,False,31.2,0,31.2,311.2,657.8
+Race Arena,342092698,False,31.7,0,31.7,241.9,683.2
+Ridge,342092699,False,23.9,0,23.9,205.1,688.0
+Rock Garden,342092700,False,27.9,0,27.9,150.0,380.1
+Roundhouse Lane,342092701,False,16.3,0,16.3,125.6,1305.4
+Roundhouse Slope,342092702,False,23.6,0,23.6,82.4,415.8
+Sleeping Bear,342092703,False,30.6,0,30.6,279.5,701.6
+Sunnyside Bowl,342092704,False,32.4,0,32.4,241.9,511.7
+Sunset Trip,342092705,False,21.9,0,21.9,166.0,1164.3
+Undergraduate,342092706,False,29.0,0,29.0,169.1,505.2
+Upper College,342092707,False,19.9,0,19.9,246.2,1031.0
+Upper College_1,342092708,False,13.7,0,13.7,32.3,142.6
+Upper Cozy,342092709,False,28.0,0,28.0,128.6,363.7
+Upper Greyhawk,342092710,False,29.9,0,29.9,91.0,187.9
+Upper Hemingway,342092711,False,28.4,0,28.4,115.7,432.5
+Upper Holiday,342092713,False,25.0,0,25.0,92.9,211.4
+Upper Limelight,342092714,False,30.4,0,30.4,154.8,352.2
+Upper River Run,342092715,False,32.7,0,32.7,251.8,483.9
+Gun Tower Lane,342092719,False,12.4,0,12.4,100.4,1388.2
+Broadway Face,342307962,False,16.9,0,16.9,190.8,1522.7
+Broadway,1020102786,False,19.5,0,19.5,346.8,1395.7
+Byron's Park,342307964,False,23.1,0,23.1,147.4,485.0
+Christin's Silver,342307965,False,24.9,0,24.9,278.0,872.2
+Cold Springs Cut Off,342307966,False,23.7,0,23.7,298.5,890.7
+Fire Trail,342307967,False,30.0,0,30.0,358.4,1282.6
+Gretchen's Gold,342307968,False,24.3,0,24.3,379.9,1138.3
+Hour Glass,342307969,False,23.6,0,23.6,133.2,361.5
+Inhibition,342307970,False,35.0,0,35.0,202.0,436.1
+Kaitlyn's Bowl,342307972,False,31.4,0,31.4,270.7,545.9
+Lefty Bowl,342307974,False,29.7,0,29.7,342.3,734.4
+Leigh Lane,342307976,False,11.4,0,11.4,54.5,509.8
+Lower Broadway,342307981,False,19.5,0,19.5,227.6,1081.0
+Lower Christmas Bowl,342307982,False,29.3,0,29.3,232.9,523.5
+Mayday Bowl,342307983,False,34.4,0,34.4,423.9,883.0
+Mid Christmas Bowl,342307984,False,24.4,0,24.4,96.0,228.9
+Mid Inhibition,342307985,False,23.6,0,23.6,76.1,199.8
+Muffy's Medals,342307986,False,24.4,0,24.4,321.9,903.0
+Sigi's Bowl,342307987,False,28.2,0,28.2,200.6,458.7
+Three Bears,342307988,False,36.7,0,36.7,173.9,282.8
+Lower Broadway_2,845196014,False,16.7,0,16.7,147.5,1273.1
+ _3,907060414,False,32.6,1,32.6,730.5,2142.6
+Numbers,907060415,False,41.7,1,41.7,175.9,384.6
+Sunrise Bowl,907060416,False,30.2,0,30.2,459.3,1455.4
+The Glades,907060417,False,33.2,1,33.2,254.7,655.8

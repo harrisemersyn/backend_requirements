@@ -1,0 +1,45 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+The Mogul Thing,205006649,False,15.0,0,15.0,22.9,107.9
+North Glade,205006650,False,22.2,1,22.2,91.1,254.0
+Grand Slam,205006651,False,19.0,0,19.0,146.1,603.2
+John Hancock,205006652,False,15.0,0,15.0,153.6,1002.8
+Ace Of Spades,205006653,False,21.3,0,21.3,169.1,698.5
+West Way,205006655,False,15.9,0,15.9,168.5,1142.1
+Lower Glade,205006656,False,18.6,1,18.6,52.9,194.2
+Upper Slingshot,205006658,False,13.8,0,13.8,56.2,284.1
+Upper Liftline,205007350,False,30.3,0,30.3,121.3,268.4
+Round-A-Bout,205007351,False,10.0,0,10.0,53.3,680.4
+Glider,205007352,False,18.3,0,18.3,56.4,399.6
+Lower Exhibition,205007353,False,27.1,0,27.1,53.0,116.1
+Upper Fox,205007354,False,24.5,0,24.5,51.4,141.4
+Cutter,205007355,False,28.4,0,28.4,78.7,195.8
+Upper Exhibition,205007356,False,29.5,0,29.5,101.8,236.8
+Whitetail,205007357,False,29.1,0,29.1,285.1,799.7
+Wild Turkey,205007358,False,26.6,0,26.6,194.3,571.1
+Upper Whirlaway,205007359,False,28.4,0,28.4,127.6,350.1
+360,205007360,False,19.7,0,19.7,73.4,246.9
+Lower Slingshot,205007361,False,15.3,0,15.3,125.6,604.0
+Easy Does It,205007362,False,14.5,0,14.5,65.1,417.9
+Riptide,205007363,False,21.5,0,21.5,53.7,160.3
+Exhibition East,205007364,False,19.7,0,19.7,95.7,391.6
+180,205007365,False,12.5,0,12.5,47.6,270.1
+Deer Run,205007366,False,18.4,0,18.4,52.0,207.3
+Catacombs,205007367,False,20.6,0,20.6,115.0,461.5
+Willie's Gulch,205007368,False,16.7,0,16.7,81.0,341.3
+Lower Fox,205007369,False,21.1,0,21.1,79.7,306.3
+Bear Crossing,205007370,False,23.0,0,23.0,49.9,171.1
+Merry Go Round,205007371,False,8.0,0,8.0,15.7,213.5
+Merry Go Round_0,205007372,False,11.5,0,11.5,41.2,478.8
+Racoon's Den,205007373,False,14.2,0,14.2,56.5,298.2
+Jericho,205007374,False,30.0,0,30.0,269.5,712.9
+Grouse Run,205007447,False,11.9,0,11.9,58.5,468.6
+Outback,205007448,False,11.6,0,11.6,70.4,653.3
+Panorama,205007449,False,19.0,0,19.0,133.9,739.1
+Azalea Path,205007450,False,14.4,0,14.4,33.6,212.3
+Out To Sea,205007451,False,18.6,0,18.6,61.1,324.2
+Noreaster,205007452,False,24.9,0,24.9,125.3,410.6
+Hot Wheels Glade,205007453,False,12.7,1,12.7,57.0,297.5
+Left Bank,205007454,False,15.8,0,15.8,296.6,1920.0
+Scooter,205007455,False,11.0,0,11.0,19.7,185.8
+Winding Brook,205007456,False,11.7,0,11.7,63.5,364.7
+To 180,205092189,False,10.0,0,10.0,12.2,100.5

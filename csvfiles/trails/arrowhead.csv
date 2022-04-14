@@ -1,0 +1,11 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Upper Lion Tamer,564151653,False,16.8,0,16.8,67.7,335.9
+Chute,564151655,False,16.1,0,16.1,19.8,76.6
+Rotary Run,564151658,False,18.0,0,18.0,38.8,214.0
+Lower Lion Tamer,564151660,False,18.0,0,18.0,45.7,270.1
+Wheelock’s Run,564151662,False,23.8,0,23.8,59.8,150.2
+Bow,564151665,False,28.2,0,28.2,92.9,661.3
+Upper Face,564151667,False,19.9,0,19.9,15.1,213.5
+Lower Face,564151669,False,32.0,0,32.0,75.4,147.6
+Main Slope,564151671,False,16.8,0,16.8,47.8,261.9
+Ant Hill Terrain Park,564151673,False,16.0,0,16.0,27.7,135.3

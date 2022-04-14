@@ -1,0 +1,8 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Ober Chute,199913849,False,18.3,0,18.3,50.9,213.7
+Upper Bear,199913850,False,17.7,0,17.7,56.9,225.0
+Cub Way,199913851,False,9.1,0,9.1,24.2,216.5
+Lower Bear,199913852,False,11.6,0,11.6,52.4,378.4
+Mogul Ridge,199913853,False,28.3,0,28.3,52.5,110.9
+Castle Run,199913854,False,17.6,0,17.6,31.9,104.2
+Grizzly,199913855,False,19.2,0,19.2,95.7,357.7

@@ -1,3 +1,4 @@
+/*
 DROP TABLE IF EXISTS Mountains;
 
 CREATE TABLE "Mountains" (
@@ -13,7 +14,7 @@ CREATE TABLE "Mountains" (
 	"beginner_friendliness"	REAL NOT NULL,
 	PRIMARY KEY("mountainid" AUTOINCREMENT)
 );
-
+*/
 
 DROP TABLE IF EXISTS Trails;
 

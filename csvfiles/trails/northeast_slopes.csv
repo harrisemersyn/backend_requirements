@@ -1,0 +1,18 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Sugar House,976088670,False,23.0,0,23.0,46.8,179.8
+Lower Powerline,976088671,False,21.7,0,21.7,47.1,189.6
+Upper Powerline,976088672,False,16.9,0,16.9,54.1,258.0
+Jug Handle,976088673,False,11.1,0,11.1,17.1,151.3
+Northside,976088674,False,18.5,0,18.5,103.1,425.9
+Holland's Tunnel,976088675,False,15.7,0,15.7,31.3,295.9
+Sunny Side,976088676,False,17.1,0,17.1,33.3,202.5
+Waterfall,976088677,False,19.3,0,19.3,25.5,98.6
+Main Slope,976088678,False,19.7,0,19.7,69.6,275.6
+The Face,976088679,False,23.0,0,23.0,42.9,233.7
+New Face,976088680,False,24.6,0,24.6,33.6,140.7
+Easy Street,976088681,False,11.8,0,11.8,16.2,88.7
+ _0,976088682,False,1.0,0,1.0,0.5,57.6
+ _1,976088683,False,1.8,0,1.8,0.9,73.5
+ _2,976088684,False,3.3,0,3.3,0.8,57.0
+Porcupine Wood,976088694,False,14.2,0,14.2,16.4,82.4
+Rabbit Patch,976088707,True,14.4,1,14.4,12.6,52.2

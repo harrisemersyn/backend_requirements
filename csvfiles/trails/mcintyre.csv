@@ -1,0 +1,10 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Trail 1,361566420,False,11.9,0,11.9,44.8,318.6
+Carpet Slope,361566421,False,7.4,0,7.4,6.0,76.1
+Trail 2,361566422,False,12.8,0,12.8,44.3,297.3
+Trail 3,361566423,False,12.9,0,12.9,45.2,361.0
+The Bowl,361566424,False,14.7,0,14.7,12.6,94.0
+Trail .5,361566425,False,10.4,0,10.4,16.3,110.3
+Lower Crossover,361566802,False,5.9,0,5.9,4.8,49.6
+Liftline Trail,361566804,False,12.9,0,12.9,21.9,110.2
+Upper Crossover,1002164951,False,1.8,0,1.8,0.9,36.7

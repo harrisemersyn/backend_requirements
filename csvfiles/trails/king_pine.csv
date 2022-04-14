@@ -1,0 +1,18 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+East Slope,260169653,False,13.6,0,13.6,32.4,206.8
+Pine Spills,260169654,False,10.9,0,10.9,31.3,191.9
+Pine Slalom,260169656,False,25.0,0,25.0,48.7,180.9
+Pokey Pine,260169657,False,15.1,0,15.1,72.8,683.0
+Crooked Pine,260169658,False,14.8,0,14.8,55.5,485.9
+Knotty Pine,260169659,False,10.2,0,10.2,52.0,403.2
+Scotch Pine,260169660,False,10.9,0,10.9,74.7,616.9
+Pine Cone,260169661,False,18.3,0,18.3,60.7,311.3
+Pine Brule,260169662,False,30.5,0,30.5,97.6,294.3
+Pine Board,260169663,False,15.0,0,15.0,49.3,325.9
+King Pine,260169664,False,19.8,0,19.8,66.1,417.6
+Jack Pine,260169665,False,27.5,0,27.5,91.6,329.9
+White Pine,260169666,False,23.1,0,23.1,93.3,457.1
+West Slope,260169667,False,15.0,0,15.0,29.9,198.4
+Red Pine,260169668,False,16.6,0,16.6,60.0,320.8
+Slow Pokey Pine,260169669,False,10.6,0,10.6,66.5,650.2
+Pitch Pine,260169670,False,30.9,0,30.9,98.7,337.4

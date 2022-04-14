@@ -1,0 +1,31 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Wissahickon,208860038,False,21.9,0,21.9,158.3,757.3
+Lenape,208860039,False,19.7,0,19.7,184.0,981.0
+Kickapoo,208860040,False,23.9,0,23.9,141.0,739.3
+Iroquois,208860041,False,24.9,0,24.9,101.3,309.7
+Beginner's Slope,208860042,False,10.7,0,10.7,16.1,156.2
+East Slope,208860043,False,19.4,0,19.4,91.1,486.8
+Stomping Grounds Terrain Park,208860044,False,11.3,0,11.3,22.5,124.0
+Mohawk,208860045,False,27.5,0,27.5,143.2,552.1
+Lackawanna Spur,208860047,False,18.0,0,18.0,46.5,178.1
+Lackawanna,208860048,False,24.7,0,24.7,134.7,385.2
+Little Foot Terrain Park,208860049,False,13.0,0,13.0,24.2,146.6
+Lehigh,208860050,False,18.8,0,18.8,188.5,1855.5
+West Slope,208860051,False,17.5,0,17.5,88.7,465.2
+Tioga,208860052,False,19.3,0,19.3,143.1,929.6
+Snow Bowl,208860053,False,15.0,0,15.0,31.2,170.0
+Tunkhannock,208860055,False,24.3,0,24.3,127.6,352.0
+Mahican,208860056,False,13.3,0,13.3,81.0,606.7
+Hiawatha,208860057,False,8.7,0,8.7,18.1,259.4
+Chippewa,208860058,False,25.1,0,25.1,164.6,627.0
+Lower Tunkhannock,208860059,False,19.7,0,19.7,120.7,537.8
+Slalom,208860060,False,23.7,0,23.7,181.8,602.8
+Schuylkill,208860061,False,12.9,0,12.9,41.7,338.2
+Tioga Spur,208860062,False,19.0,0,19.0,78.4,283.4
+Tuscarora,208860063,False,23.1,0,23.1,217.3,822.4
+Seneca,208860064,False,23.4,0,23.4,147.5,460.0
+Delaware,208860065,False,20.1,0,20.1,229.4,1321.6
+Wyalusing,208860066,False,22.4,0,22.4,183.7,701.8
+Tecumseh,208860067,False,25.2,0,25.2,121.6,418.2
+Susquehanna,208860068,False,24.0,0,24.0,154.6,453.2
+Delaware Chute,209386339,False,12.9,0,12.9,33.5,181.3

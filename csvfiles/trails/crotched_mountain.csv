@@ -1,0 +1,30 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Launch Pad,260175540,False,10.5,0,10.5,11.7,99.8
+Pluto's Plunge,360385717,False,22.7,0,22.7,141.0,402.4
+Moon Walk,360385804,False,16.5,0,16.5,107.4,621.4
+Milky Way,360386131,False,16.6,0,16.6,50.6,304.7
+Meteor (FIS Trail),360386396,False,20.8,0,20.8,167.0,656.2
+UFO,360386476,False,23.3,0,23.3,49.2,148.7
+Equinox,360386783,False,19.5,0,19.5,46.8,156.0
+Eclipse,360386829,False,19.5,0,19.5,50.1,263.9
+Retro,360386837,False,12.2,0,12.2,9.9,153.0
+Satellite Summit,360387653,False,21.3,0,21.3,98.3,327.4
+Jupiter's Storm,360387654,False,26.1,0,26.1,107.3,492.3
+Cosmic Blast,360387655,False,14.9,0,14.9,27.0,130.7
+NCC-1701,360387755,False,10.9,0,10.9,47.4,330.0
+Galaxy,360387756,False,12.5,0,12.5,114.5,888.5
+Super Nova,360389369,False,11.4,0,11.4,99.6,950.7
+Velocity,360389370,False,21.4,0,21.4,103.4,471.3
+Shooting Star,360389371,False,17.0,0,17.0,111.0,719.4
+Big Dipper,360389372,False,18.5,0,18.5,75.1,312.2
+Magnitude,360389373,False,21.0,0,21.0,103.0,391.4
+CM Park,360389374,False,17.4,0,17.4,62.3,268.1
+Comet Drop,360389701,False,19.6,0,19.6,93.3,433.0
+Comet,360389705,False,19.6,0,19.6,45.3,289.2
+Re-Entry,360389708,False,11.6,0,11.6,32.2,228.0
+Zero-G Progression Park,360390345,False,21.2,0,21.2,47.4,283.0
+Satellite Summit_0,360391155,True,22.1,0,22.1,90.1,278.5
+Blastoff,547534559,False,24.6,0,24.6,66.4,221.1
+Darkstar Glade,547535228,False,25.9,1,25.9,97.4,312.3
+Final Frontier Glade,547535230,False,16.8,1,16.8,30.8,147.5
+Solstice Glade,547535233,False,16.9,1,16.9,85.9,368.1

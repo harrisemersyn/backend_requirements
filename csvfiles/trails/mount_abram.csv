@@ -1,0 +1,51 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Round a-Bout,251098305,False,17.3,0,17.3,163.2,953.5
+Lower Round-a-Bout,251098306,False,11.9,0,11.9,83.5,811.2
+Upper Rocky's Run,251109596,False,22.5,0,22.5,66.8,226.7
+Snidley Whiplash,251109597,False,23.2,0,23.2,45.1,159.9
+Lower Rocky's Run,251109598,False,32.5,0,32.5,121.9,301.6
+Skyline Drive,266587739,False,9.2,0,9.2,118.6,1165.2
+Egomainieh,266587740,False,15.3,0,15.3,128.3,908.5
+Hay Road,266587741,False,9.4,0,9.4,68.8,589.0
+Frostbite Falls,266587744,False,18.1,0,18.1,32.5,146.3
+Upper Easy Rider,266587746,False,18.3,0,18.3,176.0,1072.3
+Mahoosuc Meadow,266587747,False,13.3,0,13.3,104.0,789.7
+Lower Easy Rider,266587748,False,13.2,0,13.2,80.6,556.5
+Bullwinkle's Horn,266588210,False,15.8,0,15.8,80.2,518.0
+Snake,266588211,False,16.9,0,16.9,80.1,409.4
+Bullwinkle,266588212,False,18.8,0,18.8,108.5,478.5
+Boris Badenov,364026836,False,25.3,0,25.3,226.1,768.6
+Dudley-Do-Right,364026837,False,16.6,0,16.6,111.9,600.3
+Nell's Way,364026838,False,9.3,0,9.3,27.0,237.9
+Pat's Pass,364026839,False,21.6,0,21.6,85.6,358.8
+Peabody's Pass,364026840,False,12.8,0,12.8,40.9,250.0
+Dudley Do-Right,364026841,False,17.3,0,17.3,47.8,245.6
+Polka Dot,474414792,False,9.2,0,9.2,20.9,164.0
+Natasha's,474414793,False,12.6,0,12.6,26.8,223.4
+Gidney's Gulch,474414794,False,15.9,0,15.9,58.0,541.5
+Taylor's Treat,474414795,False,9.3,0,9.3,17.3,160.8
+Maybelle's Tail,474414796,False,16.0,0,16.0,41.2,197.9
+Cross Street,474414797,False,9.7,0,9.7,9.9,171.8
+Wilk's Way,474414798,False,10.7,0,10.7,6.7,119.0
+Upper Wassomatta U,474414799,False,22.4,0,22.4,93.9,343.3
+Lower Wassomatta U,474414800,False,21.2,0,21.2,127.7,521.0
+Presto,474414802,False,10.7,0,10.7,25.3,161.5
+Sherman's Pass,474414803,False,12.1,0,12.1,13.7,133.3
+The RAT,474414804,False,16.3,0,16.3,16.5,161.9
+Chicken Chute,474414806,False,19.6,0,19.6,68.2,265.0
+Lower Zephyr's,474414807,False,29.3,0,29.3,37.0,83.5
+Zephyr's Glades,474414808,True,21.3,1,21.3,64.4,216.1
+Snowfields,474414809,False,16.7,0,16.7,26.8,201.9
+Bullwinkle's Other Horn,474414810,False,9.6,0,9.6,16.7,149.5
+Sweeper,474414811,False,14.1,0,14.1,88.0,677.7
+Lallypalooza,474414812,False,20.6,0,20.6,27.2,93.7
+Fearless Leader,474414813,False,23.5,0,23.5,220.1,655.3
+One Today,474414814,False,7.9,0,7.9,22.0,244.6
+Hoppity Hooper,474414815,False,9.6,0,9.6,17.9,206.7
+Arr2 Dee2,474414816,False,25.0,0,25.0,115.4,341.0
+T-Line,474414817,False,24.4,0,24.4,282.7,923.5
+Lower Fractured Fairy Tails,474414818,False,22.8,0,22.8,216.4,685.6
+Upper Fractured Fairy Tales,474414819,False,24.7,0,24.7,49.8,160.9
+The Cliff,474414820,False,25.0,0,25.0,45.4,161.7
+The Zone (Glades),474414821,True,21.2,1,21.2,59.8,222.8
+Tucker's Tumble (Glades),474414822,True,31.4,1,31.4,181.8,470.7

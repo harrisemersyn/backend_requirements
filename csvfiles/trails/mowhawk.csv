@@ -1,0 +1,19 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Timber,256997508,False,26.6,0,26.6,126.1,612.6
+Chute,256998046,False,18.1,0,18.1,85.5,396.8
+The Rapids,256998354,False,15.8,0,15.8,42.6,276.7
+Lift Line,256998433,False,11.9,0,11.9,41.4,273.4
+Wildwood,256999023,False,25.8,0,25.8,118.2,497.6
+Cut Back,257000700,False,5.1,0,5.1,4.6,51.5
+Rabbit Run,257000701,False,10.4,0,10.4,13.3,101.6
+Arrow Head,257001465,False,17.0,0,17.0,118.8,528.9
+Exhibition,257001684,False,19.9,0,19.9,53.5,260.5
+Mohawk,257002626,False,19.6,0,19.6,118.3,491.4
+Lower Mohawk,257002688,False,9.7,0,9.7,22.8,194.0
+Route 100,257005433,False,18.9,0,18.9,136.1,586.7
+Pinnacle,257005590,False,17.1,0,17.1,55.8,236.7
+Ledges,257005591,False,15.0,0,15.0,55.1,288.0
+Deer Run,257005676,False,15.9,0,15.9,58.3,474.6
+Victor's Way,257005708,False,14.6,0,14.6,49.8,236.6
+Laurel,257005727,False,14.2,0,14.2,37.5,243.1
+Pine,257005761,False,14.2,0,14.2,105.3,582.0

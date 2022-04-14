@@ -1,0 +1,145 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+U. Poleline,137782312,False,21.9,0,21.9,135.1,566.5
+U. Whiffletree,137782313,False,17.0,0,17.0,31.2,152.2
+Skybound,137782315,False,13.4,0,13.4,57.1,381.0
+Jill Poke,137782317,False,26.1,0,26.1,89.9,362.5
+Condo X-Cut,137782320,False,17.4,0,17.4,110.5,1350.3
+Lombard X-Cut,137782325,False,20.0,0,20.0,118.8,767.0
+L. Springboard,137782331,False,16.5,0,16.5,131.6,701.1
+L. Buckboard,137782332,False,10.6,0,10.6,76.9,568.5
+L. Whiffletree,137782335,False,16.1,0,16.1,159.4,907.1
+U. Whiffletree_0,137782337,False,18.8,0,18.8,114.6,457.3
+Rollway,137782339,False,17.4,0,17.4,46.3,252.1
+U. Buckboard,137782342,False,21.7,0,21.7,231.0,1159.7
+L. Poleline,137782345,False,15.4,0,15.4,153.2,876.2
+L. Cruiser,137782349,False,14.2,0,14.2,72.5,355.1
+L. Winter's Way,137782838,False,14.3,0,14.3,141.3,720.4
+Pipeline,137782843,False,18.0,0,18.0,100.4,470.3
+U. Skidder,137918272,False,28.7,0,28.7,316.2,854.4
+Hayburnder,137918273,False,27.9,0,27.9,277.7,725.8
+King's Landing,137918274,False,28.1,0,28.1,248.7,667.9
+U. Gondola Line,140628516,False,32.2,0,32.2,203.2,407.7
+Ripsaw,140628518,False,30.5,0,30.5,300.4,866.7
+Choker,140628519,False,28.4,0,28.4,169.1,434.9
+Widowmaker,140628520,False,26.3,0,26.3,200.4,660.4
+Gondola Line,140628522,False,27.6,0,27.6,187.2,471.8
+Tohaul,140628523,False,17.2,0,17.2,85.1,501.9
+Gondola Line Extension,140628526,False,28.4,0,28.4,94.9,222.9
+Flume,140628527,False,32.2,0,32.2,70.7,169.6
+Haul Back,140628528,False,28.2,0,28.2,324.8,920.4
+White Nitro Extension,140628530,False,32.1,0,32.1,128.9,341.0
+Narrow Gauge Extension,141016707,False,19.5,0,19.5,99.1,476.3
+U. Bubblecuffer,141016709,False,31.7,0,31.7,200.2,427.7
+Winter's Way Extension,141016710,False,29.5,0,29.5,58.8,135.9
+Spillway X-Cut,141016711,False,24.8,0,24.8,100.1,681.8
+White Nitro,141016712,False,33.7,0,33.7,130.8,257.5
+U. Timberline,141016714,False,16.3,0,16.3,287.9,1491.0
+Upper Winter's Way,141016718,False,31.7,0,31.7,277.9,626.0
+L. Narrow Gauge,141016721,False,17.3,0,17.3,154.6,755.5
+Narrow Gauge,141016723,False,22.4,0,22.4,116.5,392.5
+U. Narrow Gauge,141016726,False,32.1,0,32.1,314.1,912.3
+Sluice,141016727,False,26.6,0,26.6,306.5,814.7
+Misery Whip,141016730,False,27.6,0,27.6,188.9,517.8
+West Sluice Chute,198538774,False,19.7,0,19.7,23.0,67.5
+Sluice Headwall,198538775,False,29.7,0,29.7,99.7,227.4
+Ramdown,198538776,False,23.8,0,23.8,236.4,697.2
+L. Boomauger,198538777,False,20.8,0,20.8,104.2,347.8
+Upper Boomauger,198538778,False,31.3,0,31.3,136.9,332.4
+Double Bitter,198538779,False,25.5,0,25.5,171.6,518.9
+Sluice Chute,198538780,False,28.0,0,28.0,67.3,149.6
+Haywire,198538959,False,22.5,0,22.5,158.1,722.2
+The Landing,198538960,False,14.9,0,14.9,58.7,399.5
+Upper West Mountain,198538961,False,21.2,0,21.2,224.8,927.7
+Horseshoe,198538962,False,17.5,0,17.5,91.8,475.1
+Boardwalk,198538963,False,15.0,0,15.0,182.7,917.8
+Candy Side,198538964,False,17.6,0,17.6,173.8,891.2
+Good Chance X-Cut,198538965,False,12.0,0,12.0,54.8,336.1
+Sidewinder,198538966,False,19.0,0,19.0,119.5,561.2
+Horseshoe_1,198538967,False,19.7,0,19.7,60.8,400.8
+Lower West Mountain,198538968,False,15.3,0,15.3,161.7,1176.5
+Slasher,198539210,False,17.3,0,17.3,107.2,673.2
+Snowbrook,198539212,False,8.8,0,8.8,58.8,967.4
+Birches Slope,198539213,False,7.2,0,7.2,59.1,667.3
+Cribworks,198546014,False,29.7,0,29.7,68.7,133.0
+L. Competition Hill,198546015,False,24.2,0,24.2,109.4,356.4
+U. Stub's Trail,198546016,False,18.4,0,18.4,123.4,856.1
+Cross Haul,198546017,False,13.9,0,13.9,155.1,1446.6
+Peavy X-Cut,198546018,False,14.2,0,14.2,93.7,868.2
+L. Stub's,198546019,False,13.0,0,13.0,119.5,1223.4
+U. Competition Hill,198546020,False,26.8,0,26.8,189.4,448.7
+L. Timberline,198960322,False,16.0,0,16.0,63.0,384.0
+Stomping Ground,198960323,False,22.5,0,22.5,125.8,532.9
+L. Spillway,198960324,False,22.3,0,22.3,124.5,380.0
+U. Spillway,198960325,False,26.8,0,26.8,189.1,475.6
+Tote Road Extension,198960326,False,19.5,0,19.5,95.4,350.2
+L. Tote Road,198960327,False,22.0,0,22.0,282.2,1462.8
+L. Bubblecuffer,198960328,False,27.0,0,27.0,174.8,467.0
+Windrow,198960331,False,17.5,0,17.5,249.5,1244.3
+Tote Road,198960334,False,24.8,0,24.8,341.6,1442.3
+Schipper's Streak,198960335,False,12.9,0,12.9,29.0,184.9
+Wedge,198960336,False,23.1,0,23.1,108.5,321.2
+Picaroon,198960337,False,16.6,0,16.6,33.1,148.9
+Old Winter's Way,198960338,False,24.0,0,24.0,232.0,849.0
+L. Glancer,198960339,False,16.9,0,16.9,124.9,752.2
+U. Glancer,198987680,False,22.9,0,22.9,140.9,496.2
+Gin Pole,198987681,False,12.4,0,12.4,58.2,530.0
+U. Scoot,198987682,False,8.0,0,8.0,14.0,144.9
+M. Scoot,198987683,False,16.6,0,16.6,107.2,543.6
+U. Scoot_2,198987684,False,15.3,0,15.3,16.0,73.6
+L. Scoot,198987685,False,17.3,0,17.3,56.9,368.4
+Pinch,198987686,False,12.2,0,12.2,33.9,254.3
+U. Binder,198987687,False,13.8,0,13.8,31.8,144.9
+Hard Track,198987689,False,24.3,0,24.3,70.2,298.4
+Spurline,198987690,False,21.9,0,21.9,92.7,392.0
+U. Windrow,198987691,False,23.3,0,23.3,109.6,317.7
+Candy Side_3,198987693,False,13.3,0,13.3,81.1,467.5
+L. Binder,198987694,False,29.1,0,29.1,49.7,260.7
+Binder Extension,198987695,False,18.3,0,18.3,100.8,434.0
+Pick Pole,198987696,False,14.9,0,14.9,75.7,907.8
+Pulaski,198987697,False,23.4,0,23.4,95.9,267.6
+Bubblecuffer Extension,198987698,False,29.8,0,29.8,66.8,140.1
+U. Double Bitter,198987699,False,18.0,0,18.0,85.6,401.9
+U. Scoot_4,198987700,False,18.7,0,18.7,74.4,236.9
+Powder Keg,198987701,False,32.5,0,32.5,150.8,408.2
+Cinder Hoe,198997268,False,20.0,0,20.0,141.8,597.2
+Bucksaw X-Cut,198997269,False,9.4,0,9.4,13.6,103.7
+Bucksaw X-Cut_5,198997270,False,4.5,0,4.5,6.9,194.8
+Mid-Station X-Cut,198997272,False,8.3,0,8.3,27.3,407.9
+Tin Pants,198997273,False,12.8,0,12.8,67.9,352.4
+Moose Alley,198997274,False,11.0,0,11.0,58.4,469.4
+Windrow Extension,198997276,False,9.5,0,9.5,12.9,233.2
+Birch Hook,198997277,False,10.6,0,10.6,26.1,230.9
+High Rigger (Back Side),198997391,False,35.5,0,35.5,127.5,312.7
+Ignitor,198997393,False,32.9,0,32.9,180.0,339.8
+Jagger,198997394,False,30.6,0,30.6,157.3,311.7
+Pure Heat,198997395,False,37.4,0,37.4,149.5,281.3
+Moose Alley_6,263423624,False,1.8,0,1.8,1.0,22.9
+U. Springboard,263423625,False,21.3,0,21.3,121.5,473.9
+U. Cruiser,263423626,False,21.7,0,21.7,132.0,617.0
+Bridle Chain,263423627,False,14.3,0,14.3,54.5,342.4
+Winter's Way Crosscut,263450902,False,20.4,0,20.4,29.6,115.9
+Pinch_7,263450904,False,16.6,0,16.6,15.1,86.8
+U. Glancer_8,263450911,False,5.2,0,5.2,3.1,10.9
+West Mountain Crosscut,263540985,False,11.3,0,11.3,73.0,710.9
+West Mountain Crosscut_9,263540986,False,9.3,0,9.3,65.0,891.8
+[condo access],263540987,False,10.8,0,10.8,21.9,174.9
+Tote Road Crosscut,263540988,False,12.1,0,12.1,39.6,574.1
+U. Binder_10,263862612,False,16.9,0,16.9,198.9,994.2
+Buckskin,263862613,False,19.6,0,19.6,34.1,171.7
+[unnamed],263862614,False,10.9,0,10.9,33.5,489.3
+[unnamed]_11,263862615,False,7.8,0,7.8,25.4,334.7
+Burnt Mountain Sidecountry Area,372778061,True,27.9,0,27.9,577.4,2644.1
+Back Cut,688938480,False,14.1,0,14.1,93.1,856.0
+Telos Cut,688938481,False,14.9,0,14.9,39.9,306.8
+Brackett Basin Sidecountry Terrain,770748719,True,32.1,0,32.1,498.4,2376.8
+Eastern Territory,770748721,True,20.1,0,20.1,397.8,2476.3
+ _12,961184757,False,7.3,0,7.3,2.0,19.5
+ _13,961298651,False,3.8,0,3.8,3.6,110.6
+Spillway X-Cut_14,961298652,False,20.5,0,20.5,29.4,97.1
+Tohaul_15,961456427,False,20.2,0,20.2,39.9,211.3
+ _16,961456428,False,18.9,0,18.9,102.0,401.9
+Old Winter's Way_17,961456429,False,5.1,0,5.1,5.5,128.9
+Tote Road Crosscut_18,961456430,False,7.7,0,7.7,9.1,175.9
+Sheer Boom,961456431,False,28.8,0,28.8,191.4,494.0
+Spillway X-Cut_19,961456432,False,9.1,0,9.1,27.1,283.7
+ _20,961456433,False,8.5,0,8.5,18.7,170.5

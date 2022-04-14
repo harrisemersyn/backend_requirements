@@ -1,0 +1,18 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Big Acorn,392350659,False,22.8,0,22.8,146.6,458.2
+Cliffhanger,392350660,False,25.7,0,25.7,280.6,1008.1
+Cross Cut,392350661,False,10.4,0,10.4,24.3,179.1
+Devil's Elbow,392350662,False,23.9,0,23.9,114.8,493.4
+Eagles Swoop,392350664,False,20.6,0,20.6,159.7,780.3
+Lower Diamond Hill,392350665,False,10.8,0,10.8,56.4,389.0
+Outer Limits,392350666,False,21.7,0,21.7,168.3,619.0
+Sunrise,392350667,False,20.8,0,20.8,120.1,453.2
+The Gap,392350668,False,15.4,0,15.4,42.7,237.4
+Tyro,392350669,False,14.8,0,14.8,120.7,680.7
+Tyro_2,392350670,False,15.9,0,15.9,40.9,207.8
+Upper Sunrise,392350674,False,24.4,0,24.4,71.0,234.4
+Wild Turkey,392350677,False,23.2,0,23.2,301.7,1072.7
+Hydraulic,747150305,False,8.6,0,8.6,11.2,237.1
+Sunrise Glades,747150306,True,22.6,1,22.6,60.8,190.5
+Potato Patch,747150308,False,8.5,0,8.5,8.0,88.0
+Upper Diamond,747153402,False,13.2,0,13.2,67.3,388.1

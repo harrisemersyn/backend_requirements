@@ -1,0 +1,23 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Ridge Runner,94442148,False,10.6,0,10.6,46.3,372.0
+Far Side,94442156,False,24.8,0,24.8,224.6,772.0
+Exhibition,94442159,False,23.5,0,23.5,217.2,608.4
+Fallmount,94452389,False,9.5,0,9.5,51.9,608.4
+Bold Decision,94452396,False,27.3,0,27.3,205.5,557.2
+Angel Drop,94542570,False,18.0,0,18.0,138.5,461.8
+Jib Junction,94542573,False,18.7,0,18.7,132.9,567.4
+Drop In,94542576,False,22.8,0,22.8,81.5,228.6
+Bob Small's Traverse,94542578,False,10.6,0,10.6,20.1,121.7
+Homerun,94542579,False,20.9,0,20.9,151.0,532.6
+Drop Out,94542582,False,18.4,0,18.4,12.3,70.5
+Fanciful,94543527,False,22.0,0,22.0,268.9,1035.6
+Snow Dancer,94543528,False,24.2,0,24.2,252.9,792.9
+Limelight,94543529,False,20.3,0,20.3,262.2,922.6
+Stalker,94544745,False,17.5,0,17.5,53.9,299.9
+Almost Home,94544746,False,6.5,0,6.5,11.8,132.9
+Park Place,94544747,False,14.1,0,14.1,59.4,292.2
+SnowPark,94544749,False,15.2,0,15.2,153.6,840.5
+Velvet,94544750,False,7.2,0,7.2,25.0,250.5
+Northern Lights,94544752,False,6.3,0,6.3,27.4,307.2
+Sidewinder,494895388,False,11.7,0,11.7,118.4,834.9
+Ledgewood,932930808,False,18.0,0,18.0,74.4,559.0

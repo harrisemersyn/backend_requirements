@@ -1,0 +1,49 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Alpen,181445027,False,10.2,0,10.2,64.7,597.6
+Flintlock,181446805,False,12.5,0,12.5,85.5,731.7
+ _0,181446806,False,11.0,0,11.0,13.2,88.6
+Trigger,181450367,False,11.8,0,11.8,73.5,620.8
+Buckshot,181450465,False,10.8,0,10.8,47.4,324.1
+Sly Fox,181450488,False,11.4,0,11.4,34.4,277.4
+Buckshot Park,181450713,False,9.4,0,9.4,14.1,104.7
+ _1,181450940,False,6.9,0,6.9,8.3,93.9
+Powderkeg,181549081,False,13.5,0,13.5,40.1,219.4
+Reindeer,181549082,False,9.9,0,9.9,22.2,237.9
+Bullet,181549260,False,17.3,0,17.3,26.1,153.0
+Little Horn,181549261,False,14.7,0,14.7,38.9,188.4
+Thunder,181549262,False,26.7,0,26.7,71.2,295.9
+Cannonball,181549263,False,22.6,0,22.6,104.1,436.3
+Big Bird,996488901,False,9.5,0,9.5,50.3,464.7
+Vertical Drop,996488902,False,26.9,0,26.9,37.6,209.6
+Glen's Trail,996488903,False,18.1,0,18.1,22.1,125.0
+Louie's Chute,996488904,False,26.1,0,26.1,56.2,158.2
+Bovidae,996488905,False,16.6,0,16.6,102.2,634.7
+Katie's Catwalk,996488906,False,33.3,0,33.3,58.3,192.1
+Passenthru,996488907,False,13.5,0,13.5,31.5,188.1
+Ricochet,996488908,False,17.4,0,17.4,117.2,691.7
+Dynamite,996488909,False,17.9,0,17.9,60.0,330.8
+Firecracker,996488910,False,10.0,0,10.0,7.0,49.3
+Caribou,996488911,False,21.4,0,21.4,83.6,381.3
+Upper Double Barrel,996488912,False,18.1,0,18.1,28.7,151.7
+Double Barrel,996488913,False,28.2,0,28.2,84.6,381.2
+Double Barrel West,996488914,False,28.0,0,28.0,49.3,168.5
+Upper Smoke,996488915,False,30.2,0,30.2,52.9,288.8
+Lower Smoke,996488916,False,20.7,0,20.7,63.2,253.5
+Bovidae West,996488917,False,12.1,0,12.1,28.0,200.4
+Back Bowl East,996488918,False,11.8,0,11.8,20.8,188.8
+Blunder,996488919,False,28.8,0,28.8,88.9,327.0
+Musket,996488920,False,15.3,0,15.3,77.9,413.2
+Full Choke Chute,996488921,False,9.6,0,9.6,13.4,114.5
+Half Choke Chute,996488922,False,9.5,0,9.5,9.1,113.0
+Crosshair Chute,996488923,False,6.2,0,6.2,6.7,120.4
+Don't Chute,996488924,False,12.8,0,12.8,12.0,108.7
+Recoil Park,996488925,False,8.9,0,8.9,13.3,103.4
+Ramrod,996488926,False,16.9,0,16.9,55.4,336.6
+Tamarou West,996488927,False,19.4,0,19.4,50.0,199.7
+Tamarou East,996488928,False,17.2,0,17.2,51.0,227.7
+Lower Tamarou,996488929,False,10.5,0,10.5,52.3,452.0
+Oxbow,996488930,False,14.6,0,14.6,91.8,691.2
+Shotgun,996488931,False,14.0,0,14.0,82.7,686.4
+Crazy Trail,996488932,False,12.5,0,12.5,53.8,470.8
+Back Bowl East_2,996488933,False,13.5,0,13.5,15.6,213.0
+Learning Area,996490011,False,2.8,0,2.8,2.4,52.6

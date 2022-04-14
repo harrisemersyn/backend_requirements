@@ -1,0 +1,13 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+ _0,392334243,False,8.1,0,8.1,26.4,255.7
+ _1,392334245,False,16.9,0,16.9,22.1,141.2
+Down Under,392334247,False,8.8,0,8.8,14.1,112.9
+Gnarnia,392334248,False,11.0,0,11.0,23.7,235.3
+Hubs Folly,392334250,False,8.6,0,8.6,24.9,272.8
+Hubs Folly_2,392334252,False,13.0,0,13.0,26.2,216.5
+Jack Attack,392334254,False,12.6,0,12.6,15.9,117.5
+Lower Ledges,392334256,False,15.3,0,15.3,19.4,128.6
+Outback,392334259,False,16.4,0,16.4,38.6,312.0
+TNT,392334262,False,16.4,0,16.4,35.2,276.4
+Upper Ledges,392334265,False,9.7,0,9.7,23.7,203.4
+Yellow Jacket,392334268,False,12.7,0,12.7,51.4,412.9

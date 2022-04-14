@@ -1,0 +1,18 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Upper Fitzgerald,358743400,False,13.7,0,13.7,113.9,818.9
+St. John,358743402,False,19.3,0,19.3,173.8,1290.8
+St. Francis,358743415,False,14.3,0,14.3,24.0,99.5
+Lower Kennebec,358743417,False,15.8,0,15.8,110.1,622.0
+Lower Penobscot,358743418,False,14.0,0,14.0,49.9,351.6
+Upper Squaw Brook,358743420,False,12.6,0,12.6,46.9,349.8
+Upper Allagash,582012362,False,15.9,0,15.9,62.9,367.6
+Lower Allagash,582012363,False,20.5,0,20.5,110.0,574.7
+Exterminator,582012365,False,20.2,0,20.2,48.1,175.9
+Chase Rapids,582012366,False,5.3,0,5.3,5.3,70.5
+Rip Gorge,582012367,False,18.2,0,18.2,126.1,618.6
+Carry Brook,730318478,False,5.2,0,5.2,3.8,101.2
+Alley Way,730318479,False,14.9,0,14.9,38.4,232.6
+Lower Roach,730318481,False,16.6,0,16.6,74.6,364.5
+Lower Squaw Brook,730318482,False,12.0,0,12.0,33.3,250.5
+Bog Brook,730318781,False,10.5,0,10.5,79.1,542.6
+Eagle Stream,730318782,False,6.9,0,6.9,6.4,67.6

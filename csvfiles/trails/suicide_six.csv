@@ -1,0 +1,25 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Easy Mile,467206112,False,13.1,0,13.1,177.4,1320.9
+Perley's Peril,467206113,False,20.0,0,20.0,77.3,327.0
+Bourdon's Bowl,467206114,False,15.5,0,15.5,27.2,128.3
+Bunny's Boulevard,467206115,False,19.1,0,19.1,95.7,411.8
+The Glade,467206116,False,21.5,1,21.5,74.8,301.5
+Porcupine,467206117,False,18.9,0,18.9,86.6,338.8
+Skyline,467206118,False,19.8,0,19.8,160.7,742.9
+Jug Handle,467206119,False,20.2,0,20.2,35.5,145.2
+Pomfret Plunge,467206120,False,30.4,0,30.4,66.8,153.3
+Back Scratcher,467206121,False,32.3,0,32.3,77.2,202.3
+Show Off,467206122,False,30.8,0,30.8,172.9,523.0
+The Chute,467206123,False,22.0,0,22.0,51.4,184.5
+The Face,467207417,False,26.2,0,26.2,172.2,626.6
+Mid-Face,467207419,False,29.4,0,29.4,108.4,290.7
+Crystal,467207421,False,22.9,0,22.9,124.9,473.0
+The Gully,467210663,False,17.8,0,17.8,65.8,366.4
+Laskey Lot,467210664,False,15.0,0,15.0,109.2,570.4
+Backdoor,467210665,False,15.6,0,15.6,18.8,102.7
+Milky Way,467210666,False,15.9,0,15.9,94.0,615.1
+Bee Line,467210667,False,16.2,0,16.2,86.7,462.6
+Chimney,467210669,False,16.6,0,16.6,53.6,257.4
+Double Dip,467210672,False,17.6,0,17.6,84.2,441.9
+Standard,467210675,False,15.0,0,15.0,40.0,186.3
+Pearson's Path,467210677,False,12.7,0,12.7,14.4,110.4

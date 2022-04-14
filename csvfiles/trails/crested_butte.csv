@@ -1,0 +1,266 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Yellow Brick Road,208447133,False,23.0,0,23.0,122.6,1367.4
+Gunsight Pass Road,227367374,False,12.0,0,12.0,159.9,1703.8
+Houston Access,227367375,False,12.2,0,12.2,14.0,102.7
+ _0,227379570,False,9.6,0,9.6,16.3,330.1
+Paradise Access,377783943,False,19.1,0,19.1,77.8,395.5
+High Tide,377783944,False,12.7,0,12.7,51.6,363.7
+Splains Gulch,377783946,False,15.7,0,15.7,93.2,626.3
+Tulsa,377783950,False,20.4,0,20.4,83.4,414.7
+Rustler's Gulch,377783952,False,17.8,0,17.8,53.3,380.9
+Exit To Black Eagle,377783957,False,18.9,1,18.9,74.6,996.2
+Bear,377783966,False,18.4,0,18.4,47.3,220.3
+Mach 1,377783968,False,26.4,0,26.4,45.0,95.5
+Upper Park,377783970,False,22.8,0,22.8,108.8,468.9
+Meander,377783975,False,20.4,0,20.4,58.4,338.7
+Bakery Trees,377783977,False,32.7,1,32.7,233.6,720.5
+Big Al's,377783979,False,18.3,0,18.3,53.3,351.5
+Black Eagle,377783980,False,24.6,0,24.6,289.1,1412.2
+Buckley,377783982,False,21.2,0,21.2,138.8,569.0
+Bushwacker,377783984,False,22.9,0,22.9,195.1,1017.5
+Cascade,377783985,False,21.5,0,21.5,149.5,644.3
+Daisy,377783986,False,16.6,0,16.6,72.1,657.3
+Deer Pass,377783988,False,17.1,0,17.1,77.3,393.7
+Double Top Glades,377783989,False,36.3,1,36.3,178.5,606.6
+Elko Park,377783990,False,17.6,0,17.6,161.5,944.7
+Fallaway,377783991,False,22.1,0,22.1,65.1,355.7
+Floresta,377783992,False,21.2,0,21.2,99.8,438.8
+Upper Forest Queen,377783993,False,26.9,0,26.9,115.8,354.6
+Middle Gallowich,377783994,False,23.2,0,23.2,109.4,354.2
+Upper Gallowich,377783995,False,15.5,0,15.5,81.0,460.7
+Gully Glades,377783996,False,25.4,1,25.4,128.8,408.7
+Gus' Way,377783998,False,17.8,0,17.8,101.3,717.4
+Bubba's Shortcut,377783999,False,8.3,0,8.3,20.7,310.4
+Jokerville,377784001,False,29.4,0,29.4,130.3,301.6
+Lower Keystone,377784003,False,19.8,0,19.8,152.9,865.7
+Kubler,377784004,False,12.5,0,12.5,52.8,533.2
+Little Queen,377784005,False,7.3,0,7.3,15.8,261.2
+Lower Treasury,377784006,False,21.3,0,21.3,253.5,1032.1
+Lower Twister,377784007,False,20.0,0,20.0,226.6,1268.5
+Middle Twister,377784008,False,14.1,0,14.1,44.1,272.8
+Mineral Point,377784009,False,17.4,0,17.4,122.9,684.4
+North Pass,377784010,False,24.4,0,24.4,157.9,881.7
+Panion's Run,377784011,False,22.4,0,22.4,134.8,569.8
+Paradise Bowl,377784012,False,21.6,0,21.6,114.5,479.9
+Peanut,377784013,False,13.3,0,13.3,63.8,649.5
+Pinball,377784014,False,34.4,0,34.4,94.3,314.9
+Poverty Gulch,377784015,False,17.2,0,17.2,96.2,620.9
+Prospector,377784018,False,19.7,0,19.7,154.0,685.2
+Rambo,377784019,False,44.0,0,44.0,122.9,307.6
+Resurrection,377784020,False,28.0,0,28.0,232.5,734.9
+Roller Coaster,377784021,False,17.4,0,17.4,99.2,585.8
+Upper Ruby Chief,377784022,False,29.3,0,29.3,129.9,495.5
+Upper Smith Hill,377784023,False,21.5,0,21.5,100.5,586.0
+Sylvanite,377784024,False,27.6,0,27.6,163.4,770.9
+Twin Bridges,377784026,False,12.5,0,12.5,108.5,950.7
+Upper Treasury,377784031,False,19.5,0,19.5,97.3,446.0
+Paradise Bowl_1,377784032,False,15.5,0,15.5,18.4,161.2
+Silver Queen Road,377784035,False,16.7,0,16.7,101.8,917.4
+Ruby Road,377784039,False,16.8,0,16.8,143.9,1691.6
+Aspen Park Road,377784042,False,14.8,0,14.8,90.2,1133.8
+Headwall Upper Triangle,543411484,True,37.7,0,37.7,97.0,226.1
+Powder 8 Gully,543411485,True,46.2,0,46.2,112.5,182.6
+Headwall Glades,543411486,True,41.4,1,41.4,117.4,241.6
+Headwall,543411487,True,43.9,0,43.9,149.9,257.8
+Halfpipe Gully,543537467,True,31.1,0,31.1,84.6,182.2
+Sunny Glade,543537468,True,34.5,1,34.5,39.3,87.8
+Figure 11 Chutes,543537469,False,31.3,0,31.3,87.4,228.0
+Big Chute,543537470,False,42.7,0,42.7,129.7,220.6
+Paradise Cliffs,543537471,True,27.3,0,27.3,81.0,177.9
+Headwall East Side,543549013,True,44.6,0,44.6,117.6,233.7
+Spellbound Bowl,543549014,True,39.0,0,39.0,110.1,182.1
+Spellbound Glades,543549016,True,38.2,1,38.2,100.3,150.0
+Lookout,543549019,True,44.0,0,44.0,88.6,125.7
+Moosehead,543549020,True,43.8,0,43.8,87.5,143.9
+Phoenix Bowl,543549021,True,39.2,0,39.2,158.0,247.2
+Phoenix Steps,543549023,True,41.6,0,41.6,220.6,464.0
+Phoenix Last Steep,543549024,True,41.7,0,41.7,73.3,131.0
+Staircase,543550698,False,45.6,0,45.6,181.5,260.0
+Leaning Tree Chutes,543550699,False,50.9,0,50.9,100.8,122.3
+Dead End Chutes,543550701,False,48.5,0,48.5,130.4,154.6
+Body Bag Glades,543550702,False,46.4,1,46.4,119.1,153.8
+High Life,543550704,True,47.3,0,47.3,131.4,184.5
+Sunsteps,543550706,True,34.0,0,34.0,73.2,145.2
+Rock And Roll Glades,543550708,True,39.5,1,39.5,68.9,111.4
+Peel,544676847,True,35.5,0,35.5,142.3,274.4
+Wind Tower,544676849,True,37.3,0,37.3,58.5,118.8
+Twister,544676850,False,27.7,0,27.7,198.7,491.9
+Crystal,544676851,False,29.4,0,29.4,211.2,532.4
+Upper International,544676852,False,30.7,0,30.7,244.8,781.8
+Little Lizzy,544676853,False,18.3,0,18.3,68.8,348.7
+Rachel's,546198864,True,35.6,0,35.6,138.2,368.7
+Tower 11 Chutes,546198865,True,43.4,0,43.4,126.3,210.0
+Tower 10 Glades,546198866,True,30.0,1,30.0,73.5,160.0
+Drop Off,546198867,True,29.7,0,29.7,19.6,33.3
+Paradise Lift Glade,546198868,True,30.1,1,30.1,90.2,187.2
+Powder Rock Glade,546199424,True,33.0,1,33.0,54.5,109.7
+Stevie's,546199425,True,31.7,0,31.7,64.8,132.9
+Honey Pie,546199426,True,26.2,0,26.2,50.7,125.1
+Quick's,546199427,True,18.5,0,18.5,29.7,100.4
+Hard Slab,546200209,True,30.2,0,30.2,110.8,329.9
+Hawk's Nest,546200210,True,38.2,0,38.2,160.4,261.7
+Old Pro,546200211,True,27.6,0,27.6,68.1,148.6
+Last Steep,546200212,True,42.5,0,42.5,80.4,164.9
+To Black Eagle,546201147,False,8.8,0,8.8,22.8,314.9
+Buck's Traverse,546201148,False,12.3,0,12.3,22.2,304.8
+Sock it To Me,546201240,True,50.7,0,50.7,94.8,150.5
+Cesspool,546201241,True,46.6,0,46.6,95.0,128.2
+Phaser,546201647,True,42.7,0,42.7,105.6,142.6
+Keyhole,546201648,True,37.8,0,37.8,67.3,108.7
+Tunnel,546201649,True,23.8,0,23.8,26.3,77.2
+Slipper,546201984,True,32.5,0,32.5,34.2,71.2
+North Face Cliffs,546202641,True,27.7,0,27.7,29.2,109.5
+High Notch,546202642,False,33.9,0,33.9,48.9,204.4
+Notch Traverse,546202853,False,29.6,0,29.6,37.4,128.5
+Last Stash,546202854,True,27.4,0,27.4,39.6,85.4
+Town Park,546203784,True,17.8,0,17.8,27.9,106.5
+Teo Tongue,546203787,True,31.0,0,31.0,142.5,370.1
+Morning Glory,546203790,True,37.1,0,37.1,75.4,131.6
+Uecker Glades,546203793,True,34.1,1,34.1,62.5,101.3
+Main Street,546203795,True,40.1,0,40.1,61.4,89.3
+Peach Pit,546203798,True,30.1,0,30.1,34.6,83.6
+Coffey Grounds,546204005,True,30.3,0,30.3,55.1,101.2
+Duey's,546204006,True,38.4,0,38.4,58.3,82.8
+Jack in the Box Glades,546204007,True,34.4,1,34.4,67.8,135.1
+Liars Bench,546204605,True,30.5,0,30.5,36.2,97.7
+Solar Glaze,546204606,True,30.1,0,30.1,42.3,89.8
+Morning Woods,546204607,True,31.0,0,31.0,81.3,174.5
+Exit To Paradise,546204910,False,19.2,0,19.2,108.0,887.7
+Wolf's Lair,546204936,True,31.9,0,31.9,75.2,160.9
+Picture Perfect Glades,546206088,True,25.3,1,25.3,43.5,131.4
+Slot,546206089,True,37.8,0,37.8,42.2,77.7
+Slot Rocks,546206090,True,42.2,0,42.2,93.8,134.0
+Dead Bob's Chutes,546206091,False,44.9,0,44.9,130.7,175.5
+Disgusting Trees,546206336,True,50.0,0,50.0,106.8,187.8
+Flatiron,546208489,True,38.1,0,38.1,117.8,177.7
+Banana,546208490,False,39.3,0,39.3,301.1,548.8
+Chiquita,546208491,False,40.5,0,40.5,98.1,160.4
+Sunset Ridge,546209126,False,35.6,0,35.6,99.4,156.1
+Funnel,546209127,False,46.9,0,46.9,240.0,341.8
+Banana Glades,546209128,True,37.3,1,37.3,143.7,231.9
+Total Recall,546209129,True,42.1,0,42.1,133.2,188.4
+Pygmy Spear Garden,546209130,True,30.6,0,30.6,92.7,201.6
+Flatiron Glades,546209131,True,36.8,1,36.8,177.3,258.5
+Lower Peel,546349120,False,33.4,0,33.4,101.3,190.1
+Tropicana,546349121,True,46.9,0,46.9,112.9,162.1
+Hidden Chutes,546349122,True,47.2,0,47.2,145.3,193.8
+Hall of Fame,546349123,True,40.2,0,40.2,115.7,151.0
+Whatever,546350279,True,27.4,0,27.4,49.2,104.3
+Ghost Rider,546350280,True,38.0,0,38.0,85.2,143.9
+Down And Out,546350281,True,31.4,0,31.4,92.4,260.0
+Outta Sight,546350864,True,36.5,0,36.5,67.9,114.5
+Marley's Glades,546350865,True,46.7,1,46.7,123.1,166.7
+Horseshoe,546362085,True,30.9,0,30.9,78.9,199.5
+Rosebush Glades,546362087,True,27.5,1,27.5,79.2,232.5
+Git Some Glades,546367940,False,28.8,1,28.8,155.4,422.7
+Closed Area,546367941,True,48.0,0,48.0,150.9,250.3
+Main Third Bowl,546367942,True,40.0,0,40.0,136.5,202.6
+Smuggler's Knob,546367943,True,37.9,0,37.9,41.1,71.2
+Lower Parachute,546367944,True,47.5,0,47.5,98.8,143.1
+Upper Parachute,546367945,True,38.8,0,38.8,78.8,112.3
+Close Call,546367946,True,29.0,0,29.0,45.8,88.9
+Solar Plexus,546367947,True,39.7,0,39.7,99.6,151.4
+High Exit,546367948,True,47.2,0,47.2,56.1,74.3
+Magic Carpet,546367949,True,41.5,0,41.5,64.9,96.7
+Solar Junkyard,546367950,True,42.9,0,42.9,82.9,125.6
+Westwall,546369751,True,30.3,0,30.3,57.5,127.3
+Peoria,546369752,False,33.4,0,33.4,108.4,397.4
+Horseshoe Springs,546370917,True,30.4,0,30.4,103.9,246.2
+Eflin's Way,546370918,False,22.2,0,22.2,48.5,185.9
+Painter Boy,546370919,False,14.3,0,14.3,83.8,514.0
+Ski and Ride School,546372566,True,4.7,0,4.7,3.1,39.5
+ _2,546374028,False,26.5,0,26.5,112.0,489.2
+Old Lift Line,546374030,False,32.2,0,32.2,160.9,420.7
+Upper Championship,546374031,False,29.7,0,29.7,68.8,162.1
+Warming House Hill,546375316,False,14.7,0,14.7,53.8,335.9
+Avery,546377586,False,21.0,0,21.0,42.1,187.4
+Belleview,546377587,False,19.2,0,19.2,45.4,157.4
+ _4,546377588,False,21.0,0,21.0,15.5,43.3
+Glades Access,546377589,False,19.5,1,19.5,73.9,276.9
+ _5,546377590,False,15.1,0,15.1,24.6,168.8
+Spellbound Traverse Trail,546377591,False,39.6,0,39.6,50.9,337.0
+Monument,546653832,True,31.2,0,31.2,73.0,156.1
+ _6,546653833,False,28.1,0,28.1,56.9,212.2
+Lower Canaan,546686871,False,16.0,0,16.0,47.1,192.2
+Family Cross Course,546686872,False,16.0,0,16.0,99.0,550.6
+To Black Eagle_7,546686873,False,5.7,0,5.7,7.2,100.9
+Banana High Entrance,547132244,False,39.6,0,39.6,85.7,381.5
+Deep Throat,547133393,True,42.5,0,42.5,77.9,122.1
+Predator,547133394,True,44.1,0,44.1,161.9,239.1
+Hockey Rink,547134746,True,27.8,0,27.8,124.5,311.7
+Banana Exit,547134747,False,18.7,0,18.7,151.9,1281.5
+Orange Peel,547135170,True,34.8,0,34.8,43.8,63.4
+Upper Forest,547135171,True,37.2,0,37.2,102.7,190.8
+Lower Forest,547135172,True,35.1,0,35.1,140.6,280.5
+Big Hole,547135658,True,32.2,0,32.2,51.6,97.0
+Little Holes,547135659,True,32.5,0,32.5,56.7,99.0
+Hot Rocks,547135988,True,31.4,0,31.4,121.5,247.8
+House Rock,547135989,True,32.5,0,32.5,35.7,56.8
+Keystone,547137150,False,29.2,0,29.2,122.6,282.4
+Triangle,547137153,True,29.9,0,29.9,87.3,190.7
+Robel's,547137155,True,43.4,0,43.4,50.7,68.8
+Elevator Shaft,547137157,True,41.7,0,41.7,45.4,59.6
+Teo 2 Traverse,547140204,False,26.3,0,26.3,22.7,397.3
+Bolted Wall,547140205,True,23.8,0,23.8,29.2,94.3
+Outa Mind,547140206,True,40.1,0,40.1,70.7,126.3
+Land of Many Names,547140207,True,33.2,0,33.2,69.1,154.6
+Nunya Glades,547150264,True,35.4,1,35.4,152.7,282.5
+Rockets,547150265,True,29.1,0,29.1,35.4,73.9
+Land of Little Giants,547150266,True,23.2,0,23.2,17.2,79.8
+Thor's,547150267,True,33.5,0,33.5,43.8,94.1
+Many Names Traverse,547150268,False,20.1,0,20.1,16.0,145.1
+Traverse Glade,547150269,True,31.4,1,31.4,65.7,159.5
+Schnoid's,547150270,True,38.6,0,38.6,71.3,113.8
+Digger's,547150271,True,46.3,0,46.3,128.6,165.3
+The Peak,547151029,True,50.0,0,50.0,150.4,297.0
+Midway Highlift,547151030,True,19.4,0,19.4,15.1,44.7
+Phoenix Chutes,547326802,False,48.2,0,48.2,106.6,120.9
+Pasta Bowl,547327480,True,35.1,0,35.1,55.1,112.6
+Big Tree Chute,547329464,False,45.7,0,45.7,72.9,99.8
+Miushroom Cliffs Bowl,547329466,True,36.7,0,36.7,48.3,70.3
+High Nowhere,547330202,True,15.5,0,15.5,10.9,91.4
+Edge,547332517,True,38.9,0,38.9,38.4,64.2
+Fredo's,547333531,True,22.7,0,22.7,24.0,104.2
+Treeline,547334047,True,31.4,0,31.4,60.0,121.8
+Rambo Glades,547335386,True,40.2,1,40.2,69.7,123.9
+Gerry's,547335387,True,37.7,0,37.7,55.0,98.2
+Upper Headwall Traverse,547336719,False,31.3,0,31.3,115.4,480.9
+Mid Headwall Traverse,547336970,False,25.2,0,25.2,46.2,234.7
+Columbine,548234552,False,20.7,0,20.7,148.9,520.0
+Augusta,549377013,False,15.1,0,15.1,41.7,271.3
+Lower Championship,549377014,False,20.6,0,20.6,138.5,531.1
+Homeowner's,549377016,False,19.8,0,19.8,131.0,922.9
+Lower Smith Hill,549379594,False,15.5,0,15.5,55.0,354.6
+Upper Conundrum,549380339,False,21.0,0,21.0,48.9,260.7
+Conundrum,549380340,False,13.4,0,13.4,32.3,355.4
+Lower Gallowich,549380341,False,21.5,0,21.5,133.3,669.2
+Daisy_8,549380342,False,13.1,0,13.1,27.8,179.6
+Ruby Steep,549381764,False,25.8,0,25.8,120.5,389.5
+ _9,549381766,False,11.8,0,11.8,12.1,116.0
+Lower Ruby Chief,549381768,False,16.0,0,16.0,139.0,892.6
+Houston Access_10,549381771,False,8.7,0,8.7,25.0,336.1
+Lower Forest Queen,549381774,False,16.8,0,16.8,94.8,563.1
+Upper Canaan,549381777,False,26.8,0,26.8,84.3,320.8
+Upper Forest Queen_11,549381780,False,23.9,0,23.9,106.1,382.9
+ _12,549381783,False,3.6,0,3.6,2.9,173.1
+Yellow Brick Road_13,549383161,False,16.2,0,16.2,25.2,250.9
+Lower Crystal,549383162,False,17.4,0,17.4,33.5,162.1
+Fish Bowl,549384200,True,23.7,0,23.7,48.1,163.9
+Lower International,549384203,False,25.0,0,25.0,188.3,815.5
+Aspen Park Road_14,549384205,False,15.2,0,15.2,77.2,797.5
+Middle Championship,549384209,False,14.2,0,14.2,58.6,351.6
+Psycho Rocks,549385943,True,32.4,0,32.4,62.9,165.2
+Mario Land,549385944,True,27.8,0,27.8,67.1,173.4
+Houston,549385945,False,13.8,0,13.8,212.4,1961.7
+Ruby Access,549385946,False,24.1,0,24.1,35.5,211.0
+Keystone Ridge,549386899,True,32.4,0,32.4,94.6,221.8
+Luge,549389241,False,23.0,0,23.0,98.9,450.1
+Blood Forest,549389242,True,22.7,0,22.7,84.5,286.1
+Upper Peel,549389245,True,29.1,0,29.1,85.9,212.0
+No See Um,549391103,True,35.6,0,35.6,61.2,108.0
+Easy Out,549393065,False,23.0,0,23.0,101.0,709.1
+Rosy Lane,549393066,False,37.1,0,37.1,43.8,85.0
+Easy Rider,549393067,True,34.0,0,34.0,48.3,109.1
+Low Exit,549395167,True,40.6,0,40.6,50.6,80.1
+Good Luck Glades,549395168,True,43.6,1,43.6,147.9,185.1
+Houston_15,656786302,False,8.2,0,8.2,9.5,74.5

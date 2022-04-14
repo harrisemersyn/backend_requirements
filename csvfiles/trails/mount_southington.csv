@@ -1,0 +1,16 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Tester,205404745,False,14.0,0,14.0,36.7,204.7
+Dom's Way,205404746,False,17.5,0,17.5,88.6,721.2
+Laurel,205404747,False,18.4,0,18.4,74.8,525.7
+Steeplechase,205404748,False,11.5,0,11.5,33.7,341.9
+Avalanche,205404749,False,16.7,0,16.7,66.0,357.3
+Stardust,205404750,False,13.5,0,13.5,28.9,208.5
+Turkey Turn,205404751,False,14.8,0,14.8,23.5,180.7
+Boomerang,205404752,False,10.7,0,10.7,34.3,296.4
+Northstar,205404753,False,10.1,0,10.1,26.1,252.5
+Liftline,205404754,False,16.5,0,16.5,70.7,426.1
+Snowflake,205404755,False,10.6,0,10.6,19.0,198.1
+Thunderbolt,205404756,False,22.1,0,22.1,65.9,328.2
+Glacier,418618555,False,3.1,0,3.1,1.9,40.2
+Whoopee,418618561,False,12.4,0,12.4,13.0,88.6
+ _0,418618568,False,3.5,0,3.5,1.8,38.0

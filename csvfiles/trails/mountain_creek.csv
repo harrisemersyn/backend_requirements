@@ -1,0 +1,45 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Osprey,11760976,False,9.4,0,9.4,41.1,381.1
+Indian Pass,11761046,False,18.4,0,18.4,94.1,431.4
+Great Northern,11761048,False,19.7,0,19.7,65.9,320.3
+Southern Sojourn,11769731,False,22.5,0,22.5,175.9,1854.4
+Straightaway,80567657,False,24.0,0,24.0,86.7,336.7
+Twist,80567664,False,15.1,0,15.1,53.0,294.2
+Fox Tail,80567665,False,16.8,0,16.8,52.4,332.6
+Pipeline,80567705,False,33.6,0,33.6,200.1,815.5
+GrandPrix,80567706,False,29.4,0,29.4,152.8,498.2
+Sliver Fox,80567720,False,7.8,0,7.8,26.4,264.1
+Zero G,80567731,False,26.0,0,26.0,126.5,399.5
+Triple Bound,80567732,False,12.4,0,12.4,24.4,356.3
+Khyber Pass,80568911,False,21.4,0,21.4,109.3,594.4
+Independence Pass,80569444,False,12.8,0,12.8,61.4,301.9
+Sugar Slope,80569447,False,13.9,0,13.9,53.1,294.7
+Cab Ride,80569850,False,15.2,0,15.2,55.5,333.6
+Canyon,80572295,False,22.4,0,22.4,117.2,714.2
+Jumpin' Jack,80572296,False,26.7,0,26.7,103.9,469.7
+Bunk's Bank,80572297,False,10.2,0,10.2,27.7,229.2
+Kamikaze,80572298,False,19.4,0,19.4,125.8,599.8
+Bear Paw,80572299,False,18.7,0,18.7,47.9,202.5
+Cloud 9,80572300,False,22.4,0,22.4,55.3,283.2
+Big Bear,80572313,False,21.6,0,21.6,99.8,319.9
+Red Tail,80572316,False,26.5,0,26.5,115.6,537.9
+Cliff Run,80572317,False,20.8,0,20.8,77.5,538.5
+ _0,80572318,False,5.8,0,5.8,5.8,76.7
+Lions Den,80572427,False,2.9,0,2.9,1.9,85.8
+Bakers Field,206006368,False,12.3,0,12.3,47.4,359.6
+Bear Claw,206006369,False,19.3,0,19.3,150.5,820.9
+Bird's Eye,206006370,False,13.0,0,13.0,24.7,174.6
+Charlie's Run,206006371,False,23.0,0,23.0,103.1,497.4
+Doe Run,206006372,False,14.3,0,14.3,57.9,273.0
+Flying Fox,206006373,False,20.2,0,20.2,73.8,448.3
+Giant Steps,206006374,False,15.9,0,15.9,71.1,552.6
+Gorge Run,206006375,False,21.3,0,21.3,121.9,923.1
+Graden State,206006376,False,23.6,0,23.6,150.8,772.4
+Lark,206006377,False,9.9,0,9.9,19.5,154.5
+Lower Horizon,206006378,False,20.4,0,20.4,156.7,982.9
+Lower Straightaway,206006379,False,22.4,0,22.4,99.7,347.3
+Red Fox,206006380,False,4.4,0,4.4,14.6,317.3
+Sayonara,206006381,False,17.0,0,17.0,43.6,195.1
+Tail Spin,206006382,False,23.9,0,23.9,75.6,297.7
+The Gully,206006383,False,14.4,0,14.4,47.4,305.0
+Upper Horizon,231662412,False,10.7,0,10.7,38.0,296.0

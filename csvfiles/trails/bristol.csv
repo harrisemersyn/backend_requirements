@@ -1,0 +1,39 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Sunset Way,143024808,False,10.5,0,10.5,13.7,200.2
+Upper Meteor,143024809,False,22.8,0,22.8,192.4,605.4
+Beta,143024810,False,7.3,0,7.3,8.8,92.7
+Orion's Belt,143024813,False,17.5,0,17.5,67.0,260.4
+Lower Meteor,143024814,False,20.4,0,20.4,134.9,525.4
+Morning Star,143024815,False,14.3,0,14.3,167.5,1001.8
+Lower Infinity,143024817,False,11.4,0,11.4,60.3,540.8
+Hale Bop,143024819,False,1.4,0,1.4,2.3,299.4
+Lower Northstar,143024820,False,23.6,0,23.6,155.9,633.0
+Sunbelt,143024821,False,12.9,0,12.9,82.8,650.3
+Nova,143024824,False,13.6,0,13.6,143.4,975.1
+Southern Cross,143024829,False,19.9,0,19.9,149.6,840.7
+Eclipse,143024831,False,16.6,0,16.6,115.8,639.5
+Comet,143024833,False,24.4,0,24.4,185.7,501.7
+Lower Galaxy,143024844,False,22.2,0,22.2,124.1,521.1
+Upper Rocket,143024849,False,24.1,0,24.1,238.1,857.9
+Upper Galaxy,143024857,False,24.2,0,24.2,212.9,799.4
+Upper Northstar,143024864,False,19.7,0,19.7,125.1,412.5
+Upper Universe,143024865,False,21.1,0,21.1,153.1,629.4
+Launching Pad,143024868,False,6.0,0,6.0,9.0,111.6
+Halley's Run,143024869,False,18.5,0,18.5,36.3,272.6
+Terrain Park,143024872,False,12.0,0,12.0,48.2,436.0
+Milky Way,143024874,False,10.4,0,10.4,167.5,1398.8
+Skyway,143024880,False,10.6,0,10.6,34.9,320.9
+Big Dipper,143024882,False,18.5,0,18.5,54.6,230.1
+Challenger,143024884,False,22.3,0,22.3,117.4,450.0
+Ursa Major,143024887,False,10.3,0,10.3,36.8,428.7
+Lower Rocket,143024888,False,21.4,0,21.4,102.7,367.3
+Sunset,143024890,False,21.0,0,21.0,113.8,438.7
+Asteroid,143024891,False,20.2,0,20.2,45.1,251.2
+Outer Orbit,143024892,False,21.9,0,21.9,120.1,466.4
+Shuttle,143024895,False,6.1,0,6.1,21.1,459.1
+Shooting Star,696074460,False,18.7,0,18.7,119.2,624.7
+Upper Infinity,907907253,False,16.1,0,16.1,57.0,475.4
+Galaxy Way,907907254,False,13.9,0,13.9,34.3,290.0
+Lower Universe,907907255,False,23.2,0,23.2,127.0,455.3
+Spacewalk,907907257,False,1.5,0,1.5,2.6,193.9
+Ursa Minor,907907258,False,13.1,0,13.1,26.1,197.0

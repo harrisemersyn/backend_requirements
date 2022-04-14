@@ -1,0 +1,65 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Moody's Run,265258232,False,15.1,0,15.1,32.7,146.5
+Terrain Park,265258233,False,14.2,0,14.2,31.9,190.3
+End's Trail,265258234,False,14.3,0,14.3,20.4,190.5
+Whitney's Hill,265258236,False,15.4,0,15.4,33.7,152.2
+Jubilee,265258237,False,15.3,0,15.3,57.9,348.6
+Chute,773007174,False,17.1,0,17.1,37.0,142.1
+Galloping Goose,773007175,False,16.0,0,16.0,114.5,643.8
+Lo Road,773007176,False,21.2,0,21.2,23.2,70.0
+Drop Off,773007177,False,15.7,0,15.7,14.2,60.2
+Upper Jackson Standard,773007178,False,23.1,0,23.1,129.0,570.7
+Lower Jackson Standard,773007179,False,12.7,0,12.7,42.8,273.0
+Raceway,773007180,False,10.6,0,10.6,16.7,177.4
+Goose Pitch,773007181,False,18.4,0,18.4,46.7,266.9
+Runaway,773007182,False,16.1,0,16.1,57.6,269.4
+S-Turns,773007183,False,20.7,0,20.7,59.1,227.7
+Cross Cut,773007184,False,11.9,0,11.9,20.0,169.1
+Diamond Cut,773007185,False,22.9,0,22.9,44.6,128.1
+Bat Cave,773007186,False,11.0,0,11.0,11.0,89.9
+Jumiper,773007187,False,15.4,0,15.4,80.7,471.8
+Upper Black Beauty,773007188,False,20.9,0,20.9,109.4,522.8
+Black Beauty,773007189,False,14.1,0,14.1,122.4,762.4
+Lower Black Beauty,773007190,False,16.1,0,16.1,62.2,406.6
+Juniper,773007191,False,14.8,0,14.8,50.7,305.8
+Beauty Loop,773007192,False,14.0,0,14.0,48.8,313.8
+Sweet,773007193,False,11.0,0,11.0,16.1,134.7
+East Bowl,773007194,False,16.7,0,16.7,35.4,183.8
+High Road,773007195,False,9.8,0,9.8,24.2,193.7
+Sugarbush,773007196,False,14.8,0,14.8,116.6,878.9
+Rabbit Run,773007197,False,11.0,0,11.0,29.1,223.2
+Sweet Dreams,773007198,False,10.0,0,10.0,50.4,428.2
+Sugar Loop,773007199,False,12.5,0,12.5,28.1,233.6
+White Knuckle,773007200,False,26.0,0,26.0,73.6,284.7
+White Forest,773007201,False,16.4,0,16.4,27.2,177.0
+Sugar Glades,773007202,False,9.0,1,9.0,10.9,126.2
+Black Forest,773007203,False,12.5,0,12.5,11.5,237.4
+Never Ending Trail,773007204,False,8.9,0,8.9,28.5,236.4
+Upper Galloping Goose,773007205,False,28.7,0,28.7,89.5,256.5
+Lostbo,773007206,False,32.6,0,32.6,93.3,246.1
+Black'N Blue,773007207,False,24.2,0,24.2,45.6,128.2
+Lostbo Glades,773007208,False,36.3,1,36.3,67.6,154.5
+Upper Maple Slalom,773007209,False,24.8,0,24.8,48.4,172.2
+Sun Valley,773007210,False,21.5,0,21.5,44.2,176.2
+Maple Slalom Chute,773007211,False,16.3,0,16.3,52.6,291.3
+Maple Slalom,773007212,False,23.0,0,23.0,162.8,676.3
+Roller Coaster,773007213,False,22.1,0,22.1,145.8,564.1
+Davis,773007214,False,15.1,0,15.1,49.1,388.6
+Ninow,773007215,False,12.1,0,12.1,20.8,135.2
+Valley View,773007216,False,22.8,0,22.8,43.6,180.2
+Big Dipper,773007217,False,27.5,0,27.5,111.2,432.0
+Upper Speedwell,773007218,False,23.0,0,23.0,42.0,143.9
+Upper Speedwell_0,773007219,False,18.9,0,18.9,60.4,236.7
+Bob-A-Link,773007220,False,17.8,0,17.8,54.5,258.7
+Bob-A-Link_1,773007221,False,12.1,0,12.1,30.2,224.2
+Little Dipper,773007222,False,18.2,0,18.2,20.4,91.3
+Mr Kew,773007223,False,31.4,0,31.4,77.1,226.2
+No Turning Back,773007224,False,30.5,0,30.5,55.8,157.0
+Mr. Kew Glades,773007225,False,29.1,1,29.1,34.7,106.0
+Quick Way,773007226,False,10.6,0,10.6,12.8,78.6
+T2,773007227,False,2.0,0,2.0,0.4,32.3
+Black Diamond,773007228,False,23.5,0,23.5,61.6,168.4
+Maple Glades,773007229,False,18.8,1,18.8,41.1,144.4
+Down Under,773007230,False,22.3,0,22.3,210.1,896.2
+Carter Notch Glades,773007231,False,29.7,1,29.7,51.6,214.5
+Lostbo_2,915566156,False,17.7,0,17.7,19.5,133.5

@@ -1,0 +1,10 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Fudgies,76859920,False,20.1,0,20.1,23.5,106.7
+ _0,76859921,False,20.6,0,20.6,93.2,412.9
+Patriots Path,76859925,False,19.8,0,19.8,89.8,568.6
+ _1,76859926,False,11.3,0,11.3,9.7,65.7
+ _2,330728316,False,4.3,0,4.3,2.9,50.8
+ _3,330728317,False,2.1,0,2.1,1.9,179.2
+Lover's Lane,330728318,False,10.5,0,10.5,12.2,153.4
+Sonya,330728319,False,14.0,0,14.0,46.2,414.2
+Upper Chute,330728320,False,15.9,0,15.9,37.6,204.2

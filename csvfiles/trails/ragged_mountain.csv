@@ -1,0 +1,45 @@
+name,id,is_area,difficulty,difficulty_modifier,steepest_pitch,vert,length
+Blueberry Patch,255587591,False,14.0,0,14.0,83.1,601.4
+Upper Easy Winder,255587923,False,21.0,0,21.0,150.1,964.4
+Big Rock,255587973,False,21.6,0,21.6,67.1,253.6
+Mikey`s Run,255588521,False,13.6,0,13.6,60.8,461.3
+Cabin Fever,255588741,False,27.7,0,27.7,84.4,383.9
+Lower Easy Winder,255589203,False,15.4,0,15.4,126.3,1141.3
+Twister,255590438,False,20.7,0,20.7,21.7,127.0
+Upper Ridge,255590494,False,18.6,0,18.6,81.9,516.3
+Headwall,255591281,False,23.1,0,23.1,31.4,106.4
+Cemetery Gates,255591479,True,18.2,1,18.2,56.6,222.3
+Upper Crewcut,255591591,False,18.9,0,18.9,44.9,174.4
+Lower Crewcut,255591800,False,24.8,0,24.8,33.1,109.1
+Raggedy Ann,255591843,False,21.5,0,21.5,25.7,80.2
+New Found Ridge,255592667,False,24.3,0,24.3,58.2,152.3
+Town Meeting,255592828,False,15.6,0,15.6,26.6,179.9
+Raggedy Andy,255593869,False,13.3,0,13.3,42.6,239.1
+Upper Chute,255593920,False,13.9,0,13.9,20.5,87.0
+Lower Chute,255594197,False,17.4,0,17.4,70.4,272.4
+Main Street,255594588,False,17.0,0,17.0,114.0,476.2
+Village Green,255594795,False,16.5,0,16.5,131.4,601.8
+Lower Ridge,255595577,False,19.2,0,19.2,228.1,1051.5
+Pines,255599457,False,16.6,0,16.6,84.7,372.0
+Raggae Glades,255603229,True,17.6,1,17.6,150.1,606.9
+Moose Alley,255603387,True,15.8,1,15.8,57.5,255.6
+Sweepstakes,255604728,False,22.8,0,22.8,290.4,1103.9
+Birches,255604785,False,23.2,0,23.2,230.7,928.2
+Rags To,255606271,False,25.3,1,25.3,86.5,385.6
+Miss Behavin,255606616,False,24.8,1,24.8,64.5,476.2
+Riches,255606869,False,18.7,1,18.7,153.7,675.5
+Pel's Pass,255607304,False,21.7,1,21.7,86.3,259.7
+Upper Exhibition,255608462,False,22.4,0,22.4,184.1,676.4
+Lower Exhibition,255608565,False,20.2,0,20.2,142.0,629.0
+Showboat,255609683,False,28.3,0,28.3,178.1,607.8
+Showoff,255610008,False,22.8,0,22.8,93.9,572.8
+Flying Yankee,255610227,False,20.8,0,20.8,259.8,1110.6
+Cardigan,255611393,False,18.3,0,18.3,120.7,833.0
+Jughandle,255611515,False,11.5,0,11.5,18.2,113.4
+Turnpike,255611607,False,17.8,0,17.8,153.8,783.2
+Barnyard,255611885,False,11.5,0,11.5,51.3,353.4
+Meadows Learning Area,255612098,False,5.2,0,5.2,4.4,61.5
+The Abyss,255614097,True,17.5,1,17.5,92.5,408.5
+Gabbler's Knob,255614217,False,12.9,0,12.9,12.8,70.5
+Wildside,877334567,False,18.1,0,18.1,228.0,978.0
+Not too Shabby,877334568,False,22.4,1,22.4,227.9,985.5
