@@ -11,11 +11,19 @@ Index - Complete
 
 About - Complete
 
-Search: check next/prev page, check mountain map links
+Search: debug next/prev page, check mountain map links
 
 Rankings: Complete
 
 Map: Complete (until specifics for statistics are given)
+
+Objects Endpoint: Debug
+
+SVG Endpoint: Complete
+
+JSON Endpoint: Debug
+
+Other: Proper 404 error return
 
 
 Notes

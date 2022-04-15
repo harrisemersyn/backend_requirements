@@ -172,13 +172,38 @@ def map(mountainid):
 @app.route("/data/<int:mountainid>/objects", methods = ['GET'])
 def mountaindata(mountainid):
     conn = getdbconnection()
-    trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?', (mountainid,)).fetchall()
-    lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
+    trailrows = conn.execute('SELECT * FROM Trails WHERE mountainid = ?', (mountainid,)).fetchall()
+    liftrows = conn.execute('SELECT liftid, name FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     conn.close()
-    if not trails:
-        return 404
 
-    return trails, lifts
+    if not trailrows:
+        return "404"
+
+    trails = []
+    for trail in trailrows:
+        trailentry = {
+            "id": trail['trailid'],
+            "name": trail['name'],
+            "difficulty": trail['difficulty'],
+            "length": trail['length'],
+            "vertical_drop": trail['vertical_drop'],
+            "steepest_pitch": trail['steepest_pitch']
+        }
+        trails.append(trailentry)
+
+    lifts = []
+    for lift in liftrows:
+        liftentry = {
+            "id": lift['liftid'],
+            "name": lift['name'],
+        }
+        lifts.append(liftentry)
+    
+    jsonContents = []
+    jsonContents.append(trails)
+    jsonContents.append(lifts)
+    jsonstring = json.dumps(jsonContents)
+    return jsonstring
 
 @app.route("/data/<int:mountainid>/map.svg", methods = ['GET'])
 def svgmaps(mountainid):
@@ -204,7 +229,7 @@ def pathdata(mountainid):
     conn = getdbconnection()
     trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?', (mountainid,)).fetchall()
     if not trails:
-        return 404
+        return "404"
     alltrails = []
     for trail in trails:
         trailid = trail.trailid
