@@ -39,9 +39,10 @@ class liftsJSONdat:
     self.points = points
 
 class mountainToMapPage:
-  def __init__(self, unique_name, name, statistics, trails, lifts):
+  def __init__(self, unique_name, name, state, statistics, trails, lifts):
     self.unique_name = unique_name
     self.name = name
+    self.state = states[state]
     self.statistics = statistics
     self.trails = trails
     self.lifts = lifts
@@ -113,13 +114,13 @@ def search():
     conn.close()
 
     elements = len(mountains)
-    pages = []
+    pages = {}
     if elements > limit:
-        next = (url_for('/search', page = page + 1))
-        pages.append(next)
+        next_link = (url_for('/search', page = page + 1))
+        pages['next'] = next_link
     if bottomlimit != 0:
-        prev = (url_for('/search', page = page - 1))
-        pages.append(prev)
+        prev_link = (url_for('/search', page = page - 1))
+        pages['prev'] = prev_link
 
     return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains_data, pages = pages)
 
@@ -150,25 +151,21 @@ def rankings():
 def map(mountainid):
     conn = getdbconnection()
 
-    mountainname = conn.execute('SELECT name FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
-    trail_count = conn.execute('SELECT trail_count FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
-    lift_count = conn.execute('SELECT lift_count FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
-    vertical = conn.execute('SELECT vertical FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
-    if not trail_count:
+    mountain_row = conn.execute('SELECT name, state, trail_count, lift_count, vertical FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+    if not mountain_row:
         return 404
-    
 
-    statistics =	{
-        "Trail Count": trail_count,
-        "Lift Count": lift_count,
-        "Vertical": vertical
+    statistics = {
+        "Trail Count": mountain_row['trail_count'],
+        "Lift Count": mountain_row['lift_count'],
+        "Vertical": str(mountain_row['vertical']) + 'm'
     }
 
     trails = conn.execute('SELECT name, difficulty FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
     lifts = conn.execute('SELECT name FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     conn.close()
 
-    mountain = mountainToMapPage(mountainid, mountainname, statistics, trails, lifts)
+    mountain = mountainToMapPage(mountainid, mountain_row['name'], mountain_row['state'], statistics, trails, lifts)
 
     return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain)
 
