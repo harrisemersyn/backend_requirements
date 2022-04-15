@@ -7,6 +7,20 @@ import sqlite3
 app = Flask(__name__ , template_folder="templates")
 app.config['SECRET_KEY'] = "placeholder"
 
+class navlink:
+  def __init__(self, title, page, to):
+    self.title = title
+    self.page = page
+    self.to = to
+
+navlinks = []
+navlinks.append(navlink("About", "about", "/about"))
+navlinks.append(navlink("Search", "search", "/search"))
+navlinks.append(navlink("Rankings", "rankings", "/rankings"))
+
+
+
+
 def getdbconnection():
     conn = sqlite3.connect('databases.db')
     conn.row_factory = sqlite3.Row
@@ -14,11 +28,11 @@ def getdbconnection():
 
 @app.route("/")
 def index():
-    return render_template("index.jinja", nav_links = "", active_page = "index")
+    return render_template("index.jinja", nav_links = navlinks, active_page = "index")
 
 @app.route("/about")
 def about():
-    return render_template("about.jinja", nav_links = "", active_page = "about")
+    return render_template("about.jinja", nav_links = navlinks, active_page = "about")
 
 @app.route("/search")
 def search():
@@ -52,17 +66,32 @@ def search():
     if not trailsmax:
         trailsmax = 1000
 
+    page = int(page)
+    limit = int(limit)
     bottomlimit = limit*(page-1)
     
     conn = getdbconnection()
-    
     mountains = conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ? LIMIT ? OFFSET ?', (q, location, trailsmin, trailsmax, diffmin, diffmax, limit, bottomlimit)).fetchall()
     conn.close()
-    #TODO gets the previous page and the next page (if it exists)
 
-    #TODO make a set of map links based off mountain ids
+    for mountain in mountains:
+        mountain.map_link = "/map/" + mountain.mountainid
 
-    return render_template("mountains.jinja", nav_links = "", active_page = "search", mountains = mountains, pages = "")
+    elements = len(mountains)
+    pages = []
+    if elements > limit:
+        next = (url_for('/search', page = page + 1))
+        pages.append(next)
+    if bottomlimit != 0:
+        prev = (url_for('/search', page = page - 1))
+        pages.append(prev)
+
+    return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains, pages = pages)
+
+@app.route("/nextpage")
+def nextpage():
+    return redirect()
+
 
 @app.route("/rankings")
 def rankings():
@@ -81,13 +110,13 @@ def rankings():
         else:
             mountains = conn.execute('SELECT * FROM Mountains ORDER BY difficulty DESC').fetchall()
     conn.close()
-    return render_template("rankings.jinja", nav_links = "", active_page = "rankings", mountains = mountains, sort = sort, order = order)
+    return render_template("rankings.jinja", nav_links = navlinks, active_page = "rankings", mountains = mountains, sort = sort, order = order)
 
-@app.route("/map/<int:mountainid>/<string:name>")
-def map(mountainid, name):
+@app.route("/map/<int:mountainid>")
+def map(mountainid):
     conn = getdbconnection()
     mountain = conn.execute('SELECT * FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
     trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
     lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     conn.close()
-    return render_template("map.jinja", nav_links = "", active_page = "map", mountain = mountain, trails = trails, lifts = lifts)
+    return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain, trails = trails, lifts = lifts)

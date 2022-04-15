@@ -14,8 +14,8 @@
     <ul>
       {% for link in nav_links %}
         <li>
-          <a {% if active_page == link.page %} class="active" {% endif %}} href="{link.to}">
-            {link.title}
+          <a {% if active_page == link.page %} class="active" {% endif %}} href="{{link.to}}">
+            {{link.title}}
           </a>
         </li>
       {% endfor %}

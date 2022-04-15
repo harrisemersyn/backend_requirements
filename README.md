@@ -11,10 +11,12 @@ Index - Complete
 
 About - Complete
 
-Search: needs next/prev page, mountain map links
+Search: check next/prev page, check mountain map links
 
 Rankings: Complete
 
 Map: Complete (until specifics for statistics are given)
 
-Other Tasks: nav link arg
+Notes
+----------
+This current commit I have not ran, if there are errors, ¯\_(ツ)_/¯
