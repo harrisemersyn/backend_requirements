@@ -15,13 +15,13 @@ Search: debug next/prev page, check mountain map links
 
 Rankings: Complete
 
-Map: Complete (until specifics for statistics are given)
+Map: Complete
 
-Objects Endpoint: Debug
+Objects Endpoint: Complete
 
 SVG Endpoint: Complete
 
-JSON Endpoint: Debug
+Paths Endpoint: Complete
 
 Other: Proper 404 error return
 

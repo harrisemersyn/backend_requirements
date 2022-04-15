@@ -28,16 +28,6 @@ with open('states.csv', 'r') as fd:
     for state in states_csv:
         states[state['Abbreviation']] = state['State']
 
-class trailsJSONdat:
-  def __init__(self, id, points):
-    self.id = id
-    self.points = points
-
-class liftsJSONdat:
-  def __init__(self, id, points):
-    self.id = id
-    self.points = points
-
 class mountainToMapPage:
   def __init__(self, unique_name, name, state, statistics, trails, lifts):
     self.unique_name = unique_name
@@ -234,19 +224,43 @@ def svgmaps(mountainid):
 def pathdata(mountainid):
     conn = getdbconnection()
     trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?', (mountainid,)).fetchall()
+    lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     if not trails:
+        conn.close()
         return "404"
     alltrails = []
     for trail in trails:
-        trailid = trail.trailid
+        trailid = trail['trailid']
         tpcontents = conn.execute("SELECT latitude, longitude, elevation FROM TrailPoints WHERE trailid = ?", (trailid,))
         for tp in tpcontents:
-            trailstring = str(round(tp.latitude, 5) + "," + str(round(tp.longitude, 5), + str(round(tp.elevation, 1) + "|")))
+            trailstring = str(round(tp['latitude'], 5)) + "," + str(round(tp['longitude'], 5)) + "," + str(round(tp['elevation'], 1)) + "|"
         finaltrailstring = trailstring.removesuffix("|")
-        alltrails.append(trailsJSONdat(trailid, finaltrailstring))
+        trailInput = {
+            "id": trailid,
+            "points": finaltrailstring
+        }
+        alltrails.append(trailInput)
+
+    allifts = []
+    for lift in lifts:
+        liftid = lift['liftid']
+        lpcontents = conn.execute("SELECT latitude, longitude, elevation FROM LiftPoints WHERE liftid = ?", (liftid,))
+        for lp in lpcontents:
+            liftstring = str(round(lp['latitude'], 5)) + "," + str(round(lp['longitude'], 5)) + "," + str(round(lp['elevation'], 1)) + "|"
+        finalliftstring = liftstring.removesuffix("|")
+        liftInput = {
+            "id": liftid,
+            "points": finalliftstring
+        }
+        allifts.append(liftInput)
+
+    finalJSON = {
+        "trails": alltrails,
+        "lifts": allifts
+    }
 
     conn.close()
-    jsonstring = json.dumps(alltrails)
+    jsonstring = json.dumps(finalJSON)
     return jsonstring
 
 if __name__ == "__main__":
