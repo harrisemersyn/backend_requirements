@@ -114,13 +114,13 @@ def search():
     conn.close()
 
     elements = len(mountains)
-    pages = []
+    pages = {}
     if elements > limit:
-        next = (url_for('/search', page = page + 1))
-        pages.append(next)
+        next_link = (url_for('/search', page = page + 1))
+        pages['next'] = next_link
     if bottomlimit != 0:
-        prev = (url_for('/search', page = page - 1))
-        pages.append(prev)
+        prev_link = (url_for('/search', page = page - 1))
+        pages['prev'] = prev_link
 
     return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains_data, pages = pages)
 
