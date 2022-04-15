@@ -55,7 +55,7 @@ def search():
     #parsing query string for database search
     searchstring = ""
     q = request.args.get('q')
-    if q:
+    if q or q != "%%":
         q = "%" + q  + "%"
         searchstring += "q=" +  q.replace("%", "") + "&"
     else:
@@ -79,7 +79,7 @@ def search():
     else:
         searchstring += "diffmax=" + str(diffmax) + "&"
     location = request.args.get('location')
-    if not location:
+    if not location or location == "%%":
         location = "%%"
     else:
         searchstring += "location=" + location + "&"
