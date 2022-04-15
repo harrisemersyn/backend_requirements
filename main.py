@@ -53,9 +53,11 @@ def about():
 @app.route("/search")
 def search():
     #parsing query string for database search
+    searchstring = ""
     q = request.args.get('q')
     if q:
         q = "%" + q  + "%"
+        searchstring += "q=" +  q.replace("%", "") + "&"
     else:
         q = "%%"
     page = request.args.get('page')
@@ -64,24 +66,35 @@ def search():
     limit = request.args.get('limit')
     if not limit:
         limit = 20
+    else:
+        searchstring += "limit=" + str(limit) + "&"
     diffmin = request.args.get('diffmin')
     if not diffmin:
         diffmin = 0
+    else:
+        searchstring += "diffmin=" + str(diffmin) + "&"
     diffmax = request.args.get('diffmax')
     if not diffmax:
         diffmax = 100
-    location = request.args.get('location')
-    if location:
-        location = "%" + location + "%"
     else:
+        searchstring += "diffmax=" + str(diffmax) + "&"
+    location = request.args.get('location')
+    if not location:
         location = "%%"
+    else:
+        searchstring += "location=" + location + "&"
     trailsmin = request.args.get('trailsmin')
     if not trailsmin:
         trailsmin = 0
+    else:
+        searchstring += "trailsmin=" + str(trailsmin) + "&"
     trailsmax = request.args.get('trailsmax')
     if not trailsmax:
         trailsmax = 1000
+    else:
+        searchstring += "trailsmax=" + str(trailsmax) + "&"
 
+    queryParams = searchstring.removesuffix("&")
     page = int(page)
     limit = int(limit)
     bottomlimit = limit*(page-1)
@@ -90,6 +103,7 @@ def search():
     elements = len(conn.execute('SELECT mountainid FROM Mountains').fetchall())
     mountains = conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ? LIMIT ? OFFSET ?', (q, location, trailsmin, trailsmax, diffmin, diffmax, limit, bottomlimit)).fetchall()
     
+
     mountains_data = []
     for mountain in mountains:
         mountains_data.append({
@@ -106,9 +120,15 @@ def search():
 
     pages = {}
     if elements > limit & (limit * page) < elements:
-        pages["next"] = "/search?q=" + q + "&page=" + str((page + 1)) + "&limit=" + str(limit) + "&diffmin=" + str(diffmin) + "&diffmax=" + str(diffmax) + "&location" + location + "&trailsmin=" + str(trailsmin) + "&trailsmax=" + str(trailsmax)
+        urlBase = "/search?page=" + str(page + 1) + "&"
+        urlBase += queryParams
+        urlQuery = urlBase.removesuffix("&")
+        pages["next"] = urlQuery
     if bottomlimit != 0:
-        pages["prev"] = "/search?q=" + q + "&page=" + str((page - 1)) + "&limit=" + str(limit) + "&diffmin=" + str(diffmin) + "&diffmax=" + str(diffmax) + "&location" + location + "&trailsmin=" + str(trailsmin) + "&trailsmax=" + str(trailsmax)
+        urlBase = "/search?page=" + str(page - 1) + "&"
+        urlBase += queryParams
+        urlQuery = urlBase.removesuffix("&")
+        pages["prev"] = urlQuery
 
     return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains_data, pages = pages)
 
@@ -215,8 +235,8 @@ def svgmaps(mountainid):
         if newstrfilename == svgfilename:
             return newstrfilename
     fullfilename = "svgfiles\\" + newstrfilename
-    fileContent = open(fullfilename, 'r')
-    return fileContent
+    print(fullfilename)
+    return fullfilename
 
 @app.route("/data/<int:mountainid>/paths", methods = ['GET'])
 def pathdata(mountainid):
