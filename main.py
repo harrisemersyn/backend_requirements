@@ -3,8 +3,9 @@ from flask import Flask, render_template , json, redirect, url_for, request, fla
 from flask_wtf import FlaskForm
 from datetime import datetime
 import sqlite3
+from csv import DictReader
 
-app = Flask(__name__ , template_folder="templates")
+app = Flask(__name__ , template_folder="templates", static_url_path='', static_folder="static")
 app.config['SECRET_KEY'] = "placeholder"
 
 class navlink:
@@ -18,8 +19,12 @@ navlinks.append(navlink("About", "about", "/about"))
 navlinks.append(navlink("Search", "search", "/search"))
 navlinks.append(navlink("Rankings", "rankings", "/rankings"))
 
-
-
+# Load the state abbreviation data
+with open('states.csv', 'r') as fd:
+    states_csv = DictReader(fd)
+    states = {}
+    for state in states_csv:
+        states[state['Abbreviation']] = state['State']
 
 def getdbconnection():
     conn = sqlite3.connect('databases.db')
@@ -72,10 +77,20 @@ def search():
     
     conn = getdbconnection()
     mountains = conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ? LIMIT ? OFFSET ?', (q, location, trailsmin, trailsmax, diffmin, diffmax, limit, bottomlimit)).fetchall()
-    conn.close()
-
+    
+    mountains_data = []
     for mountain in mountains:
-        mountain.map_link = "/map/" + mountain.mountainid
+        mountains_data.append({
+            'name': mountain['name'],
+            'beginner_friendliness': mountain['beginner_friendliness'],
+            'difficulty': mountain['difficulty'],
+            'state': states[mountain['state']],
+            'trail_count': mountain['trail_count'],
+            'vertical': mountain['vertical'],
+            'map_link': url_for('map', mountainid = mountain['mountainid'])
+        })
+
+    conn.close()
 
     elements = len(mountains)
     pages = []
@@ -86,12 +101,11 @@ def search():
         prev = (url_for('/search', page = page - 1))
         pages.append(prev)
 
-    return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains, pages = pages)
+    return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains_data, pages = pages)
 
 @app.route("/nextpage")
 def nextpage():
     return redirect()
-
 
 @app.route("/rankings")
 def rankings():
@@ -119,4 +133,8 @@ def map(mountainid):
     trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
     lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     conn.close()
+
     return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain, trails = trails, lifts = lifts)
+
+if __name__ == "__main__":
+    app.run()
