@@ -142,6 +142,7 @@ def rankings():
         order = "asc"
     #converts query string info into SQL
     conn = getdbconnection()
+    mountainsFormatted = []
     if sort == "beginner":
         if order == "asc":
             mountains = conn.execute('SELECT * FROM Mountains ORDER BY beginner_friendliness ASC').fetchall()
@@ -152,8 +153,20 @@ def rankings():
             mountains = conn.execute('SELECT * FROM Mountains ORDER BY difficulty ASC').fetchall()
         else:
             mountains = conn.execute('SELECT * FROM Mountains ORDER BY difficulty DESC').fetchall()
+
+    for mountain in mountains:
+        mountainentry = {
+            "name": mountain['name'],
+            "beginner_friendliness": mountain['beginner_friendliness'],
+            "difficulty": mountain['difficulty'],
+            "state": mountain['state'],
+            "map_link": "/map/" + str(mountain['mountainid'])
+        }
+        mountainsFormatted.append(mountainentry)
+
+
     conn.close()
-    return render_template("rankings.jinja", nav_links = navlinks, active_page = "rankings", mountains = mountains, sort = sort, order = order)
+    return render_template("rankings.jinja", nav_links = navlinks, active_page = "rankings", mountains = mountainsFormatted, sort = sort, order = order)
 
 @app.route("/map/<int:mountainid>")
 def map(mountainid):
@@ -187,7 +200,10 @@ def mountaindata(mountainid):
     if not trailrows:
         return "404"
 
+    jsonContents = {}
     trails = []
+    lifts = []
+    
     for trail in trailrows:
         trailentry = {
             "id": trail['trailid'],
@@ -198,24 +214,16 @@ def mountaindata(mountainid):
             "steepest_pitch": trail['steepest_pitch']
         }
         trails.append(trailentry)
-    trailsLabeled = {
-        "trails": trails
-    }
 
-    lifts = []
     for lift in liftrows:
         liftentry = {
             "id": lift['liftid'],
             "name": lift['name'],
         }
         lifts.append(liftentry)
-    liftsLabeled = {
-        "lifts": lifts
-    }
-    
-    jsonContents = []
-    jsonContents.append(trailsLabeled)
-    jsonContents.append(liftsLabeled)
+
+    jsonContents['trails'] = trails
+    jsonContents['lifts'] = lifts
     jsonstring = json.dumps(jsonContents)
     return jsonstring
 
