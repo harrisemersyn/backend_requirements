@@ -28,11 +28,17 @@ with open('states.csv', 'r') as fd:
     for state in states_csv:
         states[state['Abbreviation']] = state['State']
 
+def state_code_to_state(state_code):
+    if state_code in states:
+        return states[state_code]
+    else:
+        return state_code
+
 class mountainToMapPage:
   def __init__(self, unique_name, name, state, statistics, trails, lifts):
     self.unique_name = unique_name
     self.name = name
-    self.state = states[state]
+    self.state = state_code_to_state(state)
     self.statistics = statistics
     self.trails = trails
     self.lifts = lifts
@@ -41,6 +47,12 @@ def getdbconnection():
     conn = sqlite3.connect('databases.db')
     conn.row_factory = sqlite3.Row
     return conn
+
+def removesuffix(string, suffix):
+    if suffix and string.endswith(suffix):
+        return string[0:-len(suffix)]
+    else:
+        return string[:]
 
 @app.route("/")
 def index():
@@ -94,7 +106,7 @@ def search():
     else:
         searchstring += "trailsmax=" + str(trailsmax) + "&"
 
-    queryParams = searchstring.removesuffix("&")
+    queryParams = removesuffix(searchstring, '&')
     page = int(page)
     limit = int(limit)
     bottomlimit = limit*(page-1)
@@ -110,7 +122,7 @@ def search():
             'name': mountain['name'],
             'beginner_friendliness': mountain['beginner_friendliness'],
             'difficulty': mountain['difficulty'],
-            'state': states[mountain['state']],
+            'state': state_code_to_state(mountain['state']),
             'trail_count': mountain['trail_count'],
             'vertical': mountain['vertical'],
             'map_link': url_for('map', mountainid = mountain['mountainid'])
@@ -122,12 +134,12 @@ def search():
     if elements > limit & (limit * page) < elements:
         urlBase = "/search?page=" + str(page + 1) + "&"
         urlBase += queryParams
-        urlQuery = urlBase.removesuffix("&")
+        urlQuery = removesuffix(urlBase, '&')
         pages["next"] = urlQuery
     if bottomlimit != 0:
         urlBase = "/search?page=" + str(page - 1) + "&"
         urlBase += queryParams
-        urlQuery = urlBase.removesuffix("&")
+        urlQuery = removesuffix(urlBase, '&')
         pages["prev"] = urlQuery
 
     return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains_data, pages = pages)
@@ -242,7 +254,7 @@ def svgmaps(mountainid):
         if strfilename == svgfilename:
             break
     with open('svgfiles/' + str(strfilename), 'r') as fileReturn:
-        return fileReturn.read()
+        return fileReturn.read(), 200, { 'Content-Type': 'image/svg+xml' }
 
 @app.route("/data/<int:mountainid>/paths", methods = ['GET'])
 def pathdata(mountainid):
@@ -259,7 +271,7 @@ def pathdata(mountainid):
         trailstring = ""
         for tp in tpcontents:
             trailstring += str(round(tp['latitude'], 5)) + "," + str(round(tp['longitude'], 5)) + "," + str(round(tp['elevation'], 1)) + "|"
-        finaltrailstring = trailstring.removesuffix("|")
+        finaltrailstring = removesuffix(trailstring, "|")
         trailInput = {
             "id": trailid,
             "points": finaltrailstring
@@ -273,7 +285,7 @@ def pathdata(mountainid):
         liftstring = ""
         for lp in lpcontents:
             liftstring += str(round(lp['latitude'], 5)) + "," + str(round(lp['longitude'], 5)) + "," + str(round(lp['elevation'], 1)) + "|"
-        finalliftstring = liftstring.removesuffix("|")
+        finalliftstring = removesuffix(liftstring, "|")
         liftInput = {
             "id": liftid,
             "points": finalliftstring
