@@ -190,6 +190,9 @@ def mountaindata(mountainid):
             "steepest_pitch": trail['steepest_pitch']
         }
         trails.append(trailentry)
+    trailsLabeled = {
+        "trails": trails
+    }
 
     lifts = []
     for lift in liftrows:
@@ -198,10 +201,13 @@ def mountaindata(mountainid):
             "name": lift['name'],
         }
         lifts.append(liftentry)
+    liftsLabeled = {
+        "lifts": lifts
+    }
     
     jsonContents = []
-    jsonContents.append(trails)
-    jsonContents.append(lifts)
+    jsonContents.append(trailsLabeled)
+    jsonContents.append(liftsLabeled)
     jsonstring = json.dumps(jsonContents)
     return jsonstring
 
