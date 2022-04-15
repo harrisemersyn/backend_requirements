@@ -4,6 +4,8 @@ from flask_wtf import FlaskForm
 from datetime import datetime
 import sqlite3
 from csv import DictReader
+import json
+import os
 
 app = Flask(__name__ , template_folder="templates", static_url_path='', static_folder="static")
 app.config['SECRET_KEY'] = "placeholder"
@@ -25,6 +27,16 @@ with open('states.csv', 'r') as fd:
     states = {}
     for state in states_csv:
         states[state['Abbreviation']] = state['State']
+
+class trailsJSONdat:
+  def __init__(self, id, points):
+    self.id = id
+    self.points = points
+
+class liftsJSONdat:
+  def __init__(self, id, points):
+    self.id = id
+    self.points = points
 
 def getdbconnection():
     conn = sqlite3.connect('databases.db')
@@ -130,11 +142,58 @@ def rankings():
 def map(mountainid):
     conn = getdbconnection()
     mountain = conn.execute('SELECT * FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
-    trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
-    lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
+    
+    statistics =	{
+        "Trail Count": mountain.trailcount,
+        "Lift Count": mountain.liftcount,
+        "Vertical": mountain.vertical_drop
+    }
+
+    trails = conn.execute('SELECT name, difficulty FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
+    lifts = conn.execute('SELECT name FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     conn.close()
 
-    return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain, trails = trails, lifts = lifts)
+    return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain, statistics = statistics, trails = trails, lifts = lifts)
+
+@app.route("/data/<int:mountainid>/objects", methods = ['GET'])
+def mountaindata(mountainid):
+    conn = getdbconnection()
+    trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?', (mountainid,)).fetchall()
+    lifts = conn.execute('SELECT * FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
+    if not trails:
+        return 404
+
+    return trails, lifts
+
+@app.route("/data/<int:mountainid>/map.svg", methods = ['GET'])
+def svgmaps(mountainid):
+    conn = getdbconnection()
+    mountainname = conn.execute('SELECT name FROM Mountains WHERE mountainid = ?', (mountainid,)).fetchall()
+    svgfilename = str(mountainname) + ".svg"
+    for filename in os.scandir('svgfiles'):
+        strfilename = str(os.path.basename(filename.path))
+        if strfilename == svgfilename:
+            return filename
+
+    return 404
+
+@app.route("/data/<int:mountainid>/paths", methods = ['GET'])
+def pathdata(mountainid):
+    conn = getdbconnection()
+    trails = conn.execute('SELECT * FROM Trails WHERE mountainid = ?', (mountainid,)).fetchall()
+    if not trails:
+        return 404
+    alltrails = []
+    for trail in trails:
+        trailid = trail.trailid
+        tpcontents = conn.execute("SELECT latitude, longitude, elevation FROM TrailPoints WHERE trailid = ?", (trailid,))
+        for tp in tpcontents:
+            trailstring = str(round(tp.latitude, 5) + "," + str(round(tp.longitude, 5), + str(round(tp.elevation, 1) + "|")))
+        finaltrailstring = trailstring.removesuffix("|")
+        alltrails.append(trailsJSONdat(trailid, finaltrailstring))
+
+    jsonstring = json.dumps(alltrails)
+    return jsonstring
 
 if __name__ == "__main__":
     app.run()
