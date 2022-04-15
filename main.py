@@ -87,6 +87,7 @@ def search():
     bottomlimit = limit*(page-1)
     
     conn = getdbconnection()
+    elements = len(conn.execute('SELECT mountainid FROM Mountains').fetchall())
     mountains = conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ? LIMIT ? OFFSET ?', (q, location, trailsmin, trailsmax, diffmin, diffmax, limit, bottomlimit)).fetchall()
     
     mountains_data = []
@@ -103,25 +104,22 @@ def search():
 
     conn.close()
 
-    elements = len(mountains)
     pages = {}
-    if elements > limit:
-        next_link = (url_for('/search', page = page + 1))
-        pages['next'] = next_link
+    if elements > limit & (limit * page) < elements:
+        pages["next"] = "/search?q=" + q + "&page=" + str((page + 1)) + "&limit=" + str(limit) + "&diffmin=" + str(diffmin) + "&diffmax=" + str(diffmax) + "&location" + location + "&trailsmin=" + str(trailsmin) + "&trailsmax=" + str(trailsmax)
     if bottomlimit != 0:
-        prev_link = (url_for('/search', page = page - 1))
-        pages['prev'] = prev_link
+        pages["prev"] = "/search?q=" + q + "&page=" + str((page - 1)) + "&limit=" + str(limit) + "&diffmin=" + str(diffmin) + "&diffmax=" + str(diffmax) + "&location" + location + "&trailsmin=" + str(trailsmin) + "&trailsmax=" + str(trailsmax)
 
     return render_template("mountains.jinja", nav_links = navlinks, active_page = "search", mountains = mountains_data, pages = pages)
-
-@app.route("/nextpage")
-def nextpage():
-    return redirect()
 
 @app.route("/rankings")
 def rankings():
     sort = request.args.get('sort')
+    if not sort:
+        sort = "beginner"
     order = request.args.get('order')
+    if not order: 
+        order = "asc"
     #converts query string info into SQL
     conn = getdbconnection()
     if sort == "beginner":
@@ -143,7 +141,7 @@ def map(mountainid):
 
     mountain_row = conn.execute('SELECT name, state, trail_count, lift_count, vertical FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
     if not mountain_row:
-        return 404
+        return "404"
 
     statistics = {
         "Trail Count": mountain_row['trail_count'],

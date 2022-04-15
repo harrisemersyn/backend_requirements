@@ -11,7 +11,7 @@ Index - Complete
 
 About - Complete
 
-Search: debug next/prev page, check mountain map links
+Search: Complete
 
 Rankings: Complete
 
