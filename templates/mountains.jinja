@@ -23,12 +23,11 @@
     {% endfor %}
   </ol>
 
-  {% if not pages.prev == None %}
-    <a href="{{pages.prev}}">Previous Page</a>
+  {% if 'prev' in pages %}
+    <a href="{{pages.prev}}">← Previous Page</a>
   {% endif %}
-  {% if not pages.next == None %}
-    <a href="{{pages.next}}">Next Page</a>
+  <span style="flex-grow: 1"></span>
+  {% if 'next' in pages %}
+    <a href="{{pages.next}}">Next Page →</a>
   {% endif %}
 </main>
-
-{% endblock %}
