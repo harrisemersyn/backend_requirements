@@ -38,6 +38,14 @@ class liftsJSONdat:
     self.id = id
     self.points = points
 
+class mountainToMapPage:
+  def __init__(self, unique_name, name, statistics, trails, lifts):
+    self.unique_name = unique_name
+    self.name = name
+    self.statistics = statistics
+    self.trails = trails
+    self.lifts = lifts
+
 def getdbconnection():
     conn = sqlite3.connect('databases.db')
     conn.row_factory = sqlite3.Row
@@ -141,19 +149,28 @@ def rankings():
 @app.route("/map/<int:mountainid>")
 def map(mountainid):
     conn = getdbconnection()
-    mountain = conn.execute('SELECT * FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+
+    mountainname = conn.execute('SELECT name FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+    trail_count = conn.execute('SELECT trail_count FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+    lift_count = conn.execute('SELECT lift_count FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+    vertical = conn.execute('SELECT vertical FROM Mountains WHERE mountainid = ?',(mountainid,)).fetchone()
+    if not trail_count:
+        return 404
     
+
     statistics =	{
-        "Trail Count": mountain.trailcount,
-        "Lift Count": mountain.liftcount,
-        "Vertical": mountain.vertical_drop
+        "Trail Count": trail_count,
+        "Lift Count": lift_count,
+        "Vertical": vertical
     }
 
     trails = conn.execute('SELECT name, difficulty FROM Trails WHERE mountainid = ?',(mountainid,)).fetchall()
     lifts = conn.execute('SELECT name FROM Lifts WHERE mountainid = ?', (mountainid,)).fetchall()
     conn.close()
 
-    return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain, statistics = statistics, trails = trails, lifts = lifts)
+    mountain = mountainToMapPage(mountainid, mountainname, statistics, trails, lifts)
+
+    return render_template("map.jinja", nav_links = navlinks, active_page = "map", mountain = mountain)
 
 @app.route("/data/<int:mountainid>/objects", methods = ['GET'])
 def mountaindata(mountainid):
