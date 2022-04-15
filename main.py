@@ -55,7 +55,7 @@ def search():
     #parsing query string for database search
     searchstring = ""
     q = request.args.get('q')
-    if q or q != "%%":
+    if q and q != "%%":
         q = "%" + q  + "%"
         searchstring += "q=" +  q.replace("%", "") + "&"
     else:
@@ -231,12 +231,10 @@ def svgmaps(mountainid):
     svgfilename = str(mountainname['name']) + ".svg"
     for filename in os.scandir('svgfiles'):
         strfilename = str(os.path.basename(filename.path))
-        newstrfilename = strfilename.replace(" ", "_").lower()
-        if newstrfilename == svgfilename:
-            return newstrfilename
-    fullfilename = "svgfiles\\" + newstrfilename
-    print(fullfilename)
-    return fullfilename
+        if strfilename == svgfilename:
+            break
+    with open('svgfiles/' + str(strfilename), 'r') as fileReturn:
+        return fileReturn.read()
 
 @app.route("/data/<int:mountainid>/paths", methods = ['GET'])
 def pathdata(mountainid):
@@ -250,8 +248,9 @@ def pathdata(mountainid):
     for trail in trails:
         trailid = trail['trailid']
         tpcontents = conn.execute("SELECT latitude, longitude, elevation FROM TrailPoints WHERE trailid = ?", (trailid,))
+        trailstring = ""
         for tp in tpcontents:
-            trailstring = str(round(tp['latitude'], 5)) + "," + str(round(tp['longitude'], 5)) + "," + str(round(tp['elevation'], 1)) + "|"
+            trailstring += str(round(tp['latitude'], 5)) + "," + str(round(tp['longitude'], 5)) + "," + str(round(tp['elevation'], 1)) + "|"
         finaltrailstring = trailstring.removesuffix("|")
         trailInput = {
             "id": trailid,
@@ -263,8 +262,9 @@ def pathdata(mountainid):
     for lift in lifts:
         liftid = lift['liftid']
         lpcontents = conn.execute("SELECT latitude, longitude, elevation FROM LiftPoints WHERE liftid = ?", (liftid,))
+        liftstring = ""
         for lp in lpcontents:
-            liftstring = str(round(lp['latitude'], 5)) + "," + str(round(lp['longitude'], 5)) + "," + str(round(lp['elevation'], 1)) + "|"
+            liftstring += str(round(lp['latitude'], 5)) + "," + str(round(lp['longitude'], 5)) + "," + str(round(lp['elevation'], 1)) + "|"
         finalliftstring = liftstring.removesuffix("|")
         liftInput = {
             "id": liftid,
