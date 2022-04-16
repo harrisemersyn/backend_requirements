@@ -100,8 +100,8 @@ def search():
     bottomlimit = limit*(page-1)
     
     conn = getdbconnection()
-    elements = len(conn.execute('SELECT mountainid FROM Mountains').fetchall())
     mountains = conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ? LIMIT ? OFFSET ?', (q, location, trailsmin, trailsmax, diffmin, diffmax, limit, bottomlimit)).fetchall()
+    elements =  len(conn.execute('SELECT * FROM Mountains WHERE name LIKE ? AND state LIKE ? AND trail_count >= ? AND trail_count <= ? AND difficulty >= ? AND difficulty <= ?', (q, location, trailsmin, trailsmax, diffmin, diffmax)).fetchall())
     
 
     mountains_data = []
@@ -119,7 +119,7 @@ def search():
     conn.close()
 
     pages = {}
-    if elements > limit & (limit * page) < elements:
+    if elements > limit and (limit * page) < elements:
         urlBase = "/search?page=" + str(page + 1) + "&"
         urlBase += queryParams
         urlQuery = urlBase.removesuffix("&")

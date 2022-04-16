@@ -22,10 +22,3 @@ Objects Endpoint: Complete
 SVG Endpoint: Complete
 
 Paths Endpoint: Complete
-
-Other: Proper 404 error return
-
-
-Notes
-----------
-This current commit I have not ran, if there are errors, ¯\_(ツ)_/¯
